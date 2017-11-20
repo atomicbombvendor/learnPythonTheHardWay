@@ -1,3 +1,4 @@
+# coding=utf-8
 import web
 
 urls = (
@@ -6,21 +7,18 @@ urls = (
 
 app = web.application(urls, globals())
 
-render = web.template.render('../templates/')
+render = web.template.render('../templates/', base="layout")
 
 
 class Index(object):
     def GET(self):
-        # 默认的参数值，如果url中没有参数值就会报错
-        form = web.input(name="Nobody", greeting="greeting")
-        greeting2 = "Hello, %s, %s" % (form.name, form.greeting)
-
-        return render.foo(greeting = greeting2)
+       return render.hello_form()
 
     def POST(self):
         form = web.input(name="Nobody", greet="hello")
         greeting = "%s, %s" % (form.greet, form.name)
-        return render.foo(greeting=greeting)
+        return render.index(greeting=greeting)
+
 
 if __name__ == "__main__":
     app.run()
