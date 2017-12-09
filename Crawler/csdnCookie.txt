@@ -2,7 +2,17 @@
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
-.csdn.net	TRUE	/	FALSE	1735689600	dc_session_id	10_1512808253882.307440
-.csdn.net	TRUE	/	FALSE	1735689600	uuid_tt_dd	10_30743311650-1512808253882-293553
-passport.csdn.net	FALSE	/	FALSE		JSESSIONID	8961D13E72839443E2E099A2C41CD730.tomcat1
-passport.csdn.net	FALSE	/	TRUE	1515400252	LSSC	LSSC-407916-vR60dWbzaI4toPpcZdZlSVsHjO0gbp-passport.csdn.net
+.csdn.net	TRUE	/	FALSE		AU	CDD
+.csdn.net	TRUE	/	FALSE	1544344322	BT	1512808322791
+.csdn.net	TRUE	/	FALSE		UD	%E6%88%91%E6%98%AF%E5%88%98%E8%95%83%E7%9B%8E
+.csdn.net	TRUE	/	FALSE	1544344324	UE	"xieyuepinran51437@163.com"
+.csdn.net	TRUE	/	FALSE	1544344322	UN	xieyuepinran51437
+.csdn.net	TRUE	/	FALSE		UserInfo	vetmQAR3LvMXEn08wZu4%2BwL0JuC6bHXPi1dNGV55Zq9VelG2rKkxNejYAVa%2FV2yIgsPp7qBYkwY355zMKbwOp6vsCytVKEBgCmGAXOvqs1JnzKZHYAUs6DCcxUul499noOtH2rHYNgf1Mx0BUMFZsA%3D%3D
+.csdn.net	TRUE	/	FALSE		UserName	xieyuepinran51437
+.csdn.net	TRUE	/	FALSE		UserNick	xieyuepinran51437
+.csdn.net	TRUE	/	FALSE		access-token	97cc86fa-0d75-4f61-b68b-3035660aeab3
+.csdn.net	TRUE	/	FALSE	1735689600	dc_session_id	10_1512808323696.440773
+.csdn.net	TRUE	/	FALSE	1735689600	uuid_tt_dd	10_30743311650-1512808323696-885970
+passport.csdn.net	FALSE	/	TRUE		CASTGC	TGT-26767-vdIVP1w23BNOKx9tMj4PvdZw4KBckbwFmbUNS5M3n0MsfD61g2-passport.csdn.net
+passport.csdn.net	FALSE	/	FALSE		JSESSIONID	996F52EA41C34D2CF10FD8A0C4E45AFF.tomcat2
+passport.csdn.net	FALSE	/	TRUE	1515400322	LSSC	LSSC-409915-7bHKHYcjc9NBL2fg00gTrY2jNZ6Hpf-passport.csdn.net
