@@ -1,0 +1,18 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.csdn.net	TRUE	/	FALSE		AU	CDD
+.csdn.net	TRUE	/	FALSE	1544343793	BT	1512807793086
+.csdn.net	TRUE	/	FALSE		UD	%E6%88%91%E6%98%AF%E5%88%98%E8%95%83%E7%9B%8E
+.csdn.net	TRUE	/	FALSE	1544343794	UE	"xieyuepinran51437@163.com"
+.csdn.net	TRUE	/	FALSE	1544343793	UN	xieyuepinran51437
+.csdn.net	TRUE	/	FALSE		UserInfo	vetmQAR3LvMXEn08wZu4%2BwL0JuC6bHXPi1dNGV55Zq9VelG2rKkxNejYAVa%2FV2yIgsPp7qBYkwY355zMKbwOp6vsCytVKEBgCmGAXOvqs1JnzKZHYAUs6DCcxUul499noOtH2rHYNgf1Mx0BUMFZsA%3D%3D
+.csdn.net	TRUE	/	FALSE		UserName	xieyuepinran51437
+.csdn.net	TRUE	/	FALSE		UserNick	xieyuepinran51437
+.csdn.net	TRUE	/	FALSE		access-token	7dc7aa98-a774-42b9-9232-df21e605596a
+.csdn.net	TRUE	/	FALSE	1735689600	dc_session_id	10_1512807793968.416882
+.csdn.net	TRUE	/	FALSE	1735689600	uuid_tt_dd	10_30743311650-1512807793968-736446
+passport.csdn.net	FALSE	/	TRUE		CASTGC	TGT-26330-hMtBwEjRkbVAO7Gicmh3ckaahOwscrC7rx4ENWSyb1BenkQgDk-passport.csdn.net
+passport.csdn.net	FALSE	/	FALSE		JSESSIONID	D12C8C6D9535559E2F165E78B0F6B5BF.tomcat2
+passport.csdn.net	FALSE	/	TRUE	1515399792	LSSC	LSSC-406205-iCgAmgMfiaEvLsnwjYjSuuzjVOkArR-passport.csdn.net
