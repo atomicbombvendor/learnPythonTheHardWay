@@ -1,23 +1,42 @@
 import ConfigParser
 import os
 
-os.chdir("..\config")
 
-cf = ConfigParser.ConfigParser()
+class ConfigUtil:
+    def __init__(self):
+        os.chdir("..\config")
+        self.util = ConfigParser.ConfigParser()
+        self.util.read("config.config")
 
-cf.read("config.config")
+    def get_key_value(self, section, option):
+        return self.util.get(section, option)
 
-# return all section
-secs = cf.sections()
-print 'sections:', secs, type(secs)
-opts = cf.options('tieba')
-print 'options:', opts, type(opts)
-kvs = cf.items('tieba')
-print 'k-v:', kvs
+    def sections(self):
+        return self.util.sections()
 
-# read by type
-tieba_seeLZ = cf.get('tieba', 'seeLZ')
-tieba_pageNum = cf.getint('tieba', 'pageNum')
-tieba_floorTag = cf.get('tieba', 'floorTag')
-tieba_url = cf.get('tieba', 'tieba_url')
-print 
+    def options(self, option):
+        return self.util.options(option)
+
+    def items(self, section):
+        return self.util.items(section)
+
+
+# cfUtil = ConfigUtil()
+#
+# # return all section
+# secs = cfUtil.sections()
+# print 'sections:', secs, type(secs)
+# opts = cfUtil.options('tieba')
+# print 'options:', opts, type(opts)
+# kvs = cfUtil.items('tieba')
+# print 'k-v:', kvs
+#
+# # read by type
+# tieba_seeLZ = cfUtil.get_key_value('tieba', 'seeLZ')
+# tieba_pageNum = cfUtil.get_key_value('tieba', 'pageNum')
+# tieba_floorTag = cfUtil.get_key_value('tieba', 'floorTag')
+# tieba_url = cfUtil.get_key_value('tieba', 'tieba_url')
+# print "tieba_seeLZ:", tieba_seeLZ
+# print "tieba_pageNum:", tieba_pageNum
+# print "tieba_floorTag:", tieba_floorTag
+# print "tieba_url:", tieba_url

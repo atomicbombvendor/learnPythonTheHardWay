@@ -1,6 +1,8 @@
 # coding=utf-8
 import urllib2
 import re
+from configUtil import ConfigUtil
+
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -161,7 +163,8 @@ class TieBa:
     def newFileAccTitle(self, title):
         if title is not None:
             # filename这个参数必须是Unicode编码的参数
-            tie_name = "标题 " + title
+            path = "../Crawler/"
+            tie_name = path + "标题 " + title
             self.file = open((tie_name + ".txt").decode("utf-8"), "w+")
         else:
             self.file = open(self.defaultTitle.decode("utf-8") + ".txt", "w+")
@@ -180,14 +183,14 @@ class TieBa:
 
 
 # 测试代码
-url = "http://tieba.baidu.com/p/5474620312"
-# seeLZ = input("input if see louzhu: ")  # 1->看 0->不看
-# pageNum = input("input page Num: ")
-# floorTag = input("input floorTag: ")
-# baidutieba = TieBa(url, seeLZ, floorTag)
-# baidutieba.start(page_num=pageNum)
-baidutieba = TieBa(url)
-baidutieba.start()
+cf = ConfigUtil()
+section = 'tieba'
+url = cf.get_key_value(section, 'tieba_url')
+seeLZ = cf.get_key_value(section, 'see_LZ')  # 1->看 0->不看
+pageNum = cf.get_key_value(section, 'page_num')
+floorTag = cf.get_key_value(section, 'floor_tag')
+baidutieba = TieBa(url, seeLZ, floorTag)
+baidutieba.start(page_num=pageNum)
 
 # content=baidutieba.getPageContent(pageNum)#调用函数
 # 开始解析得到帖子标题
