@@ -6,7 +6,7 @@ class ConfigUtil:
     def __init__(self):
         os.chdir("..\config")
         self.util = ConfigParser.ConfigParser()
-        self.util.read("config.config")
+        self.util.read("config.properties")
 
     def get_key_value(self, section, option):
         return self.util.get(section, option)
