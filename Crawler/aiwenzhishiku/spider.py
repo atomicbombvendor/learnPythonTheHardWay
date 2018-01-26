@@ -176,7 +176,7 @@ class Spider:
             start_page = self.total_num
         for x in range(1, start_page):
             print self.getCurrentTime(), "正在抓取第", start_page - x + 1, "个页面"
-            try:
+            try: # 这里页面的页码的格式不是按照正常的1 2 3 4，而是用了其他的算法产生页码
                 self.getQuestions(start_page - x + 1)
             except urllib2.URLError, e:
                 if hasattr(e, "reason"):

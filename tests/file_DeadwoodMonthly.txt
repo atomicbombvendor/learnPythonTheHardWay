@@ -1,0 +1,69 @@
+    <test key="PBFeed_DeadwoodMonthly_@num@" type="MonthlyWeekDay" ftp="eqdataFTP" enable="true" RetestAfterMinutes="15" monthlyWeekCheckDay="1_Sun" >
+			<!-- type="MonthlyWeekDay" means Check file at some week day in month; for example: check file at the first Saturday every month  -->
+			<!-- monthlyWeekCheckDay="1_Sat" means check file at first Saturday every month; this attribution must be used with type="MonthlyWeekDay" -->
+			<!-- The value of monthlyWeekCheckDay can be {1,2,3,4}_{Mon, Tue, Wed, Thu, Fri, Sat, Sun} -->
+		<description>PBFeed DeadwoodMonthly file</description>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FinancialStatementsFinalLastKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FinancialStatementsFinalLastKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FinancialStatementsFinalFirstKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FinancialStatementsFinalFirstKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FinancialStatementsBestKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FinancialStatementsBestKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FinancialStatementsPrelimLastKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FinancialStatementsPrelimLastKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FinancialStatementsPrelimFirstKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FinancialStatementsPrelimFirstKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_TSO_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_TSO_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_MarketCap_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_MarketCap_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FSPerShareFinalLastKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FSPerShareFinalLastKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FSPerShareFinalFirstKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FSPerShareFinalFirstKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FSPerShareBestKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FSPerShareBestKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FSPerSharePrelimLastKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FSPerSharePrelimLastKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FSPerSharePrelimFirstKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Fundamental/DeadWoodMonthly_FSPerSharePrelimFirstKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Reference/DeadWoodMonthly_Reference_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/DeadwoodMonthly/@place_holder_country@/Reference/DeadWoodMonthly_Reference_yyyyMM.zip</filename>
+
+        <alert method="email">
+			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<cc_address></cc_address>
+			<subject>Warning: PBFeed DeadwoodMonthly files have not not uploaded to FTP yet![Daily]</subject>
+			<message_body>
+        ---------------------------------
+        Failure message:{failure_message}
+        File name:
+        {filename}
+        Condition: {condition}
+        ---------------------------------
+
+      </message_body>
+		</alert>
+		<help></help>
+		<condition>
+			<name>DayOfWeek</name>
+			<action>ContinueIfConditionMet</action>
+			<param name="Range">mon,tue,wed,thu,fri,sat,sun</param>
+		</condition>
+		<condition>
+			<name>TimeRange</name>
+			<action>ContinueIfConditionMet</action>
+			<param name="Start">01:00</param>
+			<param name="End">02:00</param>
+		</condition>
+		<condition>
+			<name>FileExists</name>
+			<action>AlertIfConditionNotMet</action>
+			<param name="DateTime_style"/>
+		</condition>
+		<condition>
+			<name>MinimumFilesize</name>
+			<action>AlertIfConditionNotMet</action>
+			<param name="Filesize">20</param>
+		</condition>
+	</test>

@@ -1,0 +1,68 @@
+	<test key="PBFeed_Monthly_@num@" type="MonthlyWeekDay" ftp="eqdataFTP" enable="true" RetestAfterMinutes="15" monthlyWeekCheckDay="1_Sun">
+	<!-- type="MonthlyWeekDay" means Check file at some week day in month; for example: check file at the first Saturday every month  -->
+	<!-- monthlyWeekCheckDay="1_Sat" means check file at first Saturday every month; this attribution must be used with type="MonthlyWeekDay" -->
+	<!-- The value of monthlyWeekCheckDay can be {1,2,3,4}_{Mon, Tue, Wed, Thu, Fri, Sat, Sun} -->
+		<description>PBFeed Monthly file</description>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FinancialStatementsFinalLastKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FinancialStatementsFinalLastKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FinancialStatementsFinalFirstKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FinancialStatementsFinalFirstKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FinancialStatementsBestKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FinancialStatementsBestKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FinancialStatementsPrelimLastKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FinancialStatementsPrelimLastKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FinancialStatementsPrelimFirstKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FinancialStatementsPrelimFirstKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_TSO_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_TSO_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_MarketCap_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_MarketCap_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FSPerShareFinalLastKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FSPerShareFinalLastKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FSPerShareFinalFirstKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FSPerShareFinalFirstKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FSPerShareBestKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FSPerShareBestKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FSPerSharePrelimLastKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FSPerSharePrelimLastKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FSPerSharePrelimFirstKnown_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Fundamental/Monthly_FSPerSharePrelimFirstKnown_yyyyMM.zip</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Reference/Monthly_Reference_yyyyMM.ctrl</filename>
+	<filename filesize="20b">/Equity2/Monthly/@place_holder_country@/Reference/Monthly_Reference_yyyyMM.zip</filename>
+		<alert method="email">
+			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<cc_address></cc_address>
+			<subject>Warning: PB Feed some @place_holder_country@ Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
+			<message_body>
+        ---------------------------------
+        Failure message:{failure_message}
+        File name:
+        {filename}
+        Condition: {condition}
+        ---------------------------------
+
+      </message_body>
+		</alert>
+		<help>Check_NRA_GEDF</help>
+		<condition>
+			<name>DayOfWeek</name>
+			<action>ContinueIfConditionMet</action>
+			<param name="Range">mon,tue,wed,thu,fri</param><!-- according file, weekend will not generate file -->
+		</condition>
+		<condition>
+			<name>TimeRange</name>
+			<action>ContinueIfConditionMet</action>
+			<param name="Start">09:00</param> <!--   Send alert email if files are not ready at 9:00 AM every day -->
+			<param name="End">10:00</param>
+		</condition>
+		<condition>
+			<name>FileExists</name>
+			<action>AlertIfConditionNotMet</action>
+			<param name="DateTime_style"/>
+		</condition>
+		<condition>
+			<name>MinimumFilesize</name>
+			<action>AlertIfConditionNotMet</action>
+			<param name="Filesize">20</param>
+		</condition>
+	</test>

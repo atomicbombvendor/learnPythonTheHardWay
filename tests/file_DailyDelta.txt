@@ -1,0 +1,65 @@
+	<test key="PB_DAILY_Delta_@num@" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
+		<description>PB Feed @place_holder_country@ Daily Delta File</description>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Equity2/DailyDelta/USA/Reference/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_MarketCap_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_MarketCap_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsFinalLastKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsFinalLastKnown_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerShareFinalLastKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerShareFinalLastKnown_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsFinalFirstKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsFinalFirstKnown_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsPrelimFirstKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsPrelimFirstKnown_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsPrelimLastKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsPrelimLastKnown_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerShareBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerShareBestKnown_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerSharePrelimLastKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerSharePrelimLastKnown_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_TSO_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_TSO_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerSharePrelimFirstKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerSharePrelimFirstKnown_yyyyMMdd.zip</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
+		<alert method="email">
+			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<cc_address></cc_address>
+			<subject>Warning: PB Feed some @place_holder_country@ Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
+			<message_body>
+        ---------------------------------
+        Failure message:{failure_message}
+        File name:
+        {filename}
+        Condition: {condition}
+        ---------------------------------
+
+      </message_body>
+		</alert>
+		<help></help>
+		<condition>
+			<name>DayOfWeek</name>
+			<action>ContinueIfConditionMet</action>
+			<param name="Range">mon,tue,wed,thu,fri</param><!-- according file, weekend will not generate file -->
+		</condition>
+		<condition>
+			<name>TimeRange</name>
+			<action>ContinueIfConditionMet</action>
+			<param name="Start">09:00</param> <!--   Send alert email if files are not ready at 9:00 AM every day -->
+			<param name="End">10:00</param>
+		</condition>
+		<condition>
+			<name>FileExists</name>
+			<action>AlertIfConditionNotMet</action>
+			<param name="DateTime_style"/>
+		</condition>
+		<condition>
+			<name>MinimumFilesize</name>
+			<action>AlertIfConditionNotMet</action>
+			<param name="Filesize">20</param>
+		</condition>
+	</test>
