@@ -1,7 +1,7 @@
 <data>
 	<test key="PB_DAILY_Delta_1" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ARE Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ARE/Equity2/DailyDelta/USA/Reference/ARE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ARE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -28,7 +28,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ARE/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARE/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ARE Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -67,7 +67,7 @@
 
 	<test key="PB_DAILY_Delta_2" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ARG Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ARG/Equity2/DailyDelta/USA/Reference/ARG/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ARG/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARG/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARG/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARG/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -94,7 +94,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ARG/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARG/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ARG Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -133,7 +133,7 @@
 
 	<test key="PB_DAILY_Delta_3" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ARM Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ARM/Equity2/DailyDelta/USA/Reference/ARM/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ARM/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARM/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARM/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARM/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -160,7 +160,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ARM/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ARM/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ARM Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -199,7 +199,7 @@
 
 	<test key="PB_DAILY_Delta_4" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed AUS Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/AUS/Equity2/DailyDelta/USA/Reference/AUS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/AUS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/AUS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/AUS/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/AUS/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -226,7 +226,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/AUS/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/AUS/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some AUS Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -265,7 +265,7 @@
 
 	<test key="PB_DAILY_Delta_5" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed AUT Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/AUT/Equity2/DailyDelta/USA/Reference/AUT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/AUT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/AUT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/AUT/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/AUT/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -292,7 +292,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/AUT/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/AUT/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some AUT Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -331,7 +331,7 @@
 
 	<test key="PB_DAILY_Delta_6" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed BEL Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/BEL/Equity2/DailyDelta/USA/Reference/BEL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/BEL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BEL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BEL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BEL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -358,7 +358,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/BEL/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BEL/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some BEL Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -397,7 +397,7 @@
 
 	<test key="PB_DAILY_Delta_7" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed BGD Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/BGD/Equity2/DailyDelta/USA/Reference/BGD/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/BGD/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BGD/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BGD/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BGD/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -424,7 +424,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/BGD/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BGD/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some BGD Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -463,7 +463,7 @@
 
 	<test key="PB_DAILY_Delta_8" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed BGR Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/BGR/Equity2/DailyDelta/USA/Reference/BGR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/BGR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BGR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BGR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BGR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -490,7 +490,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/BGR/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BGR/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some BGR Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -529,7 +529,7 @@
 
 	<test key="PB_DAILY_Delta_9" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed BHR Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/BHR/Equity2/DailyDelta/USA/Reference/BHR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/BHR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BHR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BHR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BHR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -556,7 +556,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/BHR/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BHR/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some BHR Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -595,7 +595,7 @@
 
 	<test key="PB_DAILY_Delta_10" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed BIH Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/BIH/Equity2/DailyDelta/USA/Reference/BIH/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/BIH/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BIH/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BIH/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BIH/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -622,7 +622,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/BIH/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BIH/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some BIH Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -661,7 +661,7 @@
 
 	<test key="PB_DAILY_Delta_11" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed BOL Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/BOL/Equity2/DailyDelta/USA/Reference/BOL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/BOL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BOL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BOL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BOL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -688,7 +688,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/BOL/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BOL/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some BOL Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -727,7 +727,7 @@
 
 	<test key="PB_DAILY_Delta_12" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed BRA Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/BRA/Equity2/DailyDelta/USA/Reference/BRA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/BRA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BRA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BRA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BRA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -754,7 +754,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/BRA/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/BRA/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some BRA Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -793,7 +793,7 @@
 
 	<test key="PB_DAILY_Delta_13" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed CAN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/CAN/Equity2/DailyDelta/USA/Reference/CAN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/CAN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CAN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CAN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CAN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -820,7 +820,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/CAN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CAN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some CAN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -859,7 +859,7 @@
 
 	<test key="PB_DAILY_Delta_14" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed CHE Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/CHE/Equity2/DailyDelta/USA/Reference/CHE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/CHE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -886,7 +886,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/CHE/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHE/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some CHE Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -925,7 +925,7 @@
 
 	<test key="PB_DAILY_Delta_15" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed CHL Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/CHL/Equity2/DailyDelta/USA/Reference/CHL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/CHL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -952,7 +952,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/CHL/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHL/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some CHL Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -991,7 +991,7 @@
 
 	<test key="PB_DAILY_Delta_16" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed CHN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/CHN/Equity2/DailyDelta/USA/Reference/CHN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/CHN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1018,7 +1018,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/CHN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CHN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some CHN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1057,7 +1057,7 @@
 
 	<test key="PB_DAILY_Delta_17" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed CIV Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/CIV/Equity2/DailyDelta/USA/Reference/CIV/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/CIV/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CIV/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CIV/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CIV/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1084,7 +1084,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/CIV/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CIV/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some CIV Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1123,7 +1123,7 @@
 
 	<test key="PB_DAILY_Delta_18" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed COL Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/COL/Equity2/DailyDelta/USA/Reference/COL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/COL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/COL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/COL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/COL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1150,7 +1150,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/COL/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/COL/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some COL Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1189,7 +1189,7 @@
 
 	<test key="PB_DAILY_Delta_19" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed CYP Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/CYP/Equity2/DailyDelta/USA/Reference/CYP/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/CYP/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CYP/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CYP/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CYP/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1216,7 +1216,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/CYP/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CYP/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some CYP Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1255,7 +1255,7 @@
 
 	<test key="PB_DAILY_Delta_20" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed CZE Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/CZE/Equity2/DailyDelta/USA/Reference/CZE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/CZE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CZE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CZE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CZE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1282,7 +1282,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/CZE/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/CZE/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some CZE Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1321,7 +1321,7 @@
 
 	<test key="PB_DAILY_Delta_21" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed DEU Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/DEU/Equity2/DailyDelta/USA/Reference/DEU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/DEU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/DEU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/DEU/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/DEU/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1348,7 +1348,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/DEU/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/DEU/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some DEU Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1387,7 +1387,7 @@
 
 	<test key="PB_DAILY_Delta_22" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed DNK Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/DNK/Equity2/DailyDelta/USA/Reference/DNK/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/DNK/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/DNK/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/DNK/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/DNK/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1414,7 +1414,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/DNK/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/DNK/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some DNK Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1453,7 +1453,7 @@
 
 	<test key="PB_DAILY_Delta_23" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ECU Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ECU/Equity2/DailyDelta/USA/Reference/ECU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ECU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ECU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ECU/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ECU/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1480,7 +1480,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ECU/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ECU/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ECU Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1519,7 +1519,7 @@
 
 	<test key="PB_DAILY_Delta_24" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed EGY Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/EGY/Equity2/DailyDelta/USA/Reference/EGY/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/EGY/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/EGY/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/EGY/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/EGY/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1546,7 +1546,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/EGY/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/EGY/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some EGY Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1585,7 +1585,7 @@
 
 	<test key="PB_DAILY_Delta_25" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ESP Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ESP/Equity2/DailyDelta/USA/Reference/ESP/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ESP/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ESP/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ESP/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ESP/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1612,7 +1612,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ESP/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ESP/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ESP Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1651,7 +1651,7 @@
 
 	<test key="PB_DAILY_Delta_26" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed EST Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/EST/Equity2/DailyDelta/USA/Reference/EST/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/EST/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/EST/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/EST/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/EST/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1678,7 +1678,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/EST/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/EST/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some EST Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1717,7 +1717,7 @@
 
 	<test key="PB_DAILY_Delta_27" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed FIN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/FIN/Equity2/DailyDelta/USA/Reference/FIN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/FIN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/FIN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/FIN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/FIN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1744,7 +1744,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/FIN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/FIN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some FIN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1783,7 +1783,7 @@
 
 	<test key="PB_DAILY_Delta_28" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed FRA Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/FRA/Equity2/DailyDelta/USA/Reference/FRA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/FRA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/FRA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/FRA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/FRA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1810,7 +1810,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/FRA/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/FRA/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some FRA Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1849,7 +1849,7 @@
 
 	<test key="PB_DAILY_Delta_29" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed GBR Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/GBR/Equity2/DailyDelta/USA/Reference/GBR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/GBR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GBR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GBR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GBR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1876,7 +1876,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/GBR/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GBR/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some GBR Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1915,7 +1915,7 @@
 
 	<test key="PB_DAILY_Delta_30" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed GHA Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/GHA/Equity2/DailyDelta/USA/Reference/GHA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/GHA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GHA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GHA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GHA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -1942,7 +1942,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/GHA/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GHA/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some GHA Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -1981,7 +1981,7 @@
 
 	<test key="PB_DAILY_Delta_31" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed GRC Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/GRC/Equity2/DailyDelta/USA/Reference/GRC/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/GRC/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GRC/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GRC/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GRC/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2008,7 +2008,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/GRC/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/GRC/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some GRC Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2047,7 +2047,7 @@
 
 	<test key="PB_DAILY_Delta_32" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed HKG Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/HKG/Equity2/DailyDelta/USA/Reference/HKG/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/HKG/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HKG/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HKG/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HKG/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2074,7 +2074,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/HKG/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HKG/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some HKG Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2113,7 +2113,7 @@
 
 	<test key="PB_DAILY_Delta_33" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed HRV Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/HRV/Equity2/DailyDelta/USA/Reference/HRV/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/HRV/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HRV/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HRV/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HRV/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2140,7 +2140,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/HRV/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HRV/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some HRV Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2179,7 +2179,7 @@
 
 	<test key="PB_DAILY_Delta_34" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed HUN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/HUN/Equity2/DailyDelta/USA/Reference/HUN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/HUN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HUN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HUN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HUN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2206,7 +2206,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/HUN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/HUN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some HUN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2245,7 +2245,7 @@
 
 	<test key="PB_DAILY_Delta_35" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed IDN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/IDN/Equity2/DailyDelta/USA/Reference/IDN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/IDN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IDN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IDN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IDN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2272,7 +2272,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/IDN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IDN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some IDN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2311,7 +2311,7 @@
 
 	<test key="PB_DAILY_Delta_36" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed IND Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/IND/Equity2/DailyDelta/USA/Reference/IND/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/IND/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IND/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IND/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IND/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2338,7 +2338,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/IND/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IND/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some IND Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2377,7 +2377,7 @@
 
 	<test key="PB_DAILY_Delta_37" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed IRL Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/IRL/Equity2/DailyDelta/USA/Reference/IRL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/IRL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2404,7 +2404,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/IRL/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRL/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some IRL Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2443,7 +2443,7 @@
 
 	<test key="PB_DAILY_Delta_38" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed IRN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/IRN/Equity2/DailyDelta/USA/Reference/IRN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/IRN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2470,7 +2470,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/IRN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some IRN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2509,7 +2509,7 @@
 
 	<test key="PB_DAILY_Delta_39" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed IRQ Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/IRQ/Equity2/DailyDelta/USA/Reference/IRQ/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/IRQ/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRQ/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRQ/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRQ/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2536,7 +2536,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/IRQ/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/IRQ/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some IRQ Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2575,7 +2575,7 @@
 
 	<test key="PB_DAILY_Delta_40" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ISL Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ISL/Equity2/DailyDelta/USA/Reference/ISL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ISL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ISL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ISL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ISL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2602,7 +2602,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ISL/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ISL/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ISL Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2641,7 +2641,7 @@
 
 	<test key="PB_DAILY_Delta_41" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ISR Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ISR/Equity2/DailyDelta/USA/Reference/ISR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ISR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ISR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ISR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ISR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2668,7 +2668,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ISR/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ISR/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ISR Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2707,7 +2707,7 @@
 
 	<test key="PB_DAILY_Delta_42" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ITA Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ITA/Equity2/DailyDelta/USA/Reference/ITA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ITA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ITA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ITA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ITA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2734,7 +2734,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ITA/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ITA/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ITA Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2773,7 +2773,7 @@
 
 	<test key="PB_DAILY_Delta_43" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed JAM Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/JAM/Equity2/DailyDelta/USA/Reference/JAM/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/JAM/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JAM/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JAM/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JAM/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2800,7 +2800,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/JAM/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JAM/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some JAM Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2839,7 +2839,7 @@
 
 	<test key="PB_DAILY_Delta_44" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed JOR Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/JOR/Equity2/DailyDelta/USA/Reference/JOR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/JOR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JOR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JOR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JOR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2866,7 +2866,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/JOR/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JOR/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some JOR Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2905,7 +2905,7 @@
 
 	<test key="PB_DAILY_Delta_45" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed JPN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/JPN/Equity2/DailyDelta/USA/Reference/JPN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/JPN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JPN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JPN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JPN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2932,7 +2932,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/JPN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/JPN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some JPN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -2971,7 +2971,7 @@
 
 	<test key="PB_DAILY_Delta_46" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed KAZ Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/KAZ/Equity2/DailyDelta/USA/Reference/KAZ/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/KAZ/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KAZ/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KAZ/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KAZ/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -2998,7 +2998,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/KAZ/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KAZ/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some KAZ Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3037,7 +3037,7 @@
 
 	<test key="PB_DAILY_Delta_47" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed KEN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/KEN/Equity2/DailyDelta/USA/Reference/KEN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/KEN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KEN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KEN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KEN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3064,7 +3064,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/KEN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KEN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some KEN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3103,7 +3103,7 @@
 
 	<test key="PB_DAILY_Delta_48" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed KOR Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/KOR/Equity2/DailyDelta/USA/Reference/KOR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/KOR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KOR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KOR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KOR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3130,7 +3130,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/KOR/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KOR/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some KOR Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3169,7 +3169,7 @@
 
 	<test key="PB_DAILY_Delta_49" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed KWT Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/KWT/Equity2/DailyDelta/USA/Reference/KWT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/KWT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KWT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KWT/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KWT/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3196,7 +3196,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/KWT/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/KWT/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some KWT Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3235,7 +3235,7 @@
 
 	<test key="PB_DAILY_Delta_50" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed LKA Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/LKA/Equity2/DailyDelta/USA/Reference/LKA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/LKA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LKA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LKA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LKA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3262,7 +3262,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/LKA/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LKA/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some LKA Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3301,7 +3301,7 @@
 
 	<test key="PB_DAILY_Delta_51" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed LTU Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/LTU/Equity2/DailyDelta/USA/Reference/LTU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/LTU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LTU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LTU/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LTU/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3328,7 +3328,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/LTU/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LTU/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some LTU Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3367,7 +3367,7 @@
 
 	<test key="PB_DAILY_Delta_52" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed LUX Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/LUX/Equity2/DailyDelta/USA/Reference/LUX/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/LUX/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LUX/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LUX/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LUX/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3394,7 +3394,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/LUX/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LUX/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some LUX Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3433,7 +3433,7 @@
 
 	<test key="PB_DAILY_Delta_53" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed LVA Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/LVA/Equity2/DailyDelta/USA/Reference/LVA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/LVA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LVA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LVA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LVA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3460,7 +3460,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/LVA/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/LVA/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some LVA Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3499,7 +3499,7 @@
 
 	<test key="PB_DAILY_Delta_54" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed MAR Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/MAR/Equity2/DailyDelta/USA/Reference/MAR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/MAR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MAR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MAR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MAR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3526,7 +3526,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/MAR/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MAR/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some MAR Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3565,7 +3565,7 @@
 
 	<test key="PB_DAILY_Delta_55" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed MEX Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/MEX/Equity2/DailyDelta/USA/Reference/MEX/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/MEX/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MEX/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MEX/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MEX/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3592,7 +3592,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/MEX/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MEX/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some MEX Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3631,7 +3631,7 @@
 
 	<test key="PB_DAILY_Delta_56" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed MKD Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/MKD/Equity2/DailyDelta/USA/Reference/MKD/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/MKD/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MKD/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MKD/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MKD/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3658,7 +3658,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/MKD/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MKD/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some MKD Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3697,7 +3697,7 @@
 
 	<test key="PB_DAILY_Delta_57" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed MLT Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/MLT/Equity2/DailyDelta/USA/Reference/MLT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/MLT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MLT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MLT/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MLT/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3724,7 +3724,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/MLT/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MLT/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some MLT Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3763,7 +3763,7 @@
 
 	<test key="PB_DAILY_Delta_58" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed MNE Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/MNE/Equity2/DailyDelta/USA/Reference/MNE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/MNE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MNE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MNE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MNE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3790,7 +3790,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/MNE/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MNE/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some MNE Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3829,7 +3829,7 @@
 
 	<test key="PB_DAILY_Delta_59" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed MUS Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/MUS/Equity2/DailyDelta/USA/Reference/MUS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/MUS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MUS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MUS/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MUS/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3856,7 +3856,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/MUS/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MUS/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some MUS Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3895,7 +3895,7 @@
 
 	<test key="PB_DAILY_Delta_60" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed MYS Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/MYS/Equity2/DailyDelta/USA/Reference/MYS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/MYS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MYS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MYS/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MYS/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3922,7 +3922,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/MYS/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/MYS/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some MYS Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -3961,7 +3961,7 @@
 
 	<test key="PB_DAILY_Delta_61" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed NGA Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/NGA/Equity2/DailyDelta/USA/Reference/NGA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/NGA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NGA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NGA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NGA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -3988,7 +3988,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/NGA/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NGA/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some NGA Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4027,7 +4027,7 @@
 
 	<test key="PB_DAILY_Delta_62" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed NLD Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/NLD/Equity2/DailyDelta/USA/Reference/NLD/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/NLD/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NLD/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NLD/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NLD/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4054,7 +4054,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/NLD/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NLD/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some NLD Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4093,7 +4093,7 @@
 
 	<test key="PB_DAILY_Delta_63" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed NOR Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/NOR/Equity2/DailyDelta/USA/Reference/NOR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/NOR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NOR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NOR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NOR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4120,7 +4120,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/NOR/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NOR/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some NOR Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4159,7 +4159,7 @@
 
 	<test key="PB_DAILY_Delta_64" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed NPL Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/NPL/Equity2/DailyDelta/USA/Reference/NPL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/NPL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NPL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NPL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NPL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4186,7 +4186,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/NPL/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NPL/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some NPL Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4225,7 +4225,7 @@
 
 	<test key="PB_DAILY_Delta_65" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed NZL Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/NZL/Equity2/DailyDelta/USA/Reference/NZL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/NZL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NZL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NZL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NZL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4252,7 +4252,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/NZL/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/NZL/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some NZL Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4291,7 +4291,7 @@
 
 	<test key="PB_DAILY_Delta_66" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed OMN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/OMN/Equity2/DailyDelta/USA/Reference/OMN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/OMN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/OMN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/OMN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/OMN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4318,7 +4318,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/OMN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/OMN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some OMN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4357,7 +4357,7 @@
 
 	<test key="PB_DAILY_Delta_67" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed PAK Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/PAK/Equity2/DailyDelta/USA/Reference/PAK/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/PAK/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PAK/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PAK/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PAK/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4384,7 +4384,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/PAK/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PAK/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some PAK Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4423,7 +4423,7 @@
 
 	<test key="PB_DAILY_Delta_68" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed PAN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/PAN/Equity2/DailyDelta/USA/Reference/PAN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/PAN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PAN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PAN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PAN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4450,7 +4450,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/PAN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PAN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some PAN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4489,7 +4489,7 @@
 
 	<test key="PB_DAILY_Delta_69" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed PER Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/PER/Equity2/DailyDelta/USA/Reference/PER/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/PER/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PER/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PER/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PER/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4516,7 +4516,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/PER/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PER/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some PER Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4555,7 +4555,7 @@
 
 	<test key="PB_DAILY_Delta_70" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed PHL Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/PHL/Equity2/DailyDelta/USA/Reference/PHL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/PHL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PHL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PHL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PHL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4582,7 +4582,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/PHL/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PHL/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some PHL Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4621,7 +4621,7 @@
 
 	<test key="PB_DAILY_Delta_71" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed POL Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/POL/Equity2/DailyDelta/USA/Reference/POL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/POL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/POL/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/POL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/POL/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4648,7 +4648,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/POL/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/POL/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some POL Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4687,7 +4687,7 @@
 
 	<test key="PB_DAILY_Delta_72" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed PRT Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/PRT/Equity2/DailyDelta/USA/Reference/PRT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/PRT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PRT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PRT/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PRT/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4714,7 +4714,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/PRT/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PRT/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some PRT Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4753,7 +4753,7 @@
 
 	<test key="PB_DAILY_Delta_73" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed PSE Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/PSE/Equity2/DailyDelta/USA/Reference/PSE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/PSE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PSE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PSE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PSE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4780,7 +4780,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/PSE/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/PSE/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some PSE Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4819,7 +4819,7 @@
 
 	<test key="PB_DAILY_Delta_74" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed QAT Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/QAT/Equity2/DailyDelta/USA/Reference/QAT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/QAT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/QAT/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/QAT/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/QAT/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4846,7 +4846,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/QAT/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/QAT/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some QAT Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4885,7 +4885,7 @@
 
 	<test key="PB_DAILY_Delta_75" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ROU Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ROU/Equity2/DailyDelta/USA/Reference/ROU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ROU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ROU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ROU/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ROU/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4912,7 +4912,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ROU/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ROU/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ROU Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -4951,7 +4951,7 @@
 
 	<test key="PB_DAILY_Delta_76" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed RUS Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/RUS/Equity2/DailyDelta/USA/Reference/RUS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/RUS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/RUS/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/RUS/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/RUS/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -4978,7 +4978,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/RUS/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/RUS/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some RUS Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5017,7 +5017,7 @@
 
 	<test key="PB_DAILY_Delta_77" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed SAU Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/SAU/Equity2/DailyDelta/USA/Reference/SAU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/SAU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SAU/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SAU/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SAU/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5044,7 +5044,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/SAU/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SAU/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some SAU Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5083,7 +5083,7 @@
 
 	<test key="PB_DAILY_Delta_78" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed SGP Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/SGP/Equity2/DailyDelta/USA/Reference/SGP/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/SGP/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SGP/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SGP/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SGP/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5110,7 +5110,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/SGP/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SGP/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some SGP Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5149,7 +5149,7 @@
 
 	<test key="PB_DAILY_Delta_79" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed SRB Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/SRB/Equity2/DailyDelta/USA/Reference/SRB/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/SRB/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SRB/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SRB/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SRB/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5176,7 +5176,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/SRB/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SRB/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some SRB Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5215,7 +5215,7 @@
 
 	<test key="PB_DAILY_Delta_80" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed SVK Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/SVK/Equity2/DailyDelta/USA/Reference/SVK/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/SVK/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SVK/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SVK/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SVK/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5242,7 +5242,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/SVK/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SVK/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some SVK Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5281,7 +5281,7 @@
 
 	<test key="PB_DAILY_Delta_81" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed SVN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/SVN/Equity2/DailyDelta/USA/Reference/SVN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/SVN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SVN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SVN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SVN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5308,7 +5308,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/SVN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SVN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some SVN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5347,7 +5347,7 @@
 
 	<test key="PB_DAILY_Delta_82" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed SWE Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/SWE/Equity2/DailyDelta/USA/Reference/SWE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/SWE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SWE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SWE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SWE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5374,7 +5374,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/SWE/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/SWE/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some SWE Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5413,7 +5413,7 @@
 
 	<test key="PB_DAILY_Delta_83" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed THA Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/THA/Equity2/DailyDelta/USA/Reference/THA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/THA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/THA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/THA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/THA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5440,7 +5440,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/THA/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/THA/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some THA Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5479,7 +5479,7 @@
 
 	<test key="PB_DAILY_Delta_84" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed TUN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/TUN/Equity2/DailyDelta/USA/Reference/TUN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/TUN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TUN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TUN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TUN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5506,7 +5506,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/TUN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TUN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some TUN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5545,7 +5545,7 @@
 
 	<test key="PB_DAILY_Delta_85" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed TUR Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/TUR/Equity2/DailyDelta/USA/Reference/TUR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/TUR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TUR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TUR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TUR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5572,7 +5572,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/TUR/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TUR/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some TUR Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5611,7 +5611,7 @@
 
 	<test key="PB_DAILY_Delta_86" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed TWN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/TWN/Equity2/DailyDelta/USA/Reference/TWN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/TWN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TWN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TWN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TWN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5638,7 +5638,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/TWN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/TWN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some TWN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5677,7 +5677,7 @@
 
 	<test key="PB_DAILY_Delta_87" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed UKR Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/UKR/Equity2/DailyDelta/USA/Reference/UKR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/UKR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/UKR/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/UKR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/UKR/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5704,7 +5704,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/UKR/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/UKR/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some UKR Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5743,7 +5743,7 @@
 
 	<test key="PB_DAILY_Delta_88" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed USA Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/USA/Equity2/DailyDelta/USA/Reference/USA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/USA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/USA/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/USA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/USA/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5770,7 +5770,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/USA/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/USA/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some USA Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5809,7 +5809,7 @@
 
 	<test key="PB_DAILY_Delta_89" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed VEN Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/VEN/Equity2/DailyDelta/USA/Reference/VEN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/VEN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/VEN/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/VEN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/VEN/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5836,7 +5836,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/VEN/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/VEN/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some VEN Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5875,7 +5875,7 @@
 
 	<test key="PB_DAILY_Delta_90" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed VNM Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/VNM/Equity2/DailyDelta/USA/Reference/VNM/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/VNM/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/VNM/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/VNM/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/VNM/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5902,7 +5902,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/VNM/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/VNM/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some VNM Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -5941,7 +5941,7 @@
 
 	<test key="PB_DAILY_Delta_91" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ZAF Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ZAF/Equity2/DailyDelta/USA/Reference/ZAF/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ZAF/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ZAF/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ZAF/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ZAF/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -5968,7 +5968,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ZAF/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ZAF/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ZAF Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>
@@ -6007,7 +6007,7 @@
 
 	<test key="PB_DAILY_Delta_92" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed ZWE Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/ZWE/Equity2/DailyDelta/USA/Reference/ZWE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/ZWE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ZWE/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ZWE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ZWE/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
@@ -6034,7 +6034,7 @@
 	<filename filesize="20b">/Equity2/DailyDelta/ZWE/Reference/DailyDelta_Reference_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/ZWE/Reference/DailyDelta_Reference_yyyyMMdd.zip</filename>
 		<alert method="email">
-			<email_address>EquityFeedSupport@morningstar.com</email_address>
+			<email_address>Eddie.Li@morningstar.com;Carol.Liu@morningstar.com;Liu.Yang@morningstar.com;Berry.Yu@morningstar.com</email_address>
 			<cc_address></cc_address>
 			<subject>Warning: PB Feed some ZWE Daily Delta files have not not uploaded to FTP yet![Daily]</subject>
 			<message_body>

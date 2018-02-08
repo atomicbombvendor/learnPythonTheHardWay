@@ -67,5 +67,5 @@ def write_file(target, data):
 
 
 # Generate_file(source_Monthly, config_Monthly)
-# Generate_file(source_DailyDelta, config_DailyDelta)
+Generate_file('msg.txt', 'msg_shareClassId.txt')
 # Generate_file(source_DeadwoodMonthly, config_DeadwoodMonthly)

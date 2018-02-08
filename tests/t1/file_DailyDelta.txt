@@ -1,6 +1,6 @@
 	<test key="PB_DAILY_Delta_@num@" ftp="eqFTP" type="Daily" enable="true" RetestAfterMinutes="20">
 		<description>PB Feed @place_holder_country@ Daily Delta File</description>
-	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Equity2/DailyDelta/USA/Reference/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
+	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FinancialStatementsBestKnown_yyyyMMdd.zip</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.ctrl</filename>
 	<filename filesize="20b">/Equity2/DailyDelta/@place_holder_country@/Fundamental/DailyDelta_FSPerShareFinalFirstKnown_yyyyMMdd.zip</filename>
