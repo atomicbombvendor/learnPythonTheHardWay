@@ -53,6 +53,7 @@ class ExoiTypeUKMajor(ExoiType):
                 flag = True
         return flag
 
+    # 解析每一行的数据，把属性和值对应起来
     def parse_line_value(self, line_value):
         values = {
             'ShareClassId': '',

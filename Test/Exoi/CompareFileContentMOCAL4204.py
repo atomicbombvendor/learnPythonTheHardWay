@@ -9,20 +9,25 @@ import os
 class Test:
 
     def __init__(self):
-        # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\UKI\Ownership\MonthEndInstitution\Monthly\Monthly_MonthEndInstitution_2017-12.zip'
-        # self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\UKI\Ownership\OwnershipSummary\Monthly\Monthly_OwnershipSummary_2017-12.zip'
-        # self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\Result\UKI'
+        # MOCAL 4204 UKI
+        self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipMonthlySummary\Monthly\Monthly_OwnershipMonthlySummary_2017-11.zip'
+        self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipSummary\Monthly\Monthly_OwnershipSummary_2017-11.zip'
+        self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\Result\UKI'
+
+        self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipMonthlySummary\Monthly\Monthly_OwnershipMonthlySummary_0P00007OUP_2017-11.zip'
+        self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipSummary\Monthly\Monthly_OwnershipSummary_0P00007OUP_2017-11.zip'
+        self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\Result\UKI\\file'
 
         # self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\FTSE100\UKI\Ownership\OwnershipSummary\Monthly\Monthly_OwnershipSummary_2017-12.zip'
-        # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\FTSE100\UKI\Ownership\MonthEndInstitution\Monthly\Monthly_MonthEndInstitution_2017-12.zip'
+        # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\FTSE100\UKI\Ownership\MonthEndInstitution\Monthly\Monthly_OwnershipMonthlySummary_2017-12.zip'
         # self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\Result\FTSE'
 
         # self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\DOW30\NRA\Ownership\OwnershipSummary\Monthly\Monthly_OwnershipSummary_2017-12.zip'
-        # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\DOW30\NRA\Ownership\MonthEndInstitution\Monthly\Monthly_MonthEndInstitution_2017-12.zip'
+        # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\DOW30\NRA\Ownership\MonthEndInstitution\Monthly\Monthly_OwnershipMonthlySummary_2017-12.zip'
         # self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\Result\DOW30'
 
         # self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\UKI\Ownership\OwnershipSummary\Delta\Delta_OwnershipSummary_2018-01-22.zip'
-        # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\UKI\Ownership\MonthEndInstitution\Delta\Delta_MonthEndInstitution_2018-01-22.zip'
+        # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\UKI\Ownership\MonthEndInstitution\Delta\Delta_OwnershipMonthlySummary_2018-01-22.zip'
         # self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\Result\Delta\DOW30'
 
         # MOCAL 4807
@@ -54,9 +59,70 @@ class Test:
         # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4807\GEDF\Deadwood\UKI\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsAOR_2017-12.zip'
         # self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4807\Result\DeadwoodUKIFundamental\FinancialStatementsMonthly\AOR'
 
-        self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-master\GEDF\Deadwood\UKI\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsRestate_2017-12.zip'
-        self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4807\GEDF\Deadwood\UKI\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsRestate_2017-12.zip'
-        self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4807\Result\DeadwoodUKIFundamental\FinancialStatementsMonthly\Restate'
+        # self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-master\GEDF\Deadwood\UKI\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsRestate_2017-12.zip'
+        # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4807\GEDF\Deadwood\UKI\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsRestate_2017-12.zip'
+        # self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4807\Result\DeadwoodUKIFundamental\FinancialStatementsMonthly\Restate'
+
+        # MOCAL-4517
+        # DOW30 EarningRatiosAOR
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\DOW30\NRA\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosAOR_2017-11.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\DOW30\NRA\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosAOR_2017-11.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\DOW30\EarningRatiosAOR"
+
+        # DOW30 EarningRatiosRestate
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\DOW30\NRA\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosRestate_2017-11.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\DOW30\NRA\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosRestate_2017-11.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\DOW30\EarningRatiosRestate"
+
+        # FTSE EarningRatiosAOR
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\FTSE100\UKI\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosAOR_2017-11.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\FTSE100\UKI\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosAOR_2017-11.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\FTSE100\EarningRatiosAOR"
+
+        # FTSE EarningRatiosRestate
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\FTSE100\UKI\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosRestate_2017-11.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\FTSE100\UKI\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosRestate_2017-11.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\FTSE100\EarningRatiosRestate"
+
+        # NRA EarningRatiosAOR
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\NRA\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosAOR_2017-11.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\NRA\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosAOR_2017-11.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\NRA\EarningRatiosAOR"
+
+        # NRA EarningRatiosRestate
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\NRA\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosRestate_2017-11.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\NRA\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosRestate_2017-11.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\NRA\EarningRatiosRestate"
+
+        # EUR EarningRatiosAOR
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\EUR\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosAOR_2017-11.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\EUR\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosAOR_2017-11.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\EUR\EarningRatiosAOR"
+
+        # EUR EarningRatiosRestate
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\EUR\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosRestate_2017-11.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\EUR\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosRestate_2017-11.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\EUR\EarningRatiosRestate"
+
+        # Deadwood AFR EarningRatiosAOR
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\Deadwood\AFR\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosAOR_2017-11.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\Deadwood\AFR\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosAOR_2017-11.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\Deadwood\EarningRatiosAOR"
+
+        # Deadwood AFR EarningRatiosRestate
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\Deadwood\AFR\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosRestate_2017-11.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\Deadwood\AFR\Fundamental\EarningRatios\Monthly\Monthly_EarningRatiosRestate_2017-11.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\Deadwood\EarningRatiosRestate"
+
+        # Delta FD EarningRatiosAOR
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\Delta\AFR\Fundamental\EarningRatios\Delta\Delta_EarningRatiosAOR_2017-12-12.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\Delta\AFR\Fundamental\EarningRatios\Delta\Delta_EarningRatiosAOR_2017-12-12.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\Delta\EarningRatiosAOR"
+
+        # Delta FD EarningRatiosRestate
+        # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\Delta\AFR\Fundamental\EarningRatios\Delta\Delta_EarningRatiosRestate_2017-12-12.zip"
+        # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\Delta\AFR\Fundamental\EarningRatios\Delta\Delta_EarningRatiosRestate_2017-12-12.zip"
+        # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\Delta\EarningRatiosRestate"
 
     # 读取压缩文件，返回压缩文件内的文件
     def read_gz_file(self, file):

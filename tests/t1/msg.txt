@@ -1,6 +1,7 @@
     <Message>
-		<Id>@place_holder_country@</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>Fundamental</MessageType>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningGrowth</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>

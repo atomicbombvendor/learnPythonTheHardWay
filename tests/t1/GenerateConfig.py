@@ -38,6 +38,20 @@ def Generate_file(source, target):
     codecs.open(target, 'a', 'utf-8').write('</data>\r\n')  # 清空文件
 
 
+# 从文件中读取所有的CompanyId（或者ShareClassId),然后去处重复的。
+# 截取每一行的前10个字符，装入list，然后去重
+def distinct_companyId(source, target):
+    ids = []
+    source_file = codecs.open(source, 'r', 'utf-8')
+    for line in source_file:
+        ids.append(line[0:10])
+    tmp = list(set(ids))
+    data = ''
+    for val in tmp:
+        data += val + "\r\n"
+    write_file(target, data)
+
+
 # 定义一个函数，带有4个参数
 # x 表示要更新的文件名称
 # y 表示要被替换的内容
@@ -47,6 +61,7 @@ def Generate_file(source, target):
 def Read_Replace_holder(source, c, num):
     place_holder_C = '@place_holder_country@'
     place_holder_N = '@num@'
+    place_holder_S = '@shareClassId@'
     content = ''
     with open(source, 'r') as f:
         lines = f.readlines()
@@ -56,6 +71,8 @@ def Read_Replace_holder(source, c, num):
             tmp = tmp.replace(place_holder_C, c)
         if place_holder_N in line:
             tmp = tmp.replace(place_holder_N, str(num))
+        if place_holder_S in line:
+            tmp = tmp.replace(place_holder_S, c)
         content = content + tmp
     return content
 
@@ -65,6 +82,8 @@ def write_file(target, data):
     f.write(str(data) + '\r\n')  # \r\n为换行符
     f.close()
 
+
+# distinct_companyId('CompanyId.txt', 'new_companyId.txt')
 
 # Generate_file(source_Monthly, config_Monthly)
 Generate_file('msg.txt', 'msg_shareClassId.txt')
