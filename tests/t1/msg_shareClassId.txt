@@ -1,1402 +1,464 @@
 <data>
     <Message>
-		<Id>0P0000AF8U</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000AC5</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000AFPJ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AG35</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AG5O</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AGL8</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AGVG</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AGZE</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AH3H</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AH9G</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AHO1</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AHU5</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AHVL</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AI3M</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AI46</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AI6R</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AIBD</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AIJT</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AIK4</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AIR3</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AIWK</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AIZI</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AJ07</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AJ0J</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AJ8H</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AJEZ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AJGN</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AJW2</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AJZI</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AK9X</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AKBF</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AKOW</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AL0A</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AL24</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AL2E</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AL2N</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ALLL</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AMAM</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AME6</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AMFL</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AMO2</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AMUF</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AMW4</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AMW6</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AMXV</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AN3K</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AN6J</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ANSV</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AO0M</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AOC2</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AODV</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AOSL</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AOWY</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AOX2</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AP3P</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000APBK</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000APCK</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000APEH</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000APUO</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000APYO</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AQ48</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AQ4V</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AQLH</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AQLM</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AQMH</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AQMR</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AQPM</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AQXX</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AR8W</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ARIA</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ARRA</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ARRG</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ARSE</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ARTL</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ARW7</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ARYJ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AS0B</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AS6Q</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000AC5</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000AS9Y</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ASDU</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ASIP</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ASOD</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ASTB</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ATB3</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ATDO</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000ATUK</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AUW8</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AUZ4</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AV3Q</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AV7J</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AVJM</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AVMZ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AVPH</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AVUQ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AVVA</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AVWJ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AVYI</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AW0P</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AW6O</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AWGH</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AX2X</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AX87</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AX97</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AXB5</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AXJB</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AXM6</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AXMI</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AXZT</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AYL3</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AYMY</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AYOX</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AYTT</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AZ4A</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AZ4B</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AZKJ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AZKP</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AZM7</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000AZVQ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B05B</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B0A6</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B0QV</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B120</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B122</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B1CV</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B1DX</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B1RL</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B1Y1</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B1ZY</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B274</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B2QT</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B2RQ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B34T</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B35Y</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B38D</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B3JQ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B3K1</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B3TT</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B41Y</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B424</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B449</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000AC5</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000B4FO</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000ADA</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B4LL</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
-		<Year>2017</Year>
-		<ReportType>A</ReportType>
-	</Message>
-    <Message>
-		<Id>0P0000B4QE</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000ADA</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B4U0</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000ADA</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000B4WU</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000ASP</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B4ZO</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000ASP</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B56W</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000ASP</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000B57I</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000AXW</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B5FL</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000AXW</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B5MG</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000AXW</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000B5RR</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000BB5</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B5WD</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000BB5</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B5ZF</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000BB5</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000B64X</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000BC7</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B68M</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000BC7</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B6N1</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000BC7</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000B6SR</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000BDL</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B6WW</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000BDL</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B7DK</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000BDL</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000B7FX</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C000006UP</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B7QD</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C000006UP</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B7ZZ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C000006UP</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000B86Y</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C000006ZW</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B8FB</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C000006ZW</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B8L8</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C000006ZW</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000B8TC</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C000007U0</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B95Z</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C000007U0</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B9B5</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C000007U0</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000B9O8</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000NJY</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000B9Q5</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000NJY</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BACA</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000NJY</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000BACG</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000GNG</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BAF6</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000GNG</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BAHK</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000GNG</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000BAME</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000BFO</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BAP2</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000BFO</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BAPG</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000BFO</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000BB12</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000BC7</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BBFL</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000BC7</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BBY9</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000BC7</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000BCPD</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000ASP</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BCW6</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000ASP</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BD19</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000ASP</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000BD9I</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C00000NW8</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BDAI</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000NW8</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BE54</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C00000NW8</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000BEGD</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C000014G8</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BEH0</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C000014G8</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BELI</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C000014G8</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000BETJ</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C0000070W</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BF2Y</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C0000070W</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BFBF</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C0000070W</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000BFZT</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C0000070X</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BG5Q</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C0000070X</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BG61</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C0000070X</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000BGA1</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id>0C000008QT</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BGHO</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C000008QT</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BGNI</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id>0C000008QT</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
     <Message>
-		<Id>0P0000BH0H</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<Id></Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BH2R</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id></Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
-    <Message>
-		<Id>0P0000BHF3</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+	<Message>
+		<Id></Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
 	</Message>
+
 </data>

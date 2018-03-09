@@ -7,7 +7,7 @@ import gzip
 from ExoiLogin import LoginExoi
 
 
-class ExoiType:
+class AbstractEXOI:
 
     def __init__(self):
         self.Login_Cookie = LoginExoi().get_cookie()
@@ -48,19 +48,10 @@ class ExoiType:
     # 根据参数获取xml内容，并设置到self.content中
     def get_content(self, param):
         try:
-            # 把所有的key转换为小写的
-            a_lower = {k.lower(): v for k, v in param.items()}
-            package = a_lower.get('package'.lower())
-            content = a_lower.get('content'.lower())
-            Id = a_lower.get('Id'.lower())
-            IdType = a_lower.get('IdType'.lower())
-            ReportType = a_lower.get('ReportType'.lower())
-            Dates = a_lower.get('Dates'.lower())
-
-            url_param = self.content_url % (package, content, IdType, Id, ReportType, Dates)
+            intact_url = self.construct_url(param)
             cookie = cookielib.LWPCookieJar()
             cookie.load(self.cook_file_name, ignore_discard=True, ignore_expires=True)
-            request = urllib2.Request(url_param, None, self.headers)
+            request = urllib2.Request(intact_url, None, self.headers)
             # 需要Header
             opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
             response = opener.open(request)
@@ -74,18 +65,18 @@ class ExoiType:
 
                 status = response.getcode()
                 if status == 200:
-                    print u"获取页面请求成功, url->\n%s" % url_param
+                    print u"获取页面请求成功, url->\n%s" % intact_url
                 else:
-                    print u"获取页面请求失败, url->\n%s" % url_param
+                    print u"获取页面请求失败, url->\n%s" % intact_url
                 self.content = resource
             except IOError, e:
                     if e.message.find('gzipped') > 0:
                         resource = content.decode('utf-8')  # 不是gzip的压缩方式
                         status = response.getcode()
                         if status == 200:
-                            print u"获取页面请求成功, url->\n%s" % url_param
+                            print u"获取页面请求成功, url->\n%s" % intact_url
                         else:
-                            print u"获取页面请求失败, url->\n%s" % url_param
+                            print u"获取页面请求失败, url->\n%s" % intact_url
                         self.content = resource
         except urllib2.HTTPError, e:
             print u'The server couldn\'t fulfill the request'
@@ -97,5 +88,9 @@ class ExoiType:
     @abstractmethod
     def check_value(self, line_value): pass
 
+    # 解析line，找出拼接URL需要的参数
     @abstractmethod
     def parse_line(self, line_value): pass
+    
+    @abstractmethod
+    def construct_url(self, param): pass

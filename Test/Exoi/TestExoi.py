@@ -1,19 +1,20 @@
 # coding=utf-8
 import codecs
-
-from ExoiTypeFactory import ExoiTypeFactory
+import ConfigParser
+from EXOITypeFactory import EXOITypeFactory
 
 
 class TestExoi:
 
     # 每次处理一个文件是，type和参数都是一样的（需要把Date的范围扩到最大）
     def __init__(self, file_type_):
-        self.exoi_type = ExoiTypeFactory().get_Exoi_Type(file_type_)
+        self.exoi_type = EXOITypeFactory().get_Exoi_Type(file_type_)
         # self.exoi_type.get_content(file_param)
         self.not_match = []
         self.do_match = []
 
     # 判断每一行的数据是不是可以找到
+    # 先把文件中的每一行转换为一个参数字典，在把字典和url对应起来。
     def test(self, line):
         file_param = self.exoi_type.parse_line(line)
         self.exoi_type.get_content(file_param)
@@ -30,14 +31,20 @@ class TestExoi:
 
     # 读取文件，从文件中解析xml中的每一行
     def check_file(self, source_path, result_path):
+        all_node_exists = True
         result = []
         file_object = codecs.open(source_path, 'r')
         try:
             for line in file_object:
                 flag = self.test(line.strip("\n"))
                 if not flag:
+                    all_node_exists = False
                     result.append(line)
             self.write_file(result_path, result)
+
+            if not all_node_exists:
+                print "不是所有的节点都可以找到"
+
         finally:
             file_object.close()
 
@@ -51,10 +58,13 @@ class TestExoi:
 
 
 if __name__ == '__main__':
-    file_type = 'EarningGrowth'
-    line_value = '0P000005NU|13023|0.264399|2003-12-31|1Y|12|A'
-    source_file ="D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\Delta\EarningRatiosAOR\\new_diff.dat"
-    target_file ="D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\Delta\EarningRatiosAOR\\a.dat"
+    file_type = 'EXOIEarningReport'
+    MOCALFile_Section = 'EarningReport_Deadwood_AOR'
+    conf = ConfigParser.ConfigParser()
+    conf.read('MOCAL_File_Config.ini')
+    source_file = conf.get(MOCALFile_Section, 'source_file')
+    target_file = conf.get(MOCALFile_Section, 'target_file')
+    print "Verify File ***********" + MOCALFile_Section
     test = TestExoi(file_type)
     # test.test(line_value)
     test.check_file(source_file, target_file)

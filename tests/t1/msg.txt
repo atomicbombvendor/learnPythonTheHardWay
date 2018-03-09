@@ -1,7 +1,21 @@
     <Message>
 		<Id>@shareClassId@</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>EarningGrowth</MessageType>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatioTTMHistory</MessageType>
+		<ReportType>TTM</ReportType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
+	</Message>
+	<Message>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<ReportType>TTM</ReportType>
+		<Year>2017</Year>
+	</Message>
+	<Message>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<ReportType>TTM</ReportType>
+		<Year>2017</Year>
 	</Message>

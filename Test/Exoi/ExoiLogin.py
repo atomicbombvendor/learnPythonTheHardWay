@@ -51,7 +51,7 @@ class LoginExoi:
         status = response.getcode()
         self.cookie.save(ignore_discard=True, ignore_expires=True)
         if status == 200:
-            print u"登录获取请求成功"
-            print self.cookie
+            print u"登录成功"
+            print self.cookie, '\n'
         else:
-            print u"登录获取请求失败"
+            print u"登录失败\n"

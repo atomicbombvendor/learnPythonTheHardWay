@@ -2,7 +2,7 @@
 # 读取所有的国家列表，然后用配置文件组装
 import codecs
 
-country = "country.txt"
+country = "new_companyId.txt"  # 这是配置文件用来填充占位符的
 countrys = []
 
 config_DailyDelta = "config_DailyDelta.xml"
@@ -34,8 +34,8 @@ def Generate_file(source, target):
         count = count + 1
         content = Read_Replace_holder(source, tmp_c, count)
         write_file(target, content)
-
     codecs.open(target, 'a', 'utf-8').write('</data>\r\n')  # 清空文件
+    print "生成Message文件完成"
 
 
 # 从文件中读取所有的CompanyId（或者ShareClassId),然后去处重复的。

@@ -2,21 +2,29 @@
 import codecs
 import gzip
 import zipfile
-
+import ConfigParser
 import os
-
 
 class Test:
 
-    def __init__(self):
-        # MOCAL 4204 UKI
-        self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipMonthlySummary\Monthly\Monthly_OwnershipMonthlySummary_2017-11.zip'
-        self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipSummary\Monthly\Monthly_OwnershipSummary_2017-11.zip'
-        self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\Result\UKI'
+    def __init__(self, sectionName):
 
-        self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipMonthlySummary\Monthly\Monthly_OwnershipMonthlySummary_0P00007OUP_2017-11.zip'
-        self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipSummary\Monthly\Monthly_OwnershipSummary_0P00007OUP_2017-11.zip'
-        self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\Result\UKI\\file'
+        self.conf = ConfigParser.ConfigParser()
+        self.conf.read('MOCAL_File_Config.ini')
+
+        self.source_old = self.conf.get(sectionName, 'source_old')
+        self.source_new = self.conf.get(sectionName, 'source_new')
+        self.result = self.conf.get(sectionName, 'result')
+         
+        # region 以前的测试 折叠起来了
+        # MOCAL 4204 UKI
+        # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipMonthlySummary\Monthly\Monthly_OwnershipMonthlySummary_2017-11.zip'
+        # self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipSummary\Monthly\Monthly_OwnershipSummary_2017-11.zip'
+        # self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\Result\UKI'
+        #
+        # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipMonthlySummary\Monthly\Monthly_OwnershipMonthlySummary_0P00007OUP_2017-11.zip'
+        # self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\GEDF\UKI\Ownership\OwnershipSummary\Monthly\Monthly_OwnershipSummary_0P00007OUP_2017-11.zip'
+        # self.uki_result = 'D:\QA\GEDF\GEDataFeed-MOCAL4204\Result\UKI\\file'
 
         # self.uki_source_old = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\FTSE100\UKI\Ownership\OwnershipSummary\Monthly\Monthly_OwnershipSummary_2017-12.zip'
         # self.uki_source_new = 'D:\QA\GEDF\GEDataFeed-MOCAL4202\GeDataFeed\FTSE100\UKI\Ownership\MonthEndInstitution\Monthly\Monthly_OwnershipMonthlySummary_2017-12.zip'
@@ -123,6 +131,7 @@ class Test:
         # self.uki_source_old = "D:\QA\GEDF\GEDataFeed-master\GEDF\Delta\AFR\Fundamental\EarningRatios\Delta\Delta_EarningRatiosRestate_2017-12-12.zip"
         # self.uki_source_new = "D:\QA\GEDF\GEDataFeed-MOCAL4517\GEDF\Delta\AFR\Fundamental\EarningRatios\Delta\Delta_EarningRatiosRestate_2017-12-12.zip"
         # self.uki_result = "D:\QA\GEDF\GEDataFeed-MOCAL4517\Result\Delta\EarningRatiosRestate"
+        # region2 折叠起来了
 
     # 读取压缩文件，返回压缩文件内的文件
     def read_gz_file(self, file):
@@ -167,10 +176,10 @@ class Test:
                 fnd.write(str(line)+"\r\n")
 
     def test(self):
-        result_old = self.uki_result + '\old_diff.dat'
-        result_new = self.uki_result + '\\new_diff.dat'
-        file_data_old = self.testZip(self.uki_source_old)
-        file_data_new = self.testZip(self.uki_source_new)
+        result_old = self.result + '\old_diff.dat'
+        result_new = self.result + '\\new_diff.dat'
+        file_data_old = self.testZip(self.source_old)
+        file_data_new = self.testZip(self.source_new)
 
         set_old = self.get_set(file_data_old)
         set_new = self.get_set(file_data_new)
@@ -179,10 +188,16 @@ class Test:
         # diff_old是只在old中存在的； diff_new 是只在新文件中存在的
         diff_old, diff_new = self.compareFiles(set_old, set_new)
 
-        self.write_file(diff_old, diff_new, self.uki_result, result_old, result_new)
+        self.write_file(diff_old, diff_new, self.result, result_old, result_new)
+        print "文件比对结束"
 
 
 if __name__ == '__main__':
-    T = Test()
+    # MOCAL4722_DOW30_AOR = "MOCAL4722_DOW30_AOR"
+    # MOCAL4722_DOW30_Restate = "MOCAL4722_DOW30_Restate"
+    # MOCAL4722_FTSE100_AOR = "MOCAL4722_FTSE100_AOR"
+    # MOCAL4722_FTSE100_Restate = "MOCAL4722_FTSE100_Restate"
+    file_section = "MOCAL4807_Monthly_NRA_FinancialStatements_Restate"
+    T = Test(file_section)
     T.test()
 

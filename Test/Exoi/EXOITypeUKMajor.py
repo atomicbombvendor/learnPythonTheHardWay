@@ -1,12 +1,12 @@
 # coding=utf-8
-from ExoiType import ExoiType
+from AbstractEXOI import AbstractEXOI
 import xml.etree.ElementTree as ET
 
 
-class ExoiTypeUKMajor(ExoiType):
+class EXOITypeUKMajor(AbstractEXOI):
 
     def __init__(self):
-        ExoiType.__init__(self)
+        AbstractEXOI.__init__(self)
         self.value_mapping = {
             46000: 'OwnerName',
             46001: 'IsCurrent',
