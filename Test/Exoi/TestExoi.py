@@ -68,3 +68,4 @@ if __name__ == '__main__':
     test = TestExoi(file_type)
     # test.test(line_value)
     test.check_file(source_file, target_file)
+    
