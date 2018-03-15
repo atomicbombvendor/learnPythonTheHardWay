@@ -44,7 +44,9 @@ def distinct_companyId(source, target):
     ids = []
     source_file = codecs.open(source, 'r', 'utf-8')
     for line in source_file:
-        ids.append(line[0:10])
+        data = line.strip()  # 去除空行
+        if len(data) != 0:
+            ids.append(line[0:10])
     tmp = list(set(ids))
     data = ''
     for val in tmp:
@@ -84,7 +86,7 @@ def write_file(target, data):
 
 
 # distinct_companyId('CompanyId.txt', 'new_companyId.txt')
-
+# 读取msg.txt msg_shareClassId.txt new_companyId.txt文件的内容，生成GEDF msg文件
 # Generate_file(source_Monthly, config_Monthly)
 Generate_file('msg.txt', 'msg_shareClassId.txt')
 # Generate_file(source_DeadwoodMonthly, config_DeadwoodMonthly)

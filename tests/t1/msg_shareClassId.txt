@@ -1,464 +1,553 @@
 <data>
     <Message>
-		<Id>0C00000AC5</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P00011IT9</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000AC5</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P00011IT9</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000AC5</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P00011IT9</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P00011IT9</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000ADA</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000T29L</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000ADA</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000T29L</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000ADA</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000T29L</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000T29L</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000ASP</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TBON</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000ASP</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TBON</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000ASP</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TBON</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000TBON</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000AXW</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TDXA</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000AXW</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TDXA</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000AXW</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TDXA</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000TDXA</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000BB5</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TEWX</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000BB5</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TEWX</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000BB5</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TEWX</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000TEWX</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000BC7</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TFA1</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000BC7</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TFA1</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000BC7</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TFA1</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000TFA1</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000BDL</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TFA2</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000BDL</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TFA2</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000BDL</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TFA2</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000TFA2</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C000006UP</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TLJL</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C000006UP</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TLJL</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C000006UP</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TLJL</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000TLJL</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C000006ZW</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TOOJ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C000006ZW</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TOOJ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C000006ZW</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TOOJ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000TOOJ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C000007U0</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000WKX9</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C000007U0</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000WKX9</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C000007U0</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000WKX9</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000WKX9</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000NJY</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000WKZI</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000NJY</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000WKZI</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000NJY</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000WKZI</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000WKZI</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000GNG</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000ZAC3</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000GNG</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000ZAC3</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000GNG</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000ZAC3</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000ZAC3</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000BFO</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000ZAJH</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000BFO</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000ZAJH</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000BFO</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000ZAJH</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000ZAJH</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000BC7</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000ZTCJ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000BC7</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000ZTCJ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000BC7</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000ZTCJ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000ZTCJ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000ASP</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P000100UZ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000ASP</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P000100UZ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000ASP</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P000100UZ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P000100UZ</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C00000NW8</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000T29L</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000NW8</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000T29L</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C00000NW8</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000T29L</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000T29L</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C000014G8</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TBON</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C000014G8</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TBON</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C000014G8</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TBON</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000TBON</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C0000070W</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TDXA</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C0000070W</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TDXA</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C0000070W</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TDXA</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>0P0000TDXA</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>
 
     <Message>
-		<Id>0C0000070X</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TEWX</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>A</ReportType>
 	</Message>
 	<Message>
-		<Id>0C0000070X</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TEWX</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
+		<ReportType>R</ReportType>
 	</Message>
 	<Message>
-		<Id>0C0000070X</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TEWX</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
-	</Message>
-
-    <Message>
-		<Id>0C000008QT</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
-		<Year>2017</Year>
+		<ReportType>P</ReportType>
 	</Message>
 	<Message>
-		<Id>0C000008QT</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
+		<Id>0P0000TEWX</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
-	</Message>
-	<Message>
-		<Id>0C000008QT</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
 		<ReportType>TTM</ReportType>
-		<Year>2017</Year>
-	</Message>
-
-    <Message>
-		<Id></Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatioTTMHistory</MessageType>
-		<ReportType>TTM</ReportType>
-		<Year>2017</Year>
-	</Message>
-	<Message>
-		<Id></Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
-		<ReportType>TTM</ReportType>
-		<Year>2017</Year>
-	</Message>
-	<Message>
-		<Id></Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
-		<ReportType>TTM</ReportType>
-		<Year>2017</Year>
 	</Message>
 
 </data>

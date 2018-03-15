@@ -197,7 +197,7 @@ if __name__ == '__main__':
     # MOCAL4722_DOW30_Restate = "MOCAL4722_DOW30_Restate"
     # MOCAL4722_FTSE100_AOR = "MOCAL4722_FTSE100_AOR"
     # MOCAL4722_FTSE100_Restate = "MOCAL4722_FTSE100_Restate"
-    file_section = "MOCAL4807_Monthly_NRA_FinancialStatements_Restate"
+    file_section = "MOCAL4807_Delta_IPM_EarningReport_AOR"
     T = Test(file_section)
     T.test()
 
