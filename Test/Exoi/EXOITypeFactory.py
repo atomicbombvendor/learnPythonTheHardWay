@@ -1,10 +1,9 @@
 # coding=utf-8
-from EXOITypeUKMajor import EXOITypeUKMajor
-from EXOIEarningGrowth import EXOIEarningGrowth
-from EXOIValuationRatios import EXOIValuationRatios
-from EXOIOperationRatios import EXOIOperationRatios
-from EXOIEarningReport import EXOIEarningReport
-
+from Test.Exoi.EXOIImpl.EXOITypeUKMajor import EXOITypeUKMajor
+from Test.Exoi.EXOIImpl.EXOIEarningGrowth import EXOIEarningGrowth
+from Test.Exoi.EXOIImpl.EXOIValuationRatios import EXOIValuationRatios
+from Test.Exoi.EXOIImpl.EXOIOperationRatios import EXOIOperationRatios
+from Test.Exoi.EXOIImpl.EXOIEarningReport import EXOIEarningReport
 
 class EXOITypeFactory:
 

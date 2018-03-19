@@ -21,7 +21,7 @@ class ReplaceFileContent:
         self.str_old = str_old
 
     def setStrNew(self, str_new):
-        self.str_old = str_new
+        self.str_new = str_new
 
     # os.path.walk得到文件夹上面的所有文件，不包括目录
     def getAllFiles(self):
@@ -62,6 +62,9 @@ class ReplaceFileContent:
 
 
 R = ReplaceFileContent()
+R.setRoot("D:\Work\SourceTree\GEDF\ge-gedf-old\EquityDataFeed\JobCommands\GTR")
+R.setStrOld("morningstar.com\shares\GeDataFeed\GeDataFeed\Deadwood /OutputDir=D:\GEDataFeed\Outputs\Deadwood")
+R.setStrNew("morningstar.com\shares\GeDataFeed\GeDataFeed\GTR\Deadwood /OutputDir=D:\GEDataFeed\Outputs\GTR\Deadwood")
 R.replaceAllFileContent()
 
 

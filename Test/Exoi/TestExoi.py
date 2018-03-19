@@ -1,7 +1,7 @@
 # coding=utf-8
 import codecs
 import ConfigParser
-from EXOITypeFactory import EXOITypeFactory
+from Test.Exoi.EXOITypeFactory import EXOITypeFactory
 
 
 class TestExoi:

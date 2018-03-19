@@ -1,16 +1,16 @@
 # coding=utf-8
-from AbstractEXOI import AbstractEXOI
-import xml.etree.ElementTree as ET
+from Test.Exoi.AbstractEXOI import AbstractEXOI
 from lxml import etree
 import time
 
 
-class EXOIOperationRatios(AbstractEXOI):
+class EXOIEarningReport(AbstractEXOI):
 
     def __init__(self):
         AbstractEXOI.__init__(self)
         self.value_mapping = {
-            12044: 'NetIncomePerFullTimeEmployee'
+            29022: 'ReportedNormalizedBasicEPS',
+            29023: 'ReportedNormalizedDilutedEPS'
         }
 
         self.init_url = 'http://geexoidevap8002.morningstar.com/' \
@@ -24,12 +24,14 @@ class EXOIOperationRatios(AbstractEXOI):
 
         # 使用xpath解析xml
         tree2 = etree.XML(self.content.encode('utf-8'))
-        path = "/OperationRatios[@companyId='"+values.get('companyId')\
-               + "']/OperationRatio[@asOf='"+values.get('asOf')+"' and @reportType='"\
+        path = "/EarningReports[@shareClassId='"+values.get('shareClassId')\
+               + "']/EarningReport[@asOf='"+values.get('asOf')+"' and @reportType='"\
                + values.get('reportType')+"' and @fiscalYearEnd='"+values.get('fiscalYearEnd')\
-               + "']/Profitability[@numberOfMonth='"+values.get('numberOfMonth')+"']/NetIncomePerFullTimeEmployee"
+               + "' and @numberOfMonth='"+values.get('numberOfMonth') + "' and @currencyId='" + values.get('currencyId') \
+               + "' and @isDerived='"+values.get('isDerived')+"']/"\
+               + values['targetNode']
         target_node = tree2.xpath(path)
-        if len(target_node) == 1 and target_node[0].text == values.get('NetIncomePerFullTimeEmployee'):
+        if len(target_node) == 1 and target_node[0].text == values.get(values.get('targetNode')):
             flag = True
 
         return flag
@@ -37,33 +39,30 @@ class EXOIOperationRatios(AbstractEXOI):
     # 把每一行的数据转换为一个字典，方便查询
     def parse_line_value(self, line_value):
         values = {
-            'companyId': '',
+            'shareClassId': '',
             'asOf': '',
             'reportType': '',
             'fiscalYearEnd': '',
-            'numberOfMonth': '',  # 如果是 3M,则是3;如果是1Y,则是12
-            'NetIncomePerFullTimeEmployee': ''}
+            'numberOfMonth': '',
+            'isDerived': ''}
         value_set = line_value.split('|')  # value_set最后的两个要被解析成节点和值的对应
-        values['companyId'] = value_set[0]
-        values['NetIncomePerFullTimeEmployee'] = value_set[2]
+        values['shareClassId'] = value_set[0]
+        values['targetNode'] = self.value_mapping.get(int(value_set[1]))
+        values[self.value_mapping.get(int(value_set[1]))] = value_set[2]
         values['asOf'] = value_set[3]
-
-        numberOfMonth = value_set[4]
-        if numberOfMonth == '1Y':
-            values['numberOfMonth'] = str(12)
-        else:
-            values['numberOfMonth'] = str(numberOfMonth[0:1])
-
+        values['numberOfMonth'] = value_set[4].replace('M', "")
         values['fiscalYearEnd'] = value_set[5]
-        values['reportType'] = value_set[6]
+        values['currencyId'] = 'CU$$$$$' + value_set[6]
+        values['reportType'] = value_set[7]
+        values['isDerived'] = value_set[8]
 
         return values
 
     # 解析line，找出拼接URL需要的参数
     def parse_line(self, line_value):
         param = {'Package': 'EquityData',
-                 'Content': 'OperationRatio',
-                 'IdType': 'EquityCompanyId',
+                 'Content': 'EarningReport',
+                 'IdType': 'EquityShareClassId',
                  'Id': '',
                  'Dates': '',
                  'ReportType': ''}
@@ -71,9 +70,8 @@ class EXOIOperationRatios(AbstractEXOI):
         values = line_value.split("|")
         Id = values[0]
         Dates = time.strptime(values[3], "%Y-%m-%d").tm_year
-        param['NumberOfMonth'] = values[4]
-        param['FiscalYearEnd'] = values[5]
-        param['ReportType'] = values[6]
+        reportType = values[7]
+        param['ReportType'] = reportType
         param['Id'] = Id
         param['Dates'] = Dates
 

@@ -1,6 +1,7 @@
 # coding=utf-8
 import codecs
 import gzip
+import re
 import zipfile
 import ConfigParser
 import os
@@ -149,6 +150,16 @@ class Test:
             data += zfile.read(filename)
         return data
 
+    def read_id_from_zip(self, file):
+        zfile = zipfile.ZipFile(file, 'r')
+        pattern = r"(0P[0-9A-Za-z]{8}|0C[0-9A-Za-z]{8})"
+        data = ''
+        for filename in zfile.namelist():
+            match = re.search(pattern, filename)
+            if match:
+                data += match.group()+"\r\n"
+        return data
+
     # 把data放入set中
     def get_set(self, data):
         result = set()
@@ -200,4 +211,9 @@ if __name__ == '__main__':
     file_section = "MOCAL4807_Delta_IPM_EarningReport_AOR"
     T = Test(file_section)
     T.test()
+
+    # 用来解析zip文件中的Id
+    # file = "D:\QA\GEDF\GeDataFeed-MOCAL4937\GEDF\FTSE100\UKI\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsAOR_2018-2.zip"
+    # data = T.read_id_from_zip(file)
+    # print data
 
