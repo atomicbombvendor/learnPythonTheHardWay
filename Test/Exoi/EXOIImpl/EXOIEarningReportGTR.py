@@ -4,7 +4,7 @@ from lxml import etree
 import time
 
 
-class EXOIEarningReport(AbstractEXOI):
+class EXOIEarningReportGTR(AbstractEXOI):
 
     def __init__(self):
         AbstractEXOI.__init__(self)
@@ -51,8 +51,8 @@ class EXOIEarningReport(AbstractEXOI):
 
         # 使用xpath解析xml
         tree2 = etree.XML(self.content.encode('utf-8'))
-        path = ""
-        if "@" not in values['targetNode']:
+
+        if "@" not in values['targetNode']:  # @表示是属性值
             path = "/EarningReports[@shareClassId='"+values.get('shareClassId')\
                + "']/EarningReport[@asOf='"+values.get('asOf')+"' and @reportType='"\
                + values.get('reportType')+"' and @fiscalYearEnd='"+values.get('fiscalYearEnd')\

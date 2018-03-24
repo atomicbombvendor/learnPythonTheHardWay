@@ -1,5 +1,0 @@
-	<Message>
-		<Id>@shareClassId@</Id>
-		<IdType>EquityShareClassId</IdType>
-		<MessageType>NewShareClass</MessageType>
-	</Message>

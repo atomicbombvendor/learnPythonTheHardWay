@@ -2,39 +2,24 @@
 # 读取所有的国家列表，然后用配置文件组装
 import codecs
 
-country = "new_companyId.txt"  # 这是配置文件用来填充占位符的
-countrys = []
-
-config_DailyDelta = "config_DailyDelta.xml"
-config_DeadwoodMonthly = "config_DeadwoodMonthly.xml"
-config_Monthly = "config_Monthly.xml"
-
-source_DailyDelta = 'file_DailyDelta.txt'
-source_DeadwoodMonthly = 'file_DeadwoodMonthly.txt'
-source_Monthly = 'file_Monthly.txt'
-
-val_DailyDelta = ''
-val_DeadwoodMonthly = ''
-val_Monthly = ''
-
-
-def Get_Country():
-    file_object = open(country, 'r')  # r,只读 w:写之前会清空文件的内容 a:追加的方式，在原本内容中继续写
+# 从配置文件中读取所有需要用来填充msg文件的数据；列表封装
+def Get_Value():
+    file_object = open(value_file, 'r')  # r,只读 w:写之前会清空文件的内容 a:追加的方式，在原本内容中继续写
     for line in file_object:
         line = line.strip('\n')  # 去掉换行符
-        countrys.append(line)
+        values.append(line)
 
 
 def Generate_file(source, target):
-    codecs.open(target, 'w', 'utf-8').write('<data>\r\n')  # 清空文件
-    Get_Country()
+    codecs.open(target, 'w', 'utf-8') # 清空文件
+    Get_Value()  # 返回一个文件中的列表
     count = 0
-    for i in countrys:
-        tmp_c = i
+    for val in values:
+        tmp_val = val
         count = count + 1
-        content = Read_Replace_holder(source, tmp_c, count)
+        content = Read_Replace_holder(source, tmp_val, count)
         write_file(target, content)
-    codecs.open(target, 'a', 'utf-8').write('</data>\r\n')  # 清空文件
+    # codecs.open(target, 'a', 'utf-8') # 清空文件
     print "生成Message文件完成"
 
 
@@ -60,7 +45,8 @@ def distinct_companyId(source, target):
 # z 表示 替换后的内容
 # s 默认参数为 1 表示只替换第一个匹配到的字符串
 # 如果参数为 s = 'g' 则表示全文替换
-def Read_Replace_holder(source, c, num):
+# tmp_val 从文件中读取的值，current_index 当前是文件中的第几行
+def Read_Replace_holder(source, tmp_val, current_index):
     place_holder_C = '@place_holder_country@'
     place_holder_N = '@num@'
     place_holder_S = '@shareClassId@'
@@ -70,11 +56,11 @@ def Read_Replace_holder(source, c, num):
     for line in lines:
         tmp = line
         if place_holder_C in line:
-            tmp = tmp.replace(place_holder_C, c)
+            tmp = tmp.replace(place_holder_C, tmp_val)
         if place_holder_N in line:
-            tmp = tmp.replace(place_holder_N, str(num))
+            tmp = tmp.replace(place_holder_N, str(current_index))
         if place_holder_S in line:
-            tmp = tmp.replace(place_holder_S, c)
+            tmp = tmp.replace(place_holder_S, tmp_val)
         content = content + tmp
     return content
 
@@ -84,9 +70,10 @@ def write_file(target, data):
     f.write(str(data) + '\r\n')  # \r\n为换行符
     f.close()
 
-
+value_file = "ValueFile.txt"  # 这是配置文件用来填充占位符的
+values = []
 # distinct_companyId('CompanyId.txt', 'new_companyId.txt')
 # 读取msg.txt msg_shareClassId.txt new_companyId.txt文件的内容，生成GEDF msg文件
 # Generate_file(source_Monthly, config_Monthly)
-Generate_file('msg.txt', 'msg_shareClassId.txt')
+Generate_file('msg.txt', 'msg_companyId.txt')
 # Generate_file(source_DeadwoodMonthly, config_DeadwoodMonthly)

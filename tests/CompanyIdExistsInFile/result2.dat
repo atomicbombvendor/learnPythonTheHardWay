@@ -1,0 +1,405 @@
+0C000006U9	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C000006U9	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C000006U9	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C000006U9	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C000006U9	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C000006U9	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+0C000006U9	UKI>>UKI\Fundamental\OperationRatios\Delta Yes
+0C000006U9	UKI>>UKI\Fundamental\FinancialStatements\Delta Yes
+0C000006U9	UKI>>UKI\Fundamental\Segmentation\Delta Yes
+
+0C000006UB	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C000006UB	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C000006UB	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C000006UB	LTA>>LTA\Fundamental\Segmentation\Delta Yes
+0C000006UB	LTA>>LTA\Fundamental\FinancialStatements\Delta Yes
+0C000006UB	LTA>>LTA\Fundamental\OperationRatios\Delta Yes
+0C000006UB	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C000006UB	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C000006UB	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C000006UP	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C000006UP	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C000006UP	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C000006UP	LTA>>LTA\Fundamental\Segmentation\Delta Yes
+0C000006UP	LTA>>LTA\Fundamental\FinancialStatements\Delta Yes
+0C000006UP	LTA>>LTA\Fundamental\OperationRatios\Delta Yes
+0C000006UP	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C000006UP	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C000006UP	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+0C000006UP	UKI>>UKI\Fundamental\OperationRatios\Delta Yes
+0C000006UP	UKI>>UKI\Fundamental\FinancialStatements\Delta Yes
+0C000006UP	UKI>>UKI\Fundamental\Segmentation\Delta Yes
+
+0C00000767	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000767	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000767	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000767	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000767	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000767	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C000007BZ	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C000007BZ	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C000007BZ	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C000007BZ	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C000007BZ	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C000007BZ	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C000007BZ	LTA>>LTA\Fundamental\Segmentation\Delta Yes
+0C000007BZ	LTA>>LTA\Fundamental\FinancialStatements\Delta Yes
+0C000007BZ	LTA>>LTA\Fundamental\OperationRatios\Delta Yes
+0C000007BZ	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C000007BZ	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C000007BZ	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C000007D1	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C000007D1	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C000007D1	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C000007D1	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C000008RC	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C000008RC	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C000008RC	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C000008RC	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C000008RC	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C000008RC	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C000008TY	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C000008TY	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C000008TY	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C000008UQ	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C000008UQ	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C000008UQ	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C000008UQ	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C000008UQ	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C000008UQ	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C000008UQ	LTA>>LTA\Fundamental\Segmentation\Delta Yes
+0C000008UQ	LTA>>LTA\Fundamental\FinancialStatements\Delta Yes
+0C000008UQ	LTA>>LTA\Fundamental\OperationRatios\Delta Yes
+0C000008UQ	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C000008UQ	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C000008UQ	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+0C000008UQ	UKI>>UKI\Fundamental\OperationRatios\Delta Yes
+0C000008UQ	UKI>>UKI\Fundamental\FinancialStatements\Delta Yes
+0C000008UQ	UKI>>UKI\Fundamental\Segmentation\Delta Yes
+
+0C0000099W	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C0000099W	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C0000099W	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C0000099W	LTA>>LTA\Fundamental\Segmentation\Delta Yes
+0C0000099W	LTA>>LTA\Fundamental\FinancialStatements\Delta Yes
+0C0000099W	LTA>>LTA\Fundamental\OperationRatios\Delta Yes
+0C0000099W	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C0000099W	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C0000099W	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+0C0000099W	UKI>>UKI\Fundamental\OperationRatios\Delta Yes
+0C0000099W	UKI>>UKI\Fundamental\FinancialStatements\Delta Yes
+0C0000099W	UKI>>UKI\Fundamental\Segmentation\Delta Yes
+
+0C00000BR6	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000BR6	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000BR6	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000C5Z	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000C5Z	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000C5Z	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000C5Z	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000C5Z	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000C5Z	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000CFR	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00000CFR	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00000CFR	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00000CFR	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000CFR	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000CFR	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000CFR	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000CFR	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000CFR	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000CKJ	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000CKJ	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000CKJ	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000CKJ	LTA>>LTA\Fundamental\Segmentation\Delta Yes
+0C00000CKJ	LTA>>LTA\Fundamental\FinancialStatements\Delta Yes
+0C00000CKJ	LTA>>LTA\Fundamental\OperationRatios\Delta Yes
+0C00000CKJ	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000CKJ	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000CKJ	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000D8B	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00000D8B	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00000D8B	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00000D8B	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000D8B	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000D8B	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000D8B	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000D8B	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000D8B	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000I6L	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000I6L	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000I6L	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000I6L	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000I6L	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000I6L	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000IEW	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000IEW	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000IEW	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000IEW	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000IEW	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000IEW	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000V3K	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00000V3K	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00000V3K	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00000V3K	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000V3K	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000V3K	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000V3K	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000V3K	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000V3K	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000V4I	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00000V4I	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00000V4I	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00000V4I	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000V4I	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000V4I	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000V4I	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000V4I	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000V4I	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000WVL	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00000WVL	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00000WVL	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00000WVL	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000WVL	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000WVL	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000WVL	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000WVL	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000WVL	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000X7E	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000X7E	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000X7E	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000X7E	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+0C00000X7E	UKI>>UKI\Fundamental\OperationRatios\Delta Yes
+0C00000X7E	UKI>>UKI\Fundamental\FinancialStatements\Delta Yes
+
+0C00000X84	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00000X84	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00000X84	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00000X84	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000X84	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000X84	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000X84	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000X84	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000X84	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000XUV	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00000XUV	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00000XUV	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00000XUV	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000XUV	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000XUV	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000Y0Y	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00000Y0Y	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00000Y0Y	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00000Y0Y	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000Y0Y	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000Y0Y	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000Y0Y	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000Y0Y	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000Y0Y	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000Y1U	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00000Y1U	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00000Y1U	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00000Y1U	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000Y1U	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000Y1U	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000Y1U	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000Y1U	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000Y1U	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00000Y8P	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00000Y8P	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00000Y8P	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00000Y8P	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00000Y8P	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00000Y8P	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00000Y8P	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00000Y8P	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00000Y8P	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C000014EI	UKI>>UKI\Fundamental\OperationRatios\Delta Yes
+0C000014EI	UKI>>UKI\Fundamental\FinancialStatements\Delta Yes
+0C000014EI	UKI>>UKI\Fundamental\Segmentation\Delta Yes
+
+0C000014HI	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C000014HI	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C000014HI	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+
+0C00001591	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00001591	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00001591	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00001591	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00001591	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00001591	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00001591	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00001591	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00001591	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+0C00001591	UKI>>UKI\Fundamental\OperationRatios\Delta Yes
+0C00001591	UKI>>UKI\Fundamental\FinancialStatements\Delta Yes
+0C00001591	UKI>>UKI\Fundamental\Segmentation\Delta Yes
+
+0C000015CJ	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C000015CJ	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C000015CJ	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C000015CJ	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C000015CJ	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C000015CJ	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+
+0C000015CP	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C000015CP	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C000015CP	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C000015CP	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C000015CP	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C000015CP	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C000015CP	LTA>>LTA\Fundamental\Segmentation\Delta Yes
+0C000015CP	LTA>>LTA\Fundamental\FinancialStatements\Delta Yes
+0C000015CP	LTA>>LTA\Fundamental\OperationRatios\Delta Yes
+0C000015CP	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C000015CP	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C000015CP	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+0C000015CP	UKI>>UKI\Fundamental\OperationRatios\Delta Yes
+0C000015CP	UKI>>UKI\Fundamental\FinancialStatements\Delta Yes
+0C000015CP	UKI>>UKI\Fundamental\Segmentation\Delta Yes
+
+0C000015FS	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C000015FS	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C000015FS	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C000015FS	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C000015FS	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C000015FS	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00001J35	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00001J35	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00001J35	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00001J35	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00001V0U	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00001V0U	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+
+0C00002BB1	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00002BB1	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00002BB1	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+
+0C00003BIC	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00003BIC	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00003BIC	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+
+0C00003BLO	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00003BLO	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00003BLO	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00003BLO	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00003BLO	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00003BLO	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00003BNC	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00003BNC	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00003BNC	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00003BNC	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00003BNC	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00003BNC	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00004HU6	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00004I9L	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00004I9L	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00004I9L	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00004I9L	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00004I9L	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00004I9L	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00004I9L	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00004I9L	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00004I9L	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00004I9U	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00004I9U	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00004I9U	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00004I9U	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00004I9U	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00004I9U	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00004I9U	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00004I9U	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00004I9U	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00008EZD	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00008EZD	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00008EZD	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00008F4K	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00008F4K	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00008F4K	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00008F4K	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00008F4K	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00008F4K	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00008UBL	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00008UBL	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00008UBL	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00008UBL	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00008UBL	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00008UBL	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00008UBL	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00008UBL	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00008UBL	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00008W6Z	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00008W6Z	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00008W6Z	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00008W6Z	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00008W6Z	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00008W6Z	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C00009T8Q	ASP>>ASP\Fundamental\FinancialStatements\Delta Yes
+0C00009T8Q	ASP>>ASP\Fundamental\Segmentation\Delta Yes
+0C00009T8Q	ASP>>ASP\Fundamental\OperationRatios\Delta Yes
+0C00009T8Q	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C00009T8Q	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C00009T8Q	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C00009T8Q	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C00009T8Q	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C00009T8Q	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C0000AL9V	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C0000AL9V	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C0000AL9V	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C0000AL9V	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C0000AL9V	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C0000AL9V	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C0000AXYU	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C0000AXYU	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C0000AXYU	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C0000AXYU	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C0000AXYU	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C0000AXYU	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C0000B0RO	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C0000B0RO	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C0000B0RO	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C0000B0RO	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C0000B0RO	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C0000B0RO	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes
+
+0C0000B1NS	EUR>>EUR\Fundamental\FinancialStatements\Delta Yes
+0C0000B1NS	EUR>>EUR\Fundamental\OperationRatios\Delta Yes
+0C0000B1NS	EUR>>EUR\Fundamental\Segmentation\Delta Yes
+0C0000B1NS	NRA>>NRA\Fundamental\OperationRatios\Delta Yes
+0C0000B1NS	NRA>>NRA\Fundamental\Segmentation\Delta Yes
+0C0000B1NS	NRA>>NRA\Fundamental\FinancialStatements\Delta Yes

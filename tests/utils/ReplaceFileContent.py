@@ -59,13 +59,38 @@ class ReplaceFileContent:
         self.getAllFiles2()
         for f in self.file_paths:
             self.replaceContent(f)
+        print("Replace Done")
 
 
 R = ReplaceFileContent()
-R.setRoot("D:\Work\SourceTree\GEDF\ge-gedf-old\EquityDataFeed\JobCommands\GTR")
-R.setStrOld("morningstar.com\shares\GeDataFeed\GeDataFeed\Deadwood /OutputDir=D:\GEDataFeed\Outputs\Deadwood")
-R.setStrNew("morningstar.com\shares\GeDataFeed\GeDataFeed\GTR\Deadwood /OutputDir=D:\GEDataFeed\Outputs\GTR\Deadwood")
+R.setRoot("D:\QA\GEDF\GEDataFeed-master\TestCase-4892")
+
+R.setStrNew(r"/ZipFilesDir=D:\QA\GEDF\GEDataFeed-master\GEDF\MOCAL4892")
+R.setStrOld(r"/ZipFilesDir=D:\QA\GEDF\GeDataFeed-master\GEDF")
 R.replaceAllFileContent()
+
+R.setStrOld(r"D:\GEDataFeed\GeDataFeed_Monthly\bin\EquityDataFeed.exe")
+R.setStrNew(r"D:\QA\GEDF\GeDataFeed-MOCAL4892\GeDataFeed_Monthly\bin\EquityDataFeed.exe")
+R.replaceAllFileContent()
+
+R.setStrOld(r"D:\GEDataFeed\GeDataFeed_Delta\bin\EquityDataFeed.exe")
+R.setStrNew(r"D:\QA\GEDF\GeDataFeed-MOCAL4892\GeDataFeed_Delta\bin\EquityDataFeed.exe")
+R.replaceAllFileContent()
+
+R.setStrOld(r"/ZipFilesDir=\\morningstar.com\shares\GeDataFeed\GeDataFeed")
+R.setStrNew(r"/ZipFilesDir=D:\QA\GEDF\GeDataFeed-MOCAL4892\GEDF")
+R.replaceAllFileContent()
+
+R.setStrOld(r"/TargetFileDate=%1")
+R.setStrNew(r"/TargetFileDate=2018-03-22")
+R.replaceAllFileContent()
+
+
+
+# R.setStrOld(r"/ZipFilesDir=\\morningstar.com\shares\GeDataFeed\GeDataFeed")
+# R.setStrNew(r"/ZipFilesDir=D:\QA\GEDF\GeDataFeed-MOCAL4936\GEDF")
+# R.replaceAllFileContent()
+
 
 
 

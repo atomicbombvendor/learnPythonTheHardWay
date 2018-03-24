@@ -176,9 +176,12 @@ class Test:
         return sd - sl, sl - sd
 
     # 将不同写入文件
+    # old, new比较的结果
+    # path 存放结果的文件夹路径
+    # 存放结果的文件名 old_result_file, new_result_file
     def write_file(self, old, new, path, old_result_file, new_result_file):
         if not os.path.exists(path):
-            os.mkdir(path)
+            os.makedirs(path)  # 创建级联目录
         with codecs.open(old_result_file, 'w', 'utf-8') as fnl:
             for line in list(old):
                 fnl.write(str(line)+"\r\n")
@@ -208,7 +211,8 @@ if __name__ == '__main__':
     # MOCAL4722_DOW30_Restate = "MOCAL4722_DOW30_Restate"
     # MOCAL4722_FTSE100_AOR = "MOCAL4722_FTSE100_AOR"
     # MOCAL4722_FTSE100_Restate = "MOCAL4722_FTSE100_Restate"
-    file_section = "MOCAL4807_Delta_IPM_EarningReport_AOR"
+    file_section = "MOCAL4892_Delta_NRA_FinancialStatements_AOR"
+    print "Compare File >>>", file_section
     T = Test(file_section)
     T.test()
 

@@ -4,6 +4,10 @@ from Test.Exoi.EXOIImpl.EXOIEarningGrowth import EXOIEarningGrowth
 from Test.Exoi.EXOIImpl.EXOIValuationRatios import EXOIValuationRatios
 from Test.Exoi.EXOIImpl.EXOIOperationRatios import EXOIOperationRatios
 from Test.Exoi.EXOIImpl.EXOIEarningReport import EXOIEarningReport
+from Test.Exoi.EXOIImpl.EXOIEarningReportGTR import EXOIEarningReportGTR
+from Test.Exoi.EXOIImpl.EXOIFinancialStatementGTR import EXOIFinancialStatementGTR
+
+
 
 class EXOITypeFactory:
 
@@ -23,7 +27,9 @@ class EXOITypeFactory:
             'EarningGrowth': EXOIEarningGrowth,
             'ValuationRatios': EXOIValuationRatios,
             'OperationRatios': EXOIOperationRatios,
-            'EXOIEarningReport': EXOIEarningReport
+            'EXOIEarningReport': EXOIEarningReport,
+            'EXOIEarningReportGTR': EXOIEarningReportGTR,
+            'EXOIFinancialStatementGTR': EXOIFinancialStatementGTR,
         }
         if class_name[content]:
             return class_name[content]()

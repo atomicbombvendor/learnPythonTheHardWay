@@ -1,20 +1,20 @@
     <Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -29,21 +29,21 @@
 
     <Message>
 		<Id>0C00003E83</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003E83</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003E83</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -58,21 +58,21 @@
 
     <Message>
 		<Id>0C00000BRM</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000BRM</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000BRM</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -87,21 +87,21 @@
 
     <Message>
 		<Id>0C00000O61</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000O61</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000O61</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -116,21 +116,21 @@
 
     <Message>
 		<Id>0C00000IN1</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000IN1</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000IN1</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -145,21 +145,21 @@
 
     <Message>
 		<Id>0C00000MH5</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000MH5</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000MH5</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -174,21 +174,21 @@
 
     <Message>
 		<Id>0C00003E8D</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003E8D</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003E8D</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -203,21 +203,21 @@
 
     <Message>
 		<Id>0C00003E8N</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003E8N</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003E8N</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -232,21 +232,21 @@
 
     <Message>
 		<Id>0C00003CS8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003CS8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003CS8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -261,21 +261,21 @@
 
     <Message>
 		<Id>0C000095QN</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000095QN</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000095QN</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -290,21 +290,21 @@
 
     <Message>
 		<Id>0C00006IMT</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006IMT</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006IMT</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -319,21 +319,21 @@
 
     <Message>
 		<Id>0C00006IKJ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006IKJ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006IKJ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -348,21 +348,21 @@
 
     <Message>
 		<Id>0C00006IKL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006IKL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006IKL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -377,21 +377,21 @@
 
     <Message>
 		<Id>0C00001BL6</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00001BL6</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00001BL6</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -406,21 +406,21 @@
 
     <Message>
 		<Id>0C00008EPH</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008EPH</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008EPH</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -435,21 +435,21 @@
 
     <Message>
 		<Id>0C00008EXV</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008EXV</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008EXV</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -464,21 +464,21 @@
 
     <Message>
 		<Id>0C00006JXO</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JXO</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JXO</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -493,21 +493,21 @@
 
     <Message>
 		<Id>0C000069QZ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000069QZ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000069QZ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -522,21 +522,21 @@
 
     <Message>
 		<Id>0C00006JDB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JDB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JDB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -551,21 +551,21 @@
 
     <Message>
 		<Id>0C0000B20O</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000B20O</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000B20O</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -580,21 +580,21 @@
 
     <Message>
 		<Id>0C00002BN8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BN8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BN8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -609,21 +609,21 @@
 
     <Message>
 		<Id>0C00002BN8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BN8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BN8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -638,21 +638,21 @@
 
     <Message>
 		<Id>0C00002BQB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BQB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BQB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -667,21 +667,21 @@
 
     <Message>
 		<Id>0C00002BQB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BQB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BQB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -696,21 +696,21 @@
 
     <Message>
 		<Id>0C000037T6</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000037T6</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000037T6</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -725,21 +725,21 @@
 
     <Message>
 		<Id>0C00003FI4</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003FI4</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003FI4</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -754,21 +754,21 @@
 
     <Message>
 		<Id>0C00003FI5</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003FI5</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003FI5</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -783,21 +783,21 @@
 
     <Message>
 		<Id>0C00003BIZ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003BIZ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003BIZ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -812,21 +812,21 @@
 
     <Message>
 		<Id>0C00006JBJ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JBJ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JBJ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -841,21 +841,21 @@
 
     <Message>
 		<Id>0C00003BHT</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003BHT</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003BHT</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -870,21 +870,21 @@
 
     <Message>
 		<Id>0P0000CMJ4</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0P0000CMJ4</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0P0000CMJ4</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -899,21 +899,21 @@
 
     <Message>
 		<Id>0C00002BQB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BQB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BQB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -928,21 +928,21 @@
 
     <Message>
 		<Id>0C0000071S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000071S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000071S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -957,21 +957,21 @@
 
     <Message>
 		<Id>0C0000070X</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070X</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070X</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -986,21 +986,21 @@
 
     <Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1015,21 +1015,21 @@
 
     <Message>
 		<Id>0C000006ZW</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000006ZW</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000006ZW</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1044,21 +1044,21 @@
 
     <Message>
 		<Id>0C000036GD</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000036GD</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000036GD</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1073,21 +1073,21 @@
 
     <Message>
 		<Id>0C000037TK</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000037TK</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000037TK</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1102,21 +1102,21 @@
 
     <Message>
 		<Id>0C00006JBJ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JBJ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JBJ</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1131,21 +1131,21 @@
 
     <Message>
 		<Id>0C00000K27</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000K27</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000K27</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1160,21 +1160,21 @@
 
     <Message>
 		<Id>0C00009U36</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00009U36</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00009U36</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1189,21 +1189,21 @@
 
     <Message>
 		<Id>0C00002XKA</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002XKA</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002XKA</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1218,21 +1218,21 @@
 
     <Message>
 		<Id>0C00006J8Z</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006J8Z</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006J8Z</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1247,21 +1247,21 @@
 
     <Message>
 		<Id>0C00006J8Z</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006J8Z</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006J8Z</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1276,21 +1276,21 @@
 
     <Message>
 		<Id>0C0000699C</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000699C</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000699C</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1305,21 +1305,21 @@
 
     <Message>
 		<Id>0C00006JJS</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JJS</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JJS</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1334,21 +1334,21 @@
 
     <Message>
 		<Id>0C00003AAY</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003AAY</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00003AAY</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1363,21 +1363,21 @@
 
     <Message>
 		<Id>0C00006JDE</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JDE</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00006JDE</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1392,21 +1392,21 @@
 
     <Message>
 		<Id>0C0000B20J</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000B20J</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000B20J</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1421,21 +1421,21 @@
 
     <Message>
 		<Id>0C0000B20V</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000B20V</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000B20V</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1450,21 +1450,21 @@
 
     <Message>
 		<Id>0C00000WS9</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000WS9</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000WS9</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1479,21 +1479,21 @@
 
     <Message>
 		<Id>0C00000WS7</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000WS7</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000WS7</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1508,21 +1508,21 @@
 
     <Message>
 		<Id>0C00000UK7</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000UK7</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000UK7</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1537,21 +1537,21 @@
 
     <Message>
 		<Id>0C00000WSB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000WSB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000WSB</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1566,21 +1566,21 @@
 
     <Message>
 		<Id>0C00000VM2</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000VM2</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000VM2</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1595,21 +1595,21 @@
 
     <Message>
 		<Id>0C00000VOS</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000VOS</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000VOS</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1624,21 +1624,21 @@
 
     <Message>
 		<Id>0C00000WTE</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000WTE</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000WTE</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1653,21 +1653,21 @@
 
     <Message>
 		<Id>0C00000X8O</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000X8O</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000X8O</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1682,21 +1682,21 @@
 
     <Message>
 		<Id>0C00000ICA</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000ICA</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000ICA</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1711,21 +1711,21 @@
 
     <Message>
 		<Id>0C00000XOX</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000XOX</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000XOX</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1740,21 +1740,21 @@
 
     <Message>
 		<Id>0C00002BN8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BN8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00002BN8</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1769,21 +1769,21 @@
 
     <Message>
 		<Id>0C0000071S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000071S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000071S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1798,21 +1798,21 @@
 
     <Message>
 		<Id>0C0000071S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000071S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000071S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1827,21 +1827,21 @@
 
     <Message>
 		<Id>0C0000070X</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070X</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070X</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1856,21 +1856,21 @@
 
     <Message>
 		<Id>0C0000070X</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070X</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070X</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1885,21 +1885,21 @@
 
     <Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1914,21 +1914,21 @@
 
     <Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C0000070W</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1943,21 +1943,21 @@
 
     <Message>
 		<Id>0C000006ZW</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000006ZW</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000006ZW</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -1972,21 +1972,21 @@
 
     <Message>
 		<Id>0C000036AC</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000036AC</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000036AC</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2001,21 +2001,21 @@
 
     <Message>
 		<Id>0C000036AD</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000036AD</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000036AD</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2030,21 +2030,21 @@
 
     <Message>
 		<Id>0C00004HTL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00004HTL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00004HTL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2059,21 +2059,21 @@
 
     <Message>
 		<Id>0C000055ID</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000055ID</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000055ID</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2088,21 +2088,21 @@
 
     <Message>
 		<Id>0C000012RL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000012RL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C000012RL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2117,21 +2117,21 @@
 
     <Message>
 		<Id>0C00004ZHR</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00004ZHR</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00004ZHR</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2146,21 +2146,21 @@
 
     <Message>
 		<Id>0C00008IWM</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008IWM</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008IWM</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2175,21 +2175,21 @@
 
     <Message>
 		<Id>0C00008KQY</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008KQY</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008KQY</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2204,21 +2204,21 @@
 
     <Message>
 		<Id>0C00008P0D</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008P0D</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008P0D</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2233,21 +2233,21 @@
 
     <Message>
 		<Id>0C00008TJK</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008TJK</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00008TJK</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2262,21 +2262,21 @@
 
     <Message>
 		<Id>0C00000E5S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000E5S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000E5S</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2291,21 +2291,21 @@
 
     <Message>
 		<Id>0C00000NRL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000NRL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000NRL</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
@@ -2320,21 +2320,21 @@
 
     <Message>
 		<Id>0C00000NRM</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000NRM</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>0C00000NRM</Id>
-		<IdType>EquityShareClassId</IdType>
+		<IdType>EquityCompanyId</IdType>
 		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>

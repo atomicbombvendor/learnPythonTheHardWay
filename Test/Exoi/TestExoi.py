@@ -58,8 +58,8 @@ class TestExoi:
 
 
 if __name__ == '__main__':
-    file_type = 'EXOIEarningReport'
-    MOCALFile_Section = 'EarningReport_Deadwood_AOR'
+    file_type = 'EXOIEarningReportGTR'
+    MOCALFile_Section = '4973_EarningReport_UKI_Restate'
     conf = ConfigParser.ConfigParser()
     conf.read('MOCAL_File_Config.ini')
     source_file = conf.get(MOCALFile_Section, 'source_file')

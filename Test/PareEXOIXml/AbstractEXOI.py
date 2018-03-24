@@ -16,6 +16,7 @@ class AbstractEXOI:
                            'DataOutput.aspx?package=%s&Content=%s&IdType=%s' \
                            '&Id=%s&ReportType=%s&Dates=%s'
         self.content = ''
+        self.full_url_param = {}
         self.headers = {
             'Accept': 'text/html,application/xhtml+xm…plication/xml;q=0.9,*/*;q=0.8',
             'Accept-Encoding': 'identity;q=1.0,compress;q=0.8,gzip;q=0.5, deflate;q=0.3,*;q=0',
@@ -29,9 +30,9 @@ class AbstractEXOI:
         }
 
     # 根据参数获取xml内容，并设置到self.content中
-    def get_content(self, param):
+    def get_content(self):
         try:
-            intact_url = self.construct_url(param)
+            intact_url = self.construct_full_url(self.full_url_param)
             cookie = cookielib.LWPCookieJar()
             cookie.load(self.cook_file_name, ignore_discard=True, ignore_expires=True)
             request = urllib2.Request(intact_url, None, self.headers)
@@ -68,12 +69,9 @@ class AbstractEXOI:
             print u'We failed to reach a server.'
             print u'Reason: ', e.reason
 
-    @abstractmethod
-    def check_value(self, line_value): pass
-
     # 解析line，找出拼接URL需要的参数
     @abstractmethod
-    def parse_line(self, line_value): pass
+    def construct_full_param(self, line_value): pass
     
     @abstractmethod
-    def construct_url(self, param): pass
+    def construct_full_url(self, param): pass
