@@ -1,0 +1,14 @@
+    <Message>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>OperationRatio</MessageType>
+		<Year>2017</Year>
+		<ReportType>A</ReportType>
+	</Message>
+    <Message>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>NewCompany</MessageType>
+		<Year>2017</Year>
+		<ReportType>A</ReportType>
+	</Message>

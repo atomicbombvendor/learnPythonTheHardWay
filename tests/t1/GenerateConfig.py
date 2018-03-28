@@ -70,10 +70,11 @@ def write_file(target, data):
     f.write(str(data) + '\r\n')  # \r\n为换行符
     f.close()
 
+# 使用Value_file文件内的CompanyId列表生成Msg的文件
 value_file = "ValueFile.txt"  # 这是配置文件用来填充占位符的
 values = []
 # distinct_companyId('CompanyId.txt', 'new_companyId.txt')
 # 读取msg.txt msg_shareClassId.txt new_companyId.txt文件的内容，生成GEDF msg文件
 # Generate_file(source_Monthly, config_Monthly)
-Generate_file('msg.txt', 'msg_companyId.txt')
+Generate_file('msgtempalte.txt', 'msg_shareClassId.txt')
 # Generate_file(source_DeadwoodMonthly, config_DeadwoodMonthly)

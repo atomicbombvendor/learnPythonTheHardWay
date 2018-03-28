@@ -1,4 +1,8 @@
 import os
+import re
+import zipfile
+
+import sys
 
 root = "D:\QA\GEDF\GeDataFeed-MOCAL4936\GEDF\\"
 folder = [
@@ -138,3 +142,4 @@ for r in region:
         path = root2 + f.replace("@Region@", r)
         if not os.path.exists(path):
             print path
+

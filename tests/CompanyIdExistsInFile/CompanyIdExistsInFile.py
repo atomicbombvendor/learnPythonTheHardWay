@@ -240,7 +240,7 @@ class FindTest:
     # 从Zip文件解析出所有的CompanyId
     def read_id_from_zip(self, file):
         zfile = zipfile.ZipFile(file, 'r')
-        pattern = r"(0C[0-9A-Za-z]{8})"
+        pattern = r"(0C[0-9A-Za-z]{8}|0P[0-9A-Za-z]{8})"
         data = []
         for filename in zfile.namelist():
             match = re.search(pattern, filename)
@@ -281,10 +281,45 @@ class FindTest:
                     result += "%s>>%s%s\r\n" % (val, self.real_root, key)
         return result
 
-find = FindTest()
-find.start_read_id()
-result = find.check_CompanyId_under_region()
-print result
-f = codecs.open("result.dat", "w", "utf-8")
+# find = FindTest()
+# find.start_read_id()
+# result = find.check_CompanyId_under_region()
+# print result
+# f = codecs.open("result.dat", "w", "utf-8")
+# f.write(result)
+# f.close()
+
+# 打印出每个Region\FileType\文件中的Id列表
+region = {
+    # "ASP",
+    # "EUR",
+    # "LTA",
+    # "NRA",
+    # "UKI"
+
+    "NRA"
+}
+
+fileType = {
+    "EarningRatios",
+    "EarningReports",
+    "FinancialStatements",
+    "OperationRatios",
+    "Segmentation"
+}
+
+path = "D:\QA\GEDF\GEDataFeed-master\GEDF\GenerateFile\Delta\@Region@\Fundamental\@fileType@\Delta"
+result = ""
+ft = FindTest()
+for r in region:
+    for t in fileType:
+        dir = path.replace("@Region@", r).replace("@fileType@", t)
+
+        files = ft.get_all_file(dir)
+        for file in files:
+            result += "[%s_%s]\r\n" % (r, re.search("_([A-Za-z]+)_", file).group(1))
+            data = ft.read_id_from_zip(file)
+            result += "Ids=" + ",".join(data) + "\r\ncount=" + str(len(data)) + "\r\n\r\n"
+f = codecs.open("Save_ZipFile_Id_Num.ini", "w", "utf-8")
 f.write(result)
 f.close()
