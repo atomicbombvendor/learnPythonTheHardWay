@@ -1,14 +1,28 @@
     <Message>
 		<Id>@shareClassId@</Id>
 		<IdType>EquityCompanyId</IdType>
-		<MessageType>OperationRatio</MessageType>
+		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
-    <Message>
+	<Message>
 		<Id>@shareClassId@</Id>
 		<IdType>EquityCompanyId</IdType>
-		<MessageType>NewCompany</MessageType>
+		<MessageType>Fundamental</MessageType>
 		<Year>2017</Year>
-		<ReportType>A</ReportType>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>Fundamental</MessageType>
+		<Year>2017</Year>
+		<ReportType>R</ReportType>
+	</Message>
+	<Message>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityCompanyId</IdType>
+		<MessageType>Fundamental</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
 	</Message>

@@ -291,13 +291,17 @@ class FindTest:
 
 # 打印出每个Region\FileType\文件中的Id列表
 region = {
+    # "AFR",
     # "ASP",
+    # "ANZ",
     # "EUR",
+    # "IPM",
     # "LTA",
     # "NRA",
     # "UKI"
 
-    "NRA"
+    "NRA",
+    "EUR"
 }
 
 fileType = {

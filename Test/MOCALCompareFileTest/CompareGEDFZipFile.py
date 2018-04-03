@@ -211,13 +211,22 @@ if __name__ == '__main__':
     # MOCAL4722_DOW30_Restate = "MOCAL4722_DOW30_Restate"
     # MOCAL4722_FTSE100_AOR = "MOCAL4722_FTSE100_AOR"
     # MOCAL4722_FTSE100_Restate = "MOCAL4722_FTSE100_Restate"
-    file_section = "MOCAL4892_Delta_NRA_FinancialStatements_AOR"
-    print "Compare File >>>", file_section
-    T = Test(file_section)
-    T.test()
+    # file_section = "MOCAL4892_Delta_NRA_FinancialStatements_AOR"
+    # print "Compare File >>>", file_section
+    # T = Test(file_section)
+    # T.test()
 
     # 用来解析zip文件中的Id
     # file = "D:\QA\GEDF\GeDataFeed-MOCAL4937\GEDF\FTSE100\UKI\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsAOR_2018-2.zip"
     # data = T.read_id_from_zip(file)
     # print data
 
+    # 读取配置文件中的和某个关键字有关的Section
+    conf = ConfigParser.ConfigParser()
+    conf.read('MOCAL_File_Config.ini')
+    file_sections = conf.sections()
+    for section in file_sections:
+        if 'MOCAL4892' in section:
+            print "Compare File >>>", section
+            T = Test(section)
+            T.test()
