@@ -1,28 +1,56 @@
     <Message>
 		<Id>@shareClassId@</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>Fundamental</MessageType>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>NewShareClass</MessageType>
 		<Year>2017</Year>
 		<ReportType>A</ReportType>
 	</Message>
 	<Message>
 		<Id>@shareClassId@</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>Fundamental</MessageType>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>NewShareClass</MessageType>
 		<Year>2017</Year>
 		<ReportType>P</ReportType>
 	</Message>
 	<Message>
 		<Id>@shareClassId@</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>Fundamental</MessageType>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>NewShareClass</MessageType>
 		<Year>2017</Year>
 		<ReportType>R</ReportType>
 	</Message>
 	<Message>
 		<Id>@shareClassId@</Id>
-		<IdType>EquityCompanyId</IdType>
-		<MessageType>Fundamental</MessageType>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>NewShareClass</MessageType>
+		<Year>2017</Year>
+		<ReportType>TTM</ReportType>
+	</Message>
+	<Message>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>A</ReportType>
+	</Message>
+	<Message>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>P</ReportType>
+	</Message>
+	<Message>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
+		<Year>2017</Year>
+		<ReportType>R</ReportType>
+	</Message>
+	<Message>
+		<Id>@shareClassId@</Id>
+		<IdType>EquityShareClassId</IdType>
+		<MessageType>EarningReport</MessageType>
 		<Year>2017</Year>
 		<ReportType>TTM</ReportType>
 	</Message>

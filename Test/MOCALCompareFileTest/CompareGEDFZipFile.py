@@ -15,7 +15,7 @@ class Test:
 
         self.source_old = self.conf.get(sectionName, 'source_old')
         self.source_new = self.conf.get(sectionName, 'source_new')
-        self.result = self.conf.get(sectionName, 'result')
+        self.result = self.conf.get(sectionName, 'result') + "\\" + sectionName
          
         # region 以前的测试 折叠起来了
         # MOCAL 4204 UKI
@@ -180,6 +180,15 @@ class Test:
     # path 存放结果的文件夹路径
     # 存放结果的文件名 old_result_file, new_result_file
     def write_file(self, old, new, path, old_result_file, new_result_file):
+        if len(list(old)) > 0:
+            print("Old is not null ")
+        else:
+            print("Old is null ")
+        if len(list(new)) > 0:
+            print("new is not null ")
+        else:
+            print("new is null ")
+
         if not os.path.exists(path):
             os.makedirs(path)  # 创建级联目录
         with codecs.open(old_result_file, 'w', 'utf-8') as fnl:
@@ -203,30 +212,34 @@ class Test:
         diff_old, diff_new = self.compareFiles(set_old, set_new)
 
         self.write_file(diff_old, diff_new, self.result, result_old, result_new)
-        print "文件比对结束"
+        print "文件比对结束\r\n"
+
+    # 读取配置文件中的和某个关键字有关的Section, 然后比较所有的文件
+    @staticmethod
+    def batch_test(section_num_name):
+        conf = ConfigParser.ConfigParser()
+        conf.read('MOCAL_File_Config.ini')
+        file_sections = conf.sections()
+        for section in file_sections:
+            if section_num_name in section:
+                print "Start Compare File >>>", section
+                T = Test(section)
+                T.test()
+
+    # 读取配置文件中和section_name匹配的Section, 然后比较文件
+    @staticmethod
+    def single_test(section_name):
+        file_section = section_name
+        print "Compare File >>>", file_section
+        T = Test(file_section)
+        T.test()
 
 
 if __name__ == '__main__':
-    # MOCAL4722_DOW30_AOR = "MOCAL4722_DOW30_AOR"
-    # MOCAL4722_DOW30_Restate = "MOCAL4722_DOW30_Restate"
-    # MOCAL4722_FTSE100_AOR = "MOCAL4722_FTSE100_AOR"
-    # MOCAL4722_FTSE100_Restate = "MOCAL4722_FTSE100_Restate"
-    # file_section = "MOCAL4892_Delta_NRA_FinancialStatements_AOR"
-    # print "Compare File >>>", file_section
-    # T = Test(file_section)
-    # T.test()
-
     # 用来解析zip文件中的Id
     # file = "D:\QA\GEDF\GeDataFeed-MOCAL4937\GEDF\FTSE100\UKI\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsAOR_2018-2.zip"
     # data = T.read_id_from_zip(file)
     # print data
 
-    # 读取配置文件中的和某个关键字有关的Section
-    conf = ConfigParser.ConfigParser()
-    conf.read('MOCAL_File_Config.ini')
-    file_sections = conf.sections()
-    for section in file_sections:
-        if 'MOCAL4892' in section:
-            print "Compare File >>>", section
-            T = Test(section)
-            T.test()
+    Test.batch_test('MOCAL4169')
+

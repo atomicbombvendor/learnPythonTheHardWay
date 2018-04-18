@@ -37,7 +37,8 @@ class EXOIEarningReport(AbstractEXOI):
             29021: 'TotalDividendPerShare',
             28005: '@isFYC',
             29022: 'ReportedNormalizedBasicEPS',
-            29023: 'ReportedNormalizedDilutedEPS'
+            29023: 'ReportedNormalizedDilutedEPS',
+            29024: 'DividendCoverageRatio'
         }
 
         self.init_url = 'http://geexoidevap8002.morningstar.com/' \
@@ -51,7 +52,12 @@ class EXOIEarningReport(AbstractEXOI):
 
         # 使用xpath解析xml
         tree2 = etree.XML(self.content.encode('utf-8'))
-        path = ""
+
+        # 如果DataId节点不存在
+        if values['targetNode'] is None:
+            print("没有找到与%s对应的节点名" % line_value.split('|')[1])
+            return
+
         if "@" not in values['targetNode']:
             path = "/EarningReports[@shareClassId='"+values.get('shareClassId')\
                + "']/EarningReport[@asOf='"+values.get('asOf')+"' and @reportType='"\
@@ -100,7 +106,7 @@ class EXOIEarningReport(AbstractEXOI):
     # 解析line，找出拼接URL需要的参数
     def parse_line(self, line_value):
         param = {'Package': 'EquityData',
-                 'Content': 'EarningReportGTR',
+                 'Content': 'EarningReport',
                  'IdType': 'EquityShareClassId',
                  'Id': '',
                  'Dates': '',
