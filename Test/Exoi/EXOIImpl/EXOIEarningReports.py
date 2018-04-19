@@ -4,7 +4,7 @@ from lxml import etree
 import time
 
 
-class EXOIEarningReport(AbstractEXOI):
+class EXOIEarningReports(AbstractEXOI):
 
     def __init__(self):
         AbstractEXOI.__init__(self)

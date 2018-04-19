@@ -241,5 +241,5 @@ if __name__ == '__main__':
     # data = T.read_id_from_zip(file)
     # print data
 
-    Test.batch_test('MOCAL4169')
+    Test.batch_test('MOCAL4892')
 

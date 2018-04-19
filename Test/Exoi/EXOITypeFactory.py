@@ -1,12 +1,12 @@
 # coding=utf-8
 from Test.Exoi.EXOIImpl.EXOITypeUKMajor import EXOITypeUKMajor
-from Test.Exoi.EXOIImpl.EXOIEarningGrowth import EXOIEarningGrowth
+from Test.Exoi.EXOIImpl.EXOIEarningGrowths import EXOIEarningGrowths
 from Test.Exoi.EXOIImpl.EXOIValuationRatios import EXOIValuationRatios
 from Test.Exoi.EXOIImpl.EXOIOperationRatios import EXOIOperationRatios
-from Test.Exoi.EXOIImpl.EXOIEarningReport import EXOIEarningReport
+from Test.Exoi.EXOIImpl.EXOIEarningReports import EXOIEarningReports
 from Test.Exoi.EXOIImpl.EXOIEarningReportGTR import EXOIEarningReportGTR
 from Test.Exoi.EXOIImpl.EXOIFinancialStatementGTR import EXOIFinancialStatementGTR
-from Test.Exoi.EXOIImpl.EXOIFinancialStatement import EXOIFinancialStatement
+from Test.Exoi.EXOIImpl.EXOIFinancialStatements import EXOIFinancialStatements
 
 
 class EXOITypeFactory:
@@ -15,13 +15,13 @@ class EXOITypeFactory:
         class_name = {
             # 返回类名
             'UKMajorShareholderTransactions': EXOITypeUKMajor,
-            'EarningGrowth': EXOIEarningGrowth,
+            'EarningGrowths': EXOIEarningGrowths,
             'ValuationRatios': EXOIValuationRatios,
             'OperationRatios': EXOIOperationRatios,
-            'EXOIEarningReport': EXOIEarningReport,
-            'EXOIEarningReportGTR': EXOIEarningReportGTR,
-            'EXOIFinancialStatementGTR': EXOIFinancialStatementGTR,
-            'EXOIFinancialStatement': EXOIFinancialStatement
+            'EarningReports': EXOIEarningReports,
+            'EarningReportGTR': EXOIEarningReportGTR,
+            'FinancialStatementGTR': EXOIFinancialStatementGTR,
+            'FinancialStatements': EXOIFinancialStatements
         }
         if class_name[content]:
             return class_name[content]()
