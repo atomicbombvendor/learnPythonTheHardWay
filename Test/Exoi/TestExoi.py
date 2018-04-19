@@ -59,8 +59,8 @@ class TestExoi:
 
 # 比较source_file中的每一行记录,把不匹配的记录记录在target_file文件中.
 if __name__ == '__main__':
-    file_type = 'EXOIEarningReport'
-    MOCALFile_Section = 'MOCAL4169_Deadwood_EUR_EarningReports_AOR'
+    file_type = 'EXOIFinancialStatement'
+    MOCALFile_Section = 'Test_Delta_FinancialStatement_AOR'
     conf = ConfigParser.ConfigParser()
     conf.read('MOCAL_File_Config.ini')
     source_file = conf.get(MOCALFile_Section, 'source_file')

@@ -6,21 +6,12 @@ from Test.Exoi.EXOIImpl.EXOIOperationRatios import EXOIOperationRatios
 from Test.Exoi.EXOIImpl.EXOIEarningReport import EXOIEarningReport
 from Test.Exoi.EXOIImpl.EXOIEarningReportGTR import EXOIEarningReportGTR
 from Test.Exoi.EXOIImpl.EXOIFinancialStatementGTR import EXOIFinancialStatementGTR
-
+from Test.Exoi.EXOIImpl.EXOIFinancialStatement import EXOIFinancialStatement
 
 
 class EXOITypeFactory:
 
     def get_Exoi_Type(self, content):
-        # map_ = {
-        #     # 这里初始化map的时候，会初始化对象两次。所以会登录
-        #     'UKMajorShareholderTransactions': EXOITypeUKMajor(),
-        #     'EarningGrowth': EXOIEarningGrowth(),
-        #     'ValuationRatios': EXOIValuationRatios(),
-        #     'OperationRatios': EXOIOperationRatios(),
-        #     'EXOIEarningReport': EXOIEarningReport()
-        # }
-
         class_name = {
             # 返回类名
             'UKMajorShareholderTransactions': EXOITypeUKMajor,
@@ -30,6 +21,7 @@ class EXOITypeFactory:
             'EXOIEarningReport': EXOIEarningReport,
             'EXOIEarningReportGTR': EXOIEarningReportGTR,
             'EXOIFinancialStatementGTR': EXOIFinancialStatementGTR,
+            'EXOIFinancialStatement': EXOIFinancialStatement
         }
         if class_name[content]:
             return class_name[content]()
