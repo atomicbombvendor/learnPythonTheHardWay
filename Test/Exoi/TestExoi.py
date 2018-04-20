@@ -1,7 +1,9 @@
 # coding=utf-8
-import codecs
 import ConfigParser
+import codecs
 from multiprocessing import cpu_count, Pool
+
+from Test import myglobal
 from Test.Exoi.EXOITypeFactory import EXOITypeFactory
 
 
@@ -9,6 +11,7 @@ class TestExoi:
 
     # 每次处理一个文件是，type和参数都是一样的（需要把Date的范围扩到最大）
     def __init__(self, file_type_):
+        self.log_exoi = myglobal.get_logger()
         self.exoi_type = EXOITypeFactory().get_Exoi_Type(file_type_)
         # self.exoi_type.get_content(file_param)
         self.not_match = []
@@ -21,10 +24,10 @@ class TestExoi:
         self.exoi_type.get_content(file_param)
         flag = self.exoi_type.check_value(line)
         if not flag:
-            print u"节点不匹配 %s\n" % line
+            self.log_exoi.info(u"节点不匹配 %s\n" % line)
             self.not_match.append(line)
         else:
-            print u"找到了节点了 %s\n" % line
+            self.log_exoi.info(u"找到了节点了 %s\n" % line)
             self.do_match.append(line)
         return flag
 
@@ -32,7 +35,7 @@ class TestExoi:
 
     # 读取文件，从文件中解析xml中的每一行
     def check_file(self, source_path, result_path):
-        print("Start check file: {0}".format(source_path))
+        self.log_exoi.info("Start check file: {0}".format(source_path))
         all_node_exists = True
         result = []
         file_object = codecs.open(source_path, 'r')
@@ -45,7 +48,7 @@ class TestExoi:
             self.write_file(result_path, result)
 
             if not all_node_exists:
-                print "不是所有的节点都可以找到"
+                self.log_exoi.info("不是所有的节点都可以找到")
 
         finally:
             file_object.close()
@@ -90,20 +93,22 @@ def batch_test(section_input):
         if section_input in section:
             source_file = conf.get(section, 'source_file')
             target_file = conf.get(section, 'target_file')
-            print "Verify File ***********" + section
+            log_exoi2.info("Verify File ***********" + section)
             test.check_file(source_file, target_file)
 
 
 # 读取配置文件中和section_name匹配的Section, 然后比较文件
 # 只能比较一个具体的文件
 def single_test(section_input):
+    myglobal._init()
+    log_exoi2 = myglobal.get_logger()  # 主进程与子进程是并发执行的，进程之间默认是不能共享全局变量的
     fileType = get_file_types(section_input)
     test = TestExoi(fileType)
     conf = ConfigParser.ConfigParser()
     conf.read('MOCAL_File_Config.ini')
     source_file = conf.get(section_input, 'source_file')
     target_file = conf.get(section_input, 'target_file')
-    print "Verify File ***********" + section_input
+    log_exoi2.info("Verify File ***********" + section_input)
     test.check_file(source_file, target_file)
 
 
@@ -119,9 +124,13 @@ def multi_process(target_section):
             pool.apply_async(single_test, args=(section_input,))
     pool.close()
     pool.join()
+    log_exoi2.info("All file process done")
 
 
 # 比较source_file中的每一行记录,把不匹配的记录记录在target_file文件中.
 if __name__ == '__main__':
-    target_section_para = 'MOCAL4169'
+    myglobal._init()
+    log_exoi2 = myglobal.get_logger()
+    target_section_para = 'MOCAL4892'
     multi_process(target_section_para)
+    # single_test("MOCAL4892_DOW30_NRA_FinancialStatements_AOR")

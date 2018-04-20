@@ -3,12 +3,15 @@ import cookielib
 import urllib
 import urllib2
 
+from Test.LogSingleton import LogSingleton
+
 
 class LoginExoi:
 
     def __init__(self):
+        self.log_exoi = LogSingleton().get_logger()
         self.login_url = 'http://gehomedevap8005.morningstar.com/login/login.aspx?RT=aHR0cDovL2dlZXhvaWRldmFwODAwMi5tb3JuaW5nc3Rhci5jb20vRGF0YU91dHB1dC5hc3B4P3BhY2thZ2U9RXF1aXR5RGF0YSZDb250ZW50PUZ1bmRhbWVudGFsJklkPTBDMDAwMDBBV1cmSWRUeXBlPUVxdWl0eUNvbXBhbnlJZCZSZXBvcnRUeXBlPVImRGF0ZXM9MjAxMQ=='
-        self.filename = 'cookie_exoi.txt'
+        self.cook_file_name = 'cookie_exoi.txt'
         self.login_headers = {
             'Accept': 'text/html,application/xhtml+xm…plication/xml;q=0.9,*/*;q=0.8',
             'Accept-Encoding': 'gzip, deflate',
@@ -31,7 +34,7 @@ class LoginExoi:
         }
 
         self.post_data = urllib.urlencode(self.post)
-        self.cookie = cookielib.LWPCookieJar(self.filename)
+        self.cookie = cookielib.LWPCookieJar(self.cook_file_name)
         self.cookie_handler = urllib2.HTTPCookieProcessor(self.cookie)
         self.opener = urllib2.build_opener(self.cookie_handler, urllib2.HTTPHandler)
 
@@ -45,9 +48,9 @@ class LoginExoi:
         # content = response.read().decode('utf-8')
         # 获取状态吗
         status = response.getcode()
-        self.cookie.save(ignore_discard=True, ignore_expires=True)
+        self.cookie.save(ignore_discard=False, ignore_expires=False)
         if status == 200:
-            print u"登录成功"
-            print self.cookie, '\n'
+           self.log_exoi.info(u"登录成功")
+           self.log_exoi.info(str(self.cookie) + '\n')
         else:
-            print u"登录失败\n"
+            self.log_exoi.info(u"登录失败\n")

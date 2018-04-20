@@ -1,15 +1,18 @@
 # coding=utf-8
 import cookielib
+import gzip
 import urllib2
 from abc import abstractmethod
 from io import BytesIO
-import gzip
+
 from ExoiLogin import LoginExoi
+from Test.LogSingleton import LogSingleton
 
 
 class AbstractEXOI:
 
     def __init__(self):
+        self.log_exoi = LogSingleton().get_logger()
         self.Login_Cookie = LoginExoi().get_cookie()
         self.cook_file_name = 'cookie_exoi.txt'
         self.content_url = 'http://geexoidevap8002.morningstar.com/' \
@@ -33,7 +36,7 @@ class AbstractEXOI:
         try:
             intact_url = self.construct_url(param)
             cookie = cookielib.LWPCookieJar()
-            cookie.load(self.cook_file_name, ignore_discard=True, ignore_expires=True)
+            cookie.load(self.cook_file_name, ignore_discard=False, ignore_expires=False)
             request = urllib2.Request(intact_url, None, self.headers)
             # 需要Header
             opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
@@ -48,25 +51,25 @@ class AbstractEXOI:
 
                 status = response.getcode()
                 if status == 200:
-                    print u"获取页面请求成功, url->\n%s" % intact_url
+                    self.log_exoi.info(u"获取页面请求成功, url->\n%s" % intact_url)
                 else:
-                    print u"获取页面请求失败, url->\n%s" % intact_url
+                    self.log_exoi.info(u"获取页面请求失败, url->\n%s" % intact_url)
                 self.content = resource
             except IOError, e:
                     if e.message.find('gzipped') > 0:
                         resource = content.decode('utf-8')  # 不是gzip的压缩方式
                         status = response.getcode()
                         if status == 200:
-                            print u"获取页面请求成功, url->\n%s" % intact_url
+                            self.log_exoi.info(u"获取页面请求成功, url->\n%s" % intact_url)
                         else:
-                            print u"获取页面请求失败, url->\n%s" % intact_url
+                            self.log_exoi.info(u"获取页面请求失败, url->\n%s" % intact_url)
                         self.content = resource
         except urllib2.HTTPError, e:
-            print u'The server couldn\'t fulfill the request'
-            print u'Error code: ', e.reason
+            self.log_exoi.error(u'The server couldn\'t fulfill the request')
+            self.log_exoi.error(u'Error code: ' + e.reason)
         except urllib2.URLError, e:
-            print u'We failed to reach a server.'
-            print u'Reason: ', e.reason
+            self.log_exoi.error(u'We failed to reach a server.')
+            self.log_exoi.error(u'Reason: ' + e.reason)
 
     @abstractmethod
     def check_value(self, line_value): pass

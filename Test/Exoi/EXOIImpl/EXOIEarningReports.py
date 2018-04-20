@@ -55,7 +55,7 @@ class EXOIEarningReports(AbstractEXOI):
 
         # 如果DataId节点不存在
         if values['targetNode'] is None:
-            print("没有找到与%s对应的节点名" % line_value.split('|')[1])
+            self.log_exoi.error("没有找到与%s对应的节点名" % line_value.split('|')[1])
             return
 
         if "@" not in values['targetNode']:

@@ -277,7 +277,11 @@ class EXOIFinancialStatements(AbstractEXOI):
             20002: '@fileDate',
             20003: '@accessionNumber',
             20004: '@formType',
-            28005: '@isFYC'
+            28005: '@isFYC',
+            20441: 'NormalizedPretaxIncome',
+            20442: 'ResearchAndDevelopmentExpensesSupplemental',
+            20443: 'DepreciationSupplemental',
+            20444: 'AmortizationSupplemental'
         }
 
         self.BalanceSheet_mapping = {
@@ -929,6 +933,10 @@ class EXOIFinancialStatements(AbstractEXOI):
 
         # 使用xpath解析xml
         tree2 = etree.XML(self.content.encode('utf-8'))
+
+        if values['targetNode'] == None:
+            self.log_exoi.error("{0}'s DataId {1} is not exists".format(line_value, line_value.split('|')[1]))
+            return
 
         # 这里要区分点的类型是IncomeStatement，CashFlow, BalanceSheet.
         if "@" not in values['targetNode']:
