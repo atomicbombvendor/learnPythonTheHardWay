@@ -3,7 +3,7 @@ import cookielib
 import urllib
 import urllib2
 
-from Test.LogSingleton import LogSingleton
+from ExoiTest.LogSingleton import LogSingleton
 
 
 class LoginExoi:

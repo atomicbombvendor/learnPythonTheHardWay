@@ -1,4 +1,4 @@
-from Test.LogSingleton import LogSingleton
+from ExoiTest.LogSingleton import LogSingleton
 
 global logger
 logger = LogSingleton().get_logger()
