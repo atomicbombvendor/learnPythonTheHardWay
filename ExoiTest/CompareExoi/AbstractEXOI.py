@@ -6,7 +6,7 @@ from abc import abstractmethod
 from io import BytesIO
 
 from ExoiLogin import LoginExoi
-from Test.LogSingleton import LogSingleton
+from ExoiTest.LogSingleton import LogSingleton
 
 
 class AbstractEXOI:

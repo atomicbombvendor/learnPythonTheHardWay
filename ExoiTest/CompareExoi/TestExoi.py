@@ -3,8 +3,8 @@ import ConfigParser
 import codecs
 from multiprocessing import cpu_count, Pool
 
-from Test import myglobal
-from Test.Exoi.EXOITypeFactory import EXOITypeFactory
+from ExoiTest import myglobal
+from ExoiTest.CompareExoi.EXOITypeFactory import EXOITypeFactory
 
 
 class TestExoi:
@@ -19,7 +19,7 @@ class TestExoi:
 
     # 判断每一行的数据是不是可以找到
     # 先把文件中的每一行转换为一个参数字典，在把字典和url对应起来。
-    def test(self, line):
+    def start_check_line(self, line):
         file_param = self.exoi_type.parse_line(line)
         self.exoi_type.get_content(file_param)
         flag = self.exoi_type.check_value(line)
@@ -41,7 +41,7 @@ class TestExoi:
         file_object = codecs.open(source_path, 'r')
         try:
             for line in file_object:
-                flag = self.test(line.strip("\n"))
+                flag = self.start_check_line(line.strip("\n"))
                 if not flag:
                     all_node_exists = False
                     result.append(line)
@@ -73,12 +73,18 @@ def get_file_types(section_inputs):
         'EarningReports',
         'EarningReportGTR',
         'FinancialStatementGTR',
-        'FinancialStatements'
+        'FinancialStatements',
+        'RealTime'
     }
 
+    file_type = None
     for type_r in file_types:
         if type_r in section_inputs:
-            return type_r
+            file_type = type_r
+    if file_type:
+        return file_type
+    else:
+        print("Can't find special file type for " + section_inputs)
 
 
 # 读取配置文件中的和某个关键字有关的Section, 然后比较所有的文件
@@ -128,9 +134,14 @@ def multi_process(target_section):
 
 
 # 比较source_file中的每一行记录,把不匹配的记录记录在target_file文件中.
+# 要做的几件检查:
+# 1. 如果是新的文件类型,需要保证节点名要出现在get_file_types方法中的列表;
+# 2. 如果是新的文件类型,需要保证EXOITypeFactory的工厂中有该文件类型;
+# 3. 如果是新添加的点,需要保证对应的Impl类中有新添加的点;
+# 4. 修改生成log文件的文件名
 if __name__ == '__main__':
     myglobal._init()
     log_exoi2 = myglobal.get_logger()
-    target_section_para = 'MOCAL4892'
+    target_section_para = 'MOCAL5058'
     multi_process(target_section_para)
     # single_test("MOCAL4892_DOW30_NRA_FinancialStatements_AOR")

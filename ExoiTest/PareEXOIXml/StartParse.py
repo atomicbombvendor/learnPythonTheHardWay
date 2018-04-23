@@ -1,7 +1,7 @@
 # coding=utf-8
 import codecs
 import ConfigParser
-from Test.PareEXOIXml.ParseFactory import *
+from ExoiTest.PareEXOIXml.ParseFactory import *
 
 
 class StartParse:

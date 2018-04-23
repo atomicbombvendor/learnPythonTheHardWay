@@ -1,5 +1,5 @@
 # coding=utf-8
-from Test.Exoi.AbstractEXOI import AbstractEXOI
+from ExoiTest.CompareExoi.AbstractEXOI import AbstractEXOI
 import xml.etree.ElementTree as ET
 from lxml import etree
 import time
