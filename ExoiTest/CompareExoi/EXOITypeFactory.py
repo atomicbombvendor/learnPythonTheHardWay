@@ -5,6 +5,7 @@ from ExoiTest.CompareExoi.EXOIImpl.EXOIEarningReportGTR import EXOIEarningReport
 from ExoiTest.CompareExoi.EXOIImpl.EXOIEarningReports import EXOIEarningReports
 from ExoiTest.CompareExoi.EXOIImpl.EXOIFinancialStatementGTR import EXOIFinancialStatementGTR
 from ExoiTest.CompareExoi.EXOIImpl.EXOIFinancialStatements import EXOIFinancialStatements
+from ExoiTest.CompareExoi.EXOIImpl.EXOIInsiderHolding import EXOIInsiderHolding
 from ExoiTest.CompareExoi.EXOIImpl.EXOIOperationRatios import EXOIOperationRatios
 from ExoiTest.CompareExoi.EXOIImpl.EXOITypeUKMajor import EXOITypeUKMajor
 from ExoiTest.CompareExoi.EXOIImpl.EXOIValuationRatios import EXOIValuationRatios
@@ -26,7 +27,8 @@ class EXOITypeFactory:
             'EarningReportGTR': EXOIEarningReportGTR,
             'FinancialStatementGTR': EXOIFinancialStatementGTR,
             'FinancialStatements': EXOIFinancialStatements,
-            'RealTime': EXOIRealTime
+            'RealTime': EXOIRealTime,
+            'InsiderHolding': EXOIInsiderHolding
         }
         if class_name[content]:
             return class_name[content]()

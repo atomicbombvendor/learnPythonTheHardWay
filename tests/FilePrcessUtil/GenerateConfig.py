@@ -2,6 +2,7 @@
 # 读取所有的国家列表，然后用配置文件组装
 import codecs
 
+
 # 从配置文件中读取所有需要用来填充msg文件的数据；列表封装
 def Get_Value():
     file_object = open(value_file, 'r')  # r,只读 w:写之前会清空文件的内容 a:追加的方式，在原本内容中继续写
@@ -69,6 +70,7 @@ def write_file(target, data):
     f = codecs.open(target, 'a', 'utf-8')  # w会清空原来的内容 a为追加
     f.write(str(data) + '\r\n')  # \r\n为换行符
     f.close()
+
 
 # 使用Value_file文件内的CompanyId列表生成Msg的文件
 value_file = "ValueFile.txt"  # 这是配置文件用来填充占位符的

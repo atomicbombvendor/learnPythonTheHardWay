@@ -6,6 +6,9 @@ import os
 # Root:根目录,获取此目录下的所有文件
 # str_old: 要替换的字符串
 # str_new: 新的字符串
+import re
+
+
 class ReplaceFileContent:
 
     def __init__(self):
@@ -61,40 +64,84 @@ class ReplaceFileContent:
             self.replaceContent(f)
             print("Replace " + f + " Done")
 
+    def replace_special(self):
+        self.getAllFiles2()
+        for f in self.file_paths:
+            self.replaceContent_special(f)
+            print("Replace " + f + " Done")
+
+    def replace_all_file_type(self, file_type):
+        self.getAllFiles2()
+        for f in self.file_paths:
+            if "Delta" not in f:
+                self.replace_file_type(f, file_type)
+                print("Replace " + f + " Done")
+            else:
+                pass
+
+    def replace_file_type(self, file, file_type):
+        ft = "/FileType=(.+?)/"
+
+        file_data = ""
+        with codecs.open(file, 'r', 'utf-8') as f:  # w会清空原来的内容 a为追加
+            for line in f.readlines():
+                s_old = re.search(ft, line, re.S).group(0)
+                s_new = ft.replace("(.+?)", file_type + " ")
+                file_data += line.replace(s_old, s_new)
+
+            self.writeFile(file, file_data)
+
+    # 替换文件的内容，全局的。
+    def replaceContent_special(self, file):
+        print("Start Replace " + file)
+        # /AppName=GeDataFeed_Delta 替换为 带有region的。
+        # /DeliveryRegions=AFR
+        deliveryRegion = "/DeliveryRegions=(\w+)"
+        appName = "(/AppName=GeDataFeed_Delta_(\w+)|/AppName=GEDataFeed_Delta_(\w+))"
+
+        file_data = ""
+        with codecs.open(file, 'r', 'utf-8') as f:  # w会清空原来的内容 a为追加
+            for line in f.readlines():
+                d = re.search(deliveryRegion, line, re.S).group(0).split("=")[1]
+                a = re.search(appName, line, re.S).group(0)
+                a_s = a.split("_")
+                str_new = a_s[0]+"_"+a_s[1]+"_"+d+"_"+a_s[2]
+                if d not in a:
+                    file_data += line.replace(a, str_new)
+
+            self.writeFile(file, file_data)
+
 
 R = ReplaceFileContent()
-R.setRoot("D:\QA\GEDF\GEDataFeed-master\TestCase-4169")
+R.setRoot("D:\QA\GEDF\GeDataFeed-MOCAL4724\TestCase\Daily")
 
-# R.setStrOld(r"/ZipFilesDir=D:\QA\GEDF\GeDataFeed-master\GEDF")
-# R.setStrNew(r"/ZipFilesDir=D:\QA\GEDF\GEDataFeed-master\GEDF\MOCAL4892")
+# exe
+# R.setStrOld("D:\GEDataFeed\GeDataFeed_Delta\\bin")
+# R.setStrNew("D:\QA\GEDF\GeDataFeed-master\GeDataFeed_Delta\\bin")
 # R.replaceAllFileContent()
 
-#monthly exe path
-R.setStrOld(r"D:\QA\GEDF\GeDataFeed-MOCAL4169\GeDataFeed_Monthly\bin\EquityDataFeed.exe")
-R.setStrNew(r"D:\QA\GEDF\GEDataFeed-master\GeDataFeed_Monthly\bin\EquityDataFeed.exe")
+R.setStrOld("D:\GEDataFeed\GeDataFeed_Daily\\bin")
+R.setStrNew("D:\QA\GEDF\GeDataFeed-MOCAL4724\GeDataFeed_Daily\\bin")
 R.replaceAllFileContent()
 
-# delta exe path
-R.setStrOld(r"D:\QA\GEDF\GeDataFeed-MOCAL4169\GeDataFeed_Delta\bin\EquityDataFeed.exe")
-R.setStrNew(r"D:\QA\GEDF\GEDataFeed-master\GeDataFeed_Delta\bin\EquityDataFeed.exe")
+# R.setStrOld("D:\GEDataFeed\GeDataFeed_Monthly\\bin")
+# R.setStrNew("D:\QA\GEDF\GeDataFeed-MOCAL4724\GeDataFeed_Monthly\\bin")
+# R.replaceAllFileContent()
+
+# zip file path
+R.setStrOld(r"/ZipFilesDir=\\morningstar.com\shares\GeDataFeed\GeDataFeed")
+R.setStrNew(r"/ZipFilesDir=D:\QA\GEDF\GeDataFeed-MOCAL4724\GEDF")
 R.replaceAllFileContent()
 
-# Zip folder
-R.setStrOld(r"/ZipFilesDir=D:\QA\GEDF\GeDataFeed-MOCAL4169\GEDF")
-R.setStrNew(r"/ZipFilesDir=D:\QA\GEDF\GEDataFeed-master\GEDF\MOCAL4169")
+# Output folder
+R.setStrOld(r"/OutputDir=D:\GEDataFeed\Outputs\Deadwood")
+R.setStrNew(r"/OutputDir=D:\QA\GEDF\GeDataFeed-MOCAL4724\Outputs\Deadwood")
 R.replaceAllFileContent()
 
 # target file date
 R.setStrOld(r"/TargetFileDate=%1")
-R.setStrNew(r"/TargetFileDate=2018-04-11")
+R.setStrNew(r"/TargetFileDate=2018-05-03")
 R.replaceAllFileContent()
 
-
-
-# R.setStrOld(r"/ZipFilesDir=\\morningstar.com\shares\GeDataFeed\GeDataFeed")
-# R.setStrNew(r"/ZipFilesDir=D:\QA\GEDF\GeDataFeed-MOCAL4936\GEDF")
-# R.replaceAllFileContent()
-
-
-
-
+# file type
+R.replace_all_file_type("CompanyReference_v2,SecurityReference_v2,CompanyReference_v3,SecurityReference_v3,CompanyReferenceDelta_v2,SecurityReferenceDelta_v2,CompanyReferenceDelta_v3,SecurityReferenceDelta_v3")

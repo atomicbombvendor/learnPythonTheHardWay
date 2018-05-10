@@ -74,7 +74,8 @@ def get_file_types(section_inputs):
         'EarningReportGTR',
         'FinancialStatementGTR',
         'FinancialStatements',
-        'RealTime'
+        'RealTime',
+        'InsiderHolding'
     }
 
     file_type = None
@@ -90,17 +91,12 @@ def get_file_types(section_inputs):
 # 读取配置文件中的和某个关键字有关的Section, 然后比较所有的文件
 # 这是单线程的版本, 多进程的版本,在multi_process
 def batch_test(section_input):
-    fileType = get_file_types(section_input)
-    test = TestExoi(fileType)
     conf = ConfigParser.ConfigParser()
     conf.read('MOCAL_File_Config.ini')
     file_sections = conf.sections()
     for section in file_sections:
         if section_input in section:
-            source_file = conf.get(section, 'source_file')
-            target_file = conf.get(section, 'target_file')
-            log_exoi2.info("Verify File ***********" + section)
-            test.check_file(source_file, target_file)
+            single_test(section)
 
 
 # 读取配置文件中和section_name匹配的Section, 然后比较文件
@@ -138,10 +134,11 @@ def multi_process(target_section):
 # 1. 如果是新的文件类型,需要保证节点名要出现在get_file_types方法中的列表;
 # 2. 如果是新的文件类型,需要保证EXOITypeFactory的工厂中有该文件类型;
 # 3. 如果是新添加的点,需要保证对应的Impl类中有新添加的点;
-# 4. 修改生成log文件的文件名
+# 4. 修改生成log文件的文件名 logconfig.conf
 if __name__ == '__main__':
     myglobal._init()
     log_exoi2 = myglobal.get_logger()
-    target_section_para = 'MOCAL5058'
-    multi_process(target_section_para)
-    # single_test("MOCAL4892_DOW30_NRA_FinancialStatements_AOR")
+    target_section_para = 'MOCAL5273'
+    # batch_test(target_section_para)
+    single_test("MOCAL5273_Delta_UKI_InsiderHolding")
+    single_test("MOCAL5273_Delta_NRA_InsiderHolding")

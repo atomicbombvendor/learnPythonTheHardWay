@@ -6,6 +6,9 @@ import zipfile
 import ConfigParser
 import os
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 class Test:
 
@@ -20,7 +23,7 @@ class Test:
         dataId_index_t = self.conf.get(sectionName, 'dataId_index')  # 用来确定DataId所在的位置, 默认为1
         self.dataId_index = int(dataId_index_t) if dataId_index_t else 1
 
-    # 读取压缩文件，返回压缩文件内的文件
+    # 读取压缩文件，返回压缩文件内的文件 gz
     def read_gz_file(self, file):
         if os.path.exists(file):
             with gzip.open(file, 'r') as pf:
@@ -136,5 +139,5 @@ if __name__ == '__main__':
     # data = T.read_id_from_zip(file)
     # print data
 
-    Test.batch_test('MOCAL5058')
+    Test.batch_test('MOCAL5273')
 
