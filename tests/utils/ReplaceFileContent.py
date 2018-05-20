@@ -113,20 +113,20 @@ class ReplaceFileContent:
 
 
 R = ReplaceFileContent()
-R.setRoot("D:\QA\GEDF\GeDataFeed-MOCAL4724\TestCase\Daily")
+R.setRoot("D:\QA\GEDF\GeDataFeed-MOCAL4724\TestCase\Monthly")
 
 # exe
 # R.setStrOld("D:\GEDataFeed\GeDataFeed_Delta\\bin")
 # R.setStrNew("D:\QA\GEDF\GeDataFeed-master\GeDataFeed_Delta\\bin")
 # R.replaceAllFileContent()
 
-R.setStrOld("D:\GEDataFeed\GeDataFeed_Daily\\bin")
-R.setStrNew("D:\QA\GEDF\GeDataFeed-MOCAL4724\GeDataFeed_Daily\\bin")
-R.replaceAllFileContent()
-
-# R.setStrOld("D:\GEDataFeed\GeDataFeed_Monthly\\bin")
-# R.setStrNew("D:\QA\GEDF\GeDataFeed-MOCAL4724\GeDataFeed_Monthly\\bin")
+# R.setStrOld("D:\GEDataFeed\GeDataFeed_Daily\\bin")
+# R.setStrNew("D:\QA\GEDF\GeDataFeed-MOCAL4724\GeDataFeed_Daily\\bin")
 # R.replaceAllFileContent()
+
+R.setStrOld("D:\GEDataFeed\GeDataFeed_Monthly\\bin")
+R.setStrNew("D:\QA\GEDF\GeDataFeed-MOCAL4724\GeDataFeed_Monthly\\bin")
+R.replaceAllFileContent()
 
 # zip file path
 R.setStrOld(r"/ZipFilesDir=\\morningstar.com\shares\GeDataFeed\GeDataFeed")
@@ -144,4 +144,4 @@ R.setStrNew(r"/TargetFileDate=2018-05-03")
 R.replaceAllFileContent()
 
 # file type
-R.replace_all_file_type("CompanyReference_v2,SecurityReference_v2,CompanyReference_v3,SecurityReference_v3,CompanyReferenceDelta_v2,SecurityReferenceDelta_v2,CompanyReferenceDelta_v3,SecurityReferenceDelta_v3")
+R.replace_all_file_type("CompanyReference,SecurityReference,CompanyReference_v2,SecurityReference_v2,CompanyReference_v3,SecurityReference_v3")

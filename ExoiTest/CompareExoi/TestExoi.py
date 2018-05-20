@@ -138,7 +138,8 @@ def multi_process(target_section):
 if __name__ == '__main__':
     myglobal._init()
     log_exoi2 = myglobal.get_logger()
-    target_section_para = 'MOCAL5273'
+    target_section_para = 'R180517'
     # batch_test(target_section_para)
-    single_test("MOCAL5273_Delta_UKI_InsiderHolding")
-    single_test("MOCAL5273_Delta_NRA_InsiderHolding")
+    multi_process(target_section_para)
+    # single_test("R180517_FTSE100_NRA_InsiderHolding")
+    # single_test("R180517_Dow30_NRA_InsiderHolding")
