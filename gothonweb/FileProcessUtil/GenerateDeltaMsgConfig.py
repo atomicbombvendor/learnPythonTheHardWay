@@ -12,7 +12,13 @@ def Get_Value():
 
 
 def Generate_file(source, target):
-    codecs.open(target, 'w', 'utf-8') # 清空文件
+    with codecs.open(target, 'w', 'utf-8') as t_f: # 清空文件
+        t_f.write(r'''<?xml version="1.0" encoding="utf-8"?>
+<MessageSet>
+    <ReferenceId>636119897950570000ZdVfqnNQ1T2magoD5uzH5A</ReferenceId>
+    <NumberofResults>2000</NumberofResults>
+''')
+
     Get_Value()  # 返回一个文件中的列表
     count = 0
     for val in values:
@@ -20,7 +26,10 @@ def Generate_file(source, target):
         count = count + 1
         content = Read_Replace_holder(source, tmp_val, count)
         write_file(target, content)
-    # codecs.open(target, 'a', 'utf-8') # 清空文件
+
+    with codecs.open(target, 'a', 'utf-8') as t_f:# 清空文件
+        t_f.write("</MessageSet>")
+
     print "生成Message文件完成"
 
 

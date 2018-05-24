@@ -9,7 +9,8 @@ class EXOIInsiderHolding(AbstractEXOI):
     def __init__(self):
         AbstractEXOI.__init__(self)
         self.value_mapping = {
-            44006: 'SharesPercentage'
+            44006: 'SharesPercentage',
+            44008: 'SharesPercentage'
         }
 
         self.init_url = 'http://geexoidevap8002.morningstar.com/' \

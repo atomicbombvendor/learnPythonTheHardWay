@@ -1,6 +1,7 @@
 # coding=utf-8
 import codecs
 import gzip
+import logging
 import re
 import zipfile
 import ConfigParser
@@ -10,17 +11,47 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+def getLogger(section_name):
+    log_filename = "d:/CompareGEDFZip_%s.log" % (section_name)
+    logger = logging.getLogger(__name__)
+    # filter = logging.Filter(__name__)
+    logger.setLevel(logging.DEBUG)
+    formatter = logging.Formatter('[%(levelname)s] %(message)s')
+
+    file_handler = logging.FileHandler(log_filename, mode='a')
+    file_handler.setLevel(logging.DEBUG)
+    file_handler.setFormatter(formatter)
+    # file_handler.addFilter(filter)
+
+    stream_handler = logging.StreamHandler()
+    stream_handler.setLevel(logging.DEBUG)
+    stream_handler.setFormatter(formatter)
+    # file_handler.addFilter(filter)
+
+    logger.addHandler(file_handler)
+    logger.addHandler(stream_handler)
+    return logger
+
 class Test:
 
     def __init__(self, sectionName):
 
+        self.logger = getLogger(sectionName)
         self.conf = ConfigParser.ConfigParser()
         self.conf.read('MOCAL_File_Config.ini')
 
-        self.source_master = self.conf.get(sectionName, 'source_master')
-        self.source_new_branch = self.conf.get(sectionName, 'source_new_branch')
-        self.result = self.conf.get(sectionName, 'result') + "\\" + sectionName
-        dataId_index_t = self.conf.get(sectionName, 'dataId_index')  # 用来确定DataId所在的位置, 默认为1
+        # self.source_master = self.conf.get(sectionName, 'source_master')
+        # self.source_new_branch = self.conf.get(sectionName, 'source_new_branch')
+        # self.result = self.conf.get(sectionName, 'result') + "\\" + sectionName
+        # dataId_index_t = self.conf.get(sectionName, 'dataId_index')  # 用来确定DataId所在的位置, 默认为1
+        # self.dataId_index = int(dataId_index_t) if dataId_index_t else 1
+
+    def init_param(self, section_name):
+        self.section_name = section_name
+        self.source_master = self.conf.get(section_name, 'source_master')
+        self.source_new_branch = self.conf.get(section_name, 'source_new_branch')
+        self.result = self.conf.get(section_name, 'result') + "\\" + section_name
+        dataId_index_t = self.conf.get(section_name, 'dataId_index')  # 用来确定DataId所在的位置, 默认为1
         self.dataId_index = int(dataId_index_t) if dataId_index_t else 1
 
     # 读取压缩文件，返回压缩文件内的文件 gz
@@ -30,7 +61,7 @@ class Test:
                 for line in pf:
                     yield line
         else:
-            print('the path [{}] is not exist!'.format(file))
+            self.logger.error('the path [{}] is not exist!'.format(file))
 
     def testZip(self, file):
         zfile = zipfile.ZipFile(file, 'r')
@@ -39,7 +70,8 @@ class Test:
             data += zfile.read(filename)
         return data
 
-    def read_id_from_zip(self, file):
+    @staticmethod
+    def read_id_from_zip(file):
         zfile = zipfile.ZipFile(file, 'r')
         pattern = r"(0P[0-9A-Za-z]{8}|0C[0-9A-Za-z]{8})"
         data = ''
@@ -70,15 +102,15 @@ class Test:
     # 存放结果的文件名 old_result_file, new_result_file
     def write_file(self, old, new, path, old_result_file, new_result_file):
         if len(list(old)) > 0:
-            print("Old is not null ")
-            print("DataIds in old>> " + " ".join(self.get_all_dataId(old)))
+            self.logger.info("Old is not null ")
+            self.logger.info("DataIds in old>> " + " ".join(self.get_all_dataId(old)))
         else:
-            print("Old is null ")
+            self.logger.info("Old is null ")
         if len(list(new)) > 0:
-            print("new is not null ")
-            print("DataIds in new>> " + " ".join(self.get_all_dataId(new)))
+            self.logger.info("new is not null ")
+            self.logger.info("DataIds in new>> " + " ".join(self.get_all_dataId(new)))
         else:
-            print("new is null ")
+            self.logger.info("new is null ")
 
         if not os.path.exists(path):
             os.makedirs(path)  # 创建级联目录
@@ -89,7 +121,9 @@ class Test:
             for line in list(new):
                 fnd.write(str(line)+"\r\n")
 
+    # 开始测试流程，主方法入口
     def test(self):
+        self.logger.info("Start Compare File >>> " + self.section_name)
         result_old = self.result + '\old_diff.dat'
         result_new = self.result + '\\new_diff.dat'
         file_data_old = self.testZip(self.source_master)
@@ -102,7 +136,7 @@ class Test:
         # diff_old是只在old中存在的； diff_new 是只在新文件中存在的
         diff_old, diff_new = self.compareFiles(set_old, set_new)
         self.write_file(diff_old, diff_new, self.result, result_old, result_new)
-        print "文件比对结束\r\n"
+        self.logger.info("文件比对结束\n")
 
     # 读取配置文件中的和某个关键字有关的Section, 然后比较所有的文件
     @staticmethod
@@ -110,19 +144,21 @@ class Test:
         conf = ConfigParser.ConfigParser()
         conf.read('MOCAL_File_Config.ini')
         file_sections = conf.sections()
+        test = Test(section_num_name)
         for section in file_sections:
             if section_num_name in section:
-                print "Start Compare File >>>", section
-                T = Test(section)
-                T.test()
+                # self.logger.info("Start Compare File >>> " + section)
+                test.init_param(section)
+                test.test()
 
     # 读取配置文件中和section_name匹配的Section, 然后比较文件
     @staticmethod
     def single_test(section_name):
         file_section = section_name
-        print "Compare File >>>", file_section
-        T = Test(file_section)
-        T.test()
+        # self.logger.info("Compare File >>> " + file_section)
+        test = Test(file_section)
+        test.init_param(section_name)
+        test.test()
 
     # 从得到的结果集中找到所有的DataId,用来查看比较文件中的DataId
     def get_all_dataId(self, set_r):
@@ -135,9 +171,10 @@ class Test:
 
 if __name__ == '__main__':
     # 用来解析zip文件中的Id
-    # file = "D:\QA\GEDF\GeDataFeed-MOCAL4937\GEDF\FTSE100\UKI\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsAOR_2018-2.zip"
-    # data = T.read_id_from_zip(file)
+    # file = "D:\QA\GEDF\MOCAL5267_Fin_EarReport\GEDF\NRA\Fundamental\FinancialStatements\Delta\Delta_FinancialStatementsAOR_2018-05-24.zip"
+    # data = Test.read_id_from_zip(file)
     # print data
 
-    Test.batch_test('R180517')
-
+    # Test.batch_test('MOCAL5280')
+    # Test.single_test("MOCAL5280_Deadwood_Monthly_UKI_OwnershipDetails")
+    Test.single_test("MOCAL5280_Deadwood_Monthly_NRA_OwnershipDetails")

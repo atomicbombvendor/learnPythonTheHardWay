@@ -3,6 +3,8 @@ import ConfigParser
 import codecs
 from multiprocessing import cpu_count, Pool
 
+from requests import codes
+
 from ExoiTest import myglobal
 from ExoiTest.CompareExoi.EXOITypeFactory import EXOITypeFactory
 
@@ -129,17 +131,33 @@ def multi_process(target_section):
     log_exoi2.info("All file process done")
 
 
+# 修改logger配置文件的内容
+def modify_log_file_name(file_name):
+    content = ""
+    log_file = "../resource/logconfig.conf"
+    with codecs.open(log_file, "r", "utf-8") as f:
+        for line in f:
+            if "log_file" in line:
+                content += "log_file = d:/exoi_%s_@time@.txt\r\n" % (file_name)
+            else:
+                content += line
+
+    with codecs.open(log_file, "wb", "utf-8") as f:
+        f.write(content)
+
+
 # 比较source_file中的每一行记录,把不匹配的记录记录在target_file文件中.
 # 要做的几件检查:
 # 1. 如果是新的文件类型,需要保证节点名要出现在get_file_types方法中的列表;
 # 2. 如果是新的文件类型,需要保证EXOITypeFactory的工厂中有该文件类型;
 # 3. 如果是新添加的点,需要保证对应的Impl类中有新添加的点;
-# 4. 修改生成log文件的文件名 logconfig.conf
 if __name__ == '__main__':
     myglobal._init()
     log_exoi2 = myglobal.get_logger()
-    target_section_para = 'R180517'
+    target_section_para = 'MOCAL5280'
+    modify_log_file_name(target_section_para)
     # batch_test(target_section_para)
-    multi_process(target_section_para)
-    # single_test("R180517_FTSE100_NRA_InsiderHolding")
+    # multi_process(target_section_para)
+    # single_test("MOCAL#5280_Deadwood_Monthly_NRA_InsiderHolding")
+    single_test("MOCAL#5280_Deadwood_Monthly_UKI_InsiderHolding")
     # single_test("R180517_Dow30_NRA_InsiderHolding")
