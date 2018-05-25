@@ -154,10 +154,9 @@ def modify_log_file_name(file_name):
 if __name__ == '__main__':
     myglobal._init()
     log_exoi2 = myglobal.get_logger()
-    target_section_para = 'MOCAL5280'
-    modify_log_file_name(target_section_para)
+    target_section_para = 'MOCAL5267'
+    modify_log_file_name(target_section_para)  # 修改logger配置文件的log_file参数
     # batch_test(target_section_para)
-    # multi_process(target_section_para)
-    # single_test("MOCAL#5280_Deadwood_Monthly_NRA_InsiderHolding")
-    single_test("MOCAL#5280_Deadwood_Monthly_UKI_InsiderHolding")
-    # single_test("R180517_Dow30_NRA_InsiderHolding")
+    multi_process(target_section_para)
+    # single_test("MOCAL5267_Monthly_NRA_EarningReports_AOR")
+    # single_test("MOCAL5267_Monthly_NRA_FinancialStatements_AOR")

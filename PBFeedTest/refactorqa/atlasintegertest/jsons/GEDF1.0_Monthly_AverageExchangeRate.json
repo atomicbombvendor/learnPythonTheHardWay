@@ -1,0 +1,25 @@
+{
+  "feed": {
+    "exportEncode": "UTF-8",
+    "exportFormat": "dat",
+    "reportType": "",
+    "universeType": "",
+    "feedName": "GE1AvgExchangeRate",
+    "id": "GEDF1_AvgExchangeRate",
+    "dataPoints": "",
+    "universe": "",
+    "userName": "PB"
+  },
+  "cron": "0 0 20 ? * 6#1",
+  "deliveryType": "0",
+  "pathFormat": "GeDataFeed|ExchangeRate",
+  "fileName": "Monthly_AverageCurrencyExchangeRate_YYYY-M",
+  "fileFormat": "",
+  "combineUniverses": 1,
+  "ftpFolder": "Monthly/Test",
+  "ftpPassword": "OnDemandMasterNew1234",
+  "ftpServerName": "ftp.morningstar.com",
+  "ftpUserName": "OnDemandMaster",
+  "processStatus": 0,
+  "scheduleId": "GEDF1.0_Monthly_AverageExchangeRate"
+}

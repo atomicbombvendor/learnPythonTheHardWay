@@ -38,7 +38,8 @@ class EXOIEarningReports(AbstractEXOI):
             28005: '@isFYC',
             29022: 'ReportedNormalizedBasicEPS',
             29023: 'ReportedNormalizedDilutedEPS',
-            29024: 'DividendCoverageRatio'
+            29024: 'DividendCoverageRatio',
+            28006: '@PeriodType'
         }
 
         self.init_url = 'http://geexoidevap8002.morningstar.com/' \

@@ -1,0 +1,25 @@
+{
+	"feed" : {
+		"exportEncode" : "UTF-8",
+		"exportFormat" : "txt",
+		"reportType" : "Hybridfund",
+		"universeType" : "PerformanceId",
+		"feedName" : "MLHFundFeed",
+		"id" : "MerrillLynch_Monthly_HybridFund",
+		"dataPoints" : "",
+		"universe" : "",
+		"userName" : "Merrill"
+	},
+	"cron" : "0 0 21 9 * ?",
+	"deliveryType" : "0",
+	"pathFormat" : "MerrillLynchFeeds",
+	"fileName" : "PLP320XB.MSHYBFND",
+	"fileFormat" : "zip",
+	"combineUniverses" : 1,
+	"ftpFolder" : "",
+	"ftpPassword" : "",
+	"ftpServerName" : "",
+	"ftpUserName" : "",
+	"processStatus" : 0,
+	"scheduleId" : "MerrillLynch_Monthly_HybridFund_Test"
+}

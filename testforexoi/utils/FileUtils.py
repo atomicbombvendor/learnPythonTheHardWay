@@ -18,15 +18,25 @@ class FileUtils:
 
         return file_Path
 
+    def get_folder(self, root):
+        folders = []
+        for root, dirs, files in os.walk(root, topdown=True): # topdown 为真，则优先遍历top目录，否则优先遍历top的子目录(默认为开启)
+            if len(dirs) ==0:
+                continue
+            else:
+                print "Dir name>> ", dirs
+                folders.extend(dirs)
+        return folders
 
 f = FileUtils()
 print "Start"
-file_path = f.getAllFiles("D:\QA\GEDF\GeDataFeed-MOCAL4936\GEDF")
+file_path = f.get_folder("D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result")
 print "Print all path>>>>>>>"
 for file in file_path:
     if 'ctrl' not in file:
         print file
 print "Done!"
+
 
 # print "Process 201803"
 # not_match_201803 = []

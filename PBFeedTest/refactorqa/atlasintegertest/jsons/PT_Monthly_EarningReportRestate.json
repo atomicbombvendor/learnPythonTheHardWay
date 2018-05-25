@@ -1,0 +1,25 @@
+{
+  "feed" : {
+    "exportEncode" : "UTF-8",
+    "exportFormat" : "txt",
+    "reportType" : "Restate",
+    "universeType" : "PerformanceId",
+    "feedName" : "MPTEarningRestate",
+    "id" : "PT_EarningReportRestate",
+    "dataPoints" : "",
+    "universe" : "",
+    "userName" : "PT"
+  },
+  "cron" : "",
+  "deliveryType" : "0",
+  "pathFormat" : "PT2.0",
+  "fileName" : "Monthly_EarningReportRestate_YYYY-MM",
+  "fileFormat" : "zip",
+  "combineUniverses" : 0,
+  "ftpFolder" : "Equity2/Test",
+  "ftpPassword" : "OnDemandMasterNew1234",
+  "ftpServerName" : "ftp.morningstar.com",
+  "ftpUserName" : "OnDemandMaster",
+  "processStatus" : 0,
+  "scheduleId" : "PT_Monthly_EarningReportRestate"
+}

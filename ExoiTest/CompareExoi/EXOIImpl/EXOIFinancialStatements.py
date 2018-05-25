@@ -281,7 +281,8 @@ class EXOIFinancialStatements(AbstractEXOI):
             20441: 'NormalizedPretaxIncome',
             20442: 'ResearchAndDevelopmentExpensesSupplemental',
             20443: 'DepreciationSupplemental',
-            20444: 'AmortizationSupplemental'
+            20444: 'AmortizationSupplemental',
+            28006: '@PeriodType'
         }
 
         self.BalanceSheet_mapping = {
