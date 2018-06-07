@@ -10,6 +10,7 @@ from ExoiTest.CompareExoi.EXOIImpl.EXOIOperationRatios import EXOIOperationRatio
 from ExoiTest.CompareExoi.EXOIImpl.EXOITypeUKMajor import EXOITypeUKMajor
 from ExoiTest.CompareExoi.EXOIImpl.EXOIValuationRatios import EXOIValuationRatios
 from ExoiTest.CompareExoi.EXOIImpl.EXOIRealTime import EXOIRealTime
+from ExoiTest.CompareExoi.ExchangeRate.CurrencyExchangeRate import CurrencyExchangeRate
 from ExoiTest.LogSingleton import LogSingleton
 
 
@@ -28,7 +29,8 @@ class EXOITypeFactory:
             'FinancialStatementGTR': EXOIFinancialStatementGTR,
             'FinancialStatements': EXOIFinancialStatements,
             'RealTime': EXOIRealTime,
-            'InsiderHolding': EXOIInsiderHolding
+            'InsiderHolding': EXOIInsiderHolding,
+            'ExchangeRate': CurrencyExchangeRate
         }
         if class_name[content]:
             return class_name[content]()

@@ -87,5 +87,5 @@ values = []
 # distinct_companyId('CompanyId.txt', 'new_companyId.txt')
 # 读取msg.txt msg_shareClassId.txt new_companyId.txt文件的内容，生成GEDF msg文件
 # Generate_file(source_Monthly, config_Monthly)
-Generate_file('msgtempalte.txt', 'msg_result.txt')
+Generate_file('msgtemplate2.txt', 'msg_result.txt')
 # Generate_file(source_DeadwoodMonthly, config_DeadwoodMonthly)

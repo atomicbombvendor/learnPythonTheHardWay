@@ -1,12 +1,16 @@
-import refactorqa.atlasintegertest.service.Compare as cp
-from refactorqa.atlasintegertest.Constant import *
-from refactorqa.atlasintegertest.command.Command import Command
+
+from ..service import Compare as cp
+from ..Constant import *
+from Command import Command
 
 
 class CmpContentCmd(Command):
     """
     this command con only fit for ATLAS Feed
     """
+
+    def __init__(self):
+        pass
 
     def execute(self):
         print("comparing usa content")

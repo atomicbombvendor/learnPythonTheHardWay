@@ -1,13 +1,16 @@
 # coding=utf-8
 import ConfigParser
 import codecs
+from datetime import datetime
 from multiprocessing import cpu_count, Pool
-
-from requests import codes
 
 from ExoiTest import myglobal
 from ExoiTest.CompareExoi.EXOITypeFactory import EXOITypeFactory
 
+# import sys
+# reload(sys)
+# sys.setdefaultencoding('utf-8')
+# log_exoi2 = myglobal.get_logger()
 
 class TestExoi:
 
@@ -15,16 +18,27 @@ class TestExoi:
     def __init__(self, file_type_):
         self.log_exoi = myglobal.get_logger()
         self.exoi_type = EXOITypeFactory().get_Exoi_Type(file_type_)
-        # self.exoi_type.get_content(file_param)
         self.not_match = []
         self.do_match = []
 
     # 判断每一行的数据是不是可以找到
     # 先把文件中的每一行转换为一个参数字典，在把字典和url对应起来。
     def start_check_line(self, line):
+        starttime = datetime.now()
         file_param = self.exoi_type.parse_line(line)
+        endtime = datetime.now()
+        # self.log_exoi.info("Parse Line take %dms" % ((endtime-starttime).microseconds/1000))
+
+        starttime = datetime.now()
         self.exoi_type.get_content(file_param)
+        endtime = datetime.now()
+        # self.log_exoi.info("Read Content take %dms" % ((endtime - starttime).microseconds / 1000))
+
+        starttime = datetime.now()
         flag = self.exoi_type.check_value(line)
+        endtime = datetime.now()
+        # self.log_exoi.info("Check Value take %dms" % ((endtime - starttime).microseconds / 1000))
+
         if not flag:
             self.log_exoi.info(u"节点不匹配 %s\n" % line)
             self.not_match.append(line)
@@ -50,7 +64,9 @@ class TestExoi:
             self.write_file(result_path, result)
 
             if not all_node_exists:
-                self.log_exoi.info("不是所有的节点都可以找到")
+                self.log_exoi.info(u"不是所有的节点都可以找到")  # 报错是因为这里是中文字符，需要转换为unicode字符
+            else:
+                self.log_exoi.info(u"所有的节点都可以找到")  # u表示是unicode字符。
 
         finally:
             file_object.close()
@@ -77,7 +93,8 @@ def get_file_types(section_inputs):
         'FinancialStatementGTR',
         'FinancialStatements',
         'RealTime',
-        'InsiderHolding'
+        'InsiderHolding',
+        'ExchangeRate'
     }
 
     file_type = None
@@ -104,15 +121,14 @@ def batch_test(section_input):
 # 读取配置文件中和section_name匹配的Section, 然后比较文件
 # 只能比较一个具体的文件
 def single_test(section_input):
-    myglobal._init()
-    log_exoi2 = myglobal.get_logger()  # 主进程与子进程是并发执行的，进程之间默认是不能共享全局变量的
+    # 主进程与子进程是并发执行的，进程之间默认是不能共享全局变量的
     fileType = get_file_types(section_input)
     test = TestExoi(fileType)
     conf = ConfigParser.ConfigParser()
     conf.read('MOCAL_File_Config.ini')
     source_file = conf.get(section_input, 'source_file')
     target_file = conf.get(section_input, 'target_file')
-    log_exoi2.info("Verify File ***********" + section_input)
+    myglobal.get_logger().info("Verify File ***********" + section_input)
     test.check_file(source_file, target_file)
 
 
@@ -128,7 +144,7 @@ def multi_process(target_section):
             pool.apply_async(single_test, args=(section_input,))
     pool.close()
     pool.join()
-    log_exoi2.info("All file process done")
+    myglobal.get_logger().info(str("All file process done"))
 
 
 # 修改logger配置文件的内容
@@ -138,7 +154,7 @@ def modify_log_file_name(file_name):
     with codecs.open(log_file, "r", "utf-8") as f:
         for line in f:
             if "log_file" in line:
-                content += "log_file = d:/exoi_%s_@time@.txt\r\n" % (file_name)
+                content += "log_file = d:/QA/Log/exoi_%s_@time@.txt\r\n" % (file_name)
             else:
                 content += line
 
@@ -152,11 +168,10 @@ def modify_log_file_name(file_name):
 # 2. 如果是新的文件类型,需要保证EXOITypeFactory的工厂中有该文件类型;
 # 3. 如果是新添加的点,需要保证对应的Impl类中有新添加的点;
 if __name__ == '__main__':
-    myglobal._init()
-    log_exoi2 = myglobal.get_logger()
-    target_section_para = 'MOCAL5267'
-    modify_log_file_name(target_section_para)  # 修改logger配置文件的log_file参数
+    target_section_para = 'MOCAL5286'
+    modify_log_file_name(target_section_para)  # 指定Logger文件存放的位置
     # batch_test(target_section_para)
     multi_process(target_section_para)
-    # single_test("MOCAL5267_Monthly_NRA_EarningReports_AOR")
-    # single_test("MOCAL5267_Monthly_NRA_FinancialStatements_AOR")
+    # single_test("MOCAL5280_DOW30_NRA_InsiderHolding")
+    # single_test("R20180531_Monthly_NRA_InsiderHolding")
+    # single_test(target_section_para)

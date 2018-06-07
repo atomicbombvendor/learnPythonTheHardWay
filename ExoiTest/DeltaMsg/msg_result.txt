@@ -2,84 +2,76 @@
 <MessageSet>
     <ReferenceId>636119897950570000ZdVfqnNQ1T2magoD5uzH5A</ReferenceId>
     <NumberofResults>2000</NumberofResults>
-[MOCAL5267_Deadwood_Monthly_NRA_EarningReports_AOR]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Deadwood_Monthly_NRA_EarningReports_AOR\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Deadwood_Monthly_NRA_EarningReports_AOR\a.dat
+[R20180531_Deadwood_Monthly_NRA_EarningReports_AOR]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Deadwood_Monthly_NRA_EarningReports_AOR\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Deadwood_Monthly_NRA_EarningReports_AOR\a.dat
 
-[MOCAL5267_Deadwood_Monthly_NRA_EarningReports_Restate]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Deadwood_Monthly_NRA_EarningReports_Restate\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Deadwood_Monthly_NRA_EarningReports_Restate\a.dat
+[R20180531_Deadwood_Monthly_NRA_FinancialStatements_Restate]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Deadwood_Monthly_NRA_FinancialStatements_Restate\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Deadwood_Monthly_NRA_FinancialStatements_Restate\a.dat
 
-[MOCAL5267_Deadwood_Monthly_NRA_FinancialStatements_AOR]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Deadwood_Monthly_NRA_FinancialStatements_AOR\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Deadwood_Monthly_NRA_FinancialStatements_AOR\a.dat
+[R20180531_Deadwood_Monthly_NRA_OwnershipDetails]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Deadwood_Monthly_NRA_OwnershipDetails\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Deadwood_Monthly_NRA_OwnershipDetails\a.dat
 
-[MOCAL5267_Deadwood_Monthly_NRA_FinancialStatements_Restate]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Deadwood_Monthly_NRA_FinancialStatements_Restate\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Deadwood_Monthly_NRA_FinancialStatements_Restate\a.dat
+[R20180531_Deadwood_Monthly_UKI_OwnershipDetails]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Deadwood_Monthly_UKI_OwnershipDetails\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Deadwood_Monthly_UKI_OwnershipDetails\a.dat
 
-[MOCAL5267_Delta_NRA_EarningReports_AOR]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Delta_NRA_EarningReports_AOR\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Delta_NRA_EarningReports_AOR\a.dat
+[R20180531_Delta_NRA_EarningReports_AOR]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Delta_NRA_EarningReports_AOR\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Delta_NRA_EarningReports_AOR\a.dat
 
-[MOCAL5267_Delta_NRA_EarningReports_Restate]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Delta_NRA_EarningReports_Restate\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Delta_NRA_EarningReports_Restate\a.dat
+[R20180531_Delta_NRA_FinancialStatements_AOR]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Delta_NRA_FinancialStatements_AOR\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Delta_NRA_FinancialStatements_AOR\a.dat
 
-[MOCAL5267_Delta_NRA_FinancialStatements_AOR]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Delta_NRA_FinancialStatements_AOR\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Delta_NRA_FinancialStatements_AOR\a.dat
+[R20180531_Delta_NRA_OwnershipDetails]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Delta_NRA_OwnershipDetails\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Delta_NRA_OwnershipDetails\a.dat
 
-[MOCAL5267_Delta_NRA_FinancialStatements_Restate]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Delta_NRA_FinancialStatements_Restate\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Delta_NRA_FinancialStatements_Restate\a.dat
+[R20180531_Delta_UKI_OwnershipDetails]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Delta_UKI_OwnershipDetails\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Delta_UKI_OwnershipDetails\a.dat
 
-[MOCAL5267_DOW30_NRA_EarningReports_AOR]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_DOW30_NRA_EarningReports_AOR\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_DOW30_NRA_EarningReports_AOR\a.dat
+[R20180531_DOW30_NRA_EarningReports_AOR]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_DOW30_NRA_EarningReports_AOR\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_DOW30_NRA_EarningReports_AOR\a.dat
 
-[MOCAL5267_DOW30_NRA_EarningReports_Restate]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_DOW30_NRA_EarningReports_Restate\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_DOW30_NRA_EarningReports_Restate\a.dat
+[R20180531_DOW30_NRA_FinancialStatements_AOR]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_DOW30_NRA_FinancialStatements_AOR\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_DOW30_NRA_FinancialStatements_AOR\a.dat
 
-[MOCAL5267_DOW30_NRA_FinancialStatements_AOR]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_DOW30_NRA_FinancialStatements_AOR\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_DOW30_NRA_FinancialStatements_AOR\a.dat
+[R20180531_DOW30_NRA_OwnershipDetails]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_DOW30_NRA_OwnershipDetails\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_DOW30_NRA_OwnershipDetails\a.dat
 
-[MOCAL5267_DOW30_NRA_FinancialStatements_Restate]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_DOW30_NRA_FinancialStatements_Restate\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_DOW30_NRA_FinancialStatements_Restate\a.dat
+[R20180531_FTSE100_UKI_EarningReports_AOR]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_FTSE100_UKI_EarningReports_AOR\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_FTSE100_UKI_EarningReports_AOR\a.dat
 
-[MOCAL5267_FTSE100_UKI_EarningReports_AOR]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_FTSE100_UKI_EarningReports_AOR\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_FTSE100_UKI_EarningReports_AOR\a.dat
+[R20180531_FTSE100_UKI_FinancialStatements_AOR]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_FTSE100_UKI_FinancialStatements_AOR\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_FTSE100_UKI_FinancialStatements_AOR\a.dat
 
-[MOCAL5267_FTSE100_UKI_EarningReports_Restate]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_FTSE100_UKI_EarningReports_Restate\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_FTSE100_UKI_EarningReports_Restate\a.dat
+[R20180531_FTSE100_UKI_OwnershipDetails]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_FTSE100_UKI_OwnershipDetails\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_FTSE100_UKI_OwnershipDetails\a.dat
 
-[MOCAL5267_FTSE100_UKI_FinancialStatements_AOR]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_FTSE100_UKI_FinancialStatements_AOR\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_FTSE100_UKI_FinancialStatements_AOR\a.dat
+[R20180531_Monthly_NRA_EarningReports_AOR]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Monthly_NRA_EarningReports_AOR\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Monthly_NRA_EarningReports_AOR\a.dat
 
-[MOCAL5267_FTSE100_UKI_FinancialStatements_Restate]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_FTSE100_UKI_FinancialStatements_Restate\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_FTSE100_UKI_FinancialStatements_Restate\a.dat
+[R20180531_Monthly_NRA_FinancialStatements_AOR]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Monthly_NRA_FinancialStatements_AOR\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Monthly_NRA_FinancialStatements_AOR\a.dat
 
-[MOCAL5267_Monthly_NRA_EarningReports_AOR]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Monthly_NRA_EarningReports_AOR\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Monthly_NRA_EarningReports_AOR\a.dat
+[R20180531_Monthly_NRA_OwnershipDetails]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Monthly_NRA_OwnershipDetails\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Monthly_NRA_OwnershipDetails\a.dat
 
-[MOCAL5267_Monthly_NRA_EarningReports_Restate]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Monthly_NRA_EarningReports_Restate\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Monthly_NRA_EarningReports_Restate\a.dat
-
-[MOCAL5267_Monthly_NRA_FinancialStatements_AOR]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Monthly_NRA_FinancialStatements_AOR\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Monthly_NRA_FinancialStatements_AOR\a.dat
-
-[MOCAL5267_Monthly_NRA_FinancialStatements_Restate]
-source_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Monthly_NRA_FinancialStatements_Restate\new_diff.dat
-target_file = D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result\MOCAL5267_Monthly_NRA_FinancialStatements_Restate\a.dat
+[R20180531_Monthly_UKI_OwnershipDetails]
+source_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Monthly_UKI_OwnershipDetails\new_diff.dat
+target_file = D:\QA\GEDF\R20180531_5267_5280\Result\R20180531_Monthly_UKI_OwnershipDetails\a.dat
 
 </MessageSet>

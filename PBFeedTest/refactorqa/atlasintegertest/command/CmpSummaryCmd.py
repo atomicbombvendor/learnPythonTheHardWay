@@ -1,8 +1,12 @@
-import refactorqa.atlasintegertest.service.Compare as cp
-from refactorqa.atlasintegertest.command.Command import Command
+from ..service import Compare as cp
+from Command import Command
 
 
 class CmpSummaryCmd(Command):
+
+    def __init__(self):
+        pass
+
     def execute(self):
         cp.unzipAll()
         cp.getSummary()

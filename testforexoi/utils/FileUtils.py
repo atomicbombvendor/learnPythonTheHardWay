@@ -28,15 +28,21 @@ class FileUtils:
                 folders.extend(dirs)
         return folders
 
-f = FileUtils()
-print "Start"
-file_path = f.get_folder("D:\QA\GEDF\MOCAL5267_Fin_EarReport\Result")
-print "Print all path>>>>>>>"
-for file in file_path:
-    if 'ctrl' not in file:
-        print file
-print "Done!"
 
+# 打印出目录下的所有一级文件夹
+def print_folder(path):
+    f = FileUtils()
+    print "Start"
+
+    file_path = f.get_folder(path)
+    print "Print all path>>>>>>>"
+    for file in file_path:
+        if 'ctrl' not in file:
+            print file
+    print "Done!"
+
+
+print_folder("D:\QA\GEDF\R20180531_5267_5280\Result")
 
 # print "Process 201803"
 # not_match_201803 = []

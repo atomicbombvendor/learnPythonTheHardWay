@@ -6,7 +6,7 @@
 """
 import os
 
-jsonRoot = r'jsons'
+jsonRoot = os.path.dirname(os.path.dirname(__file__)) + "\\jsons"
 
 suit = []
 allJson = []

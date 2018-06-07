@@ -12,7 +12,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 def getLogger(section_name):
-    log_filename = "d:/CompareGEDFZip_%s.log" % (section_name)
+    log_filename = "D:/QA/Log/CompareGEDFZip_%s.log" % (section_name)
     logger = logging.getLogger(__name__)
     # filter = logging.Filter(__name__)
     logger.setLevel(logging.DEBUG)
@@ -175,6 +175,6 @@ if __name__ == '__main__':
     # data = Test.read_id_from_zip(file)
     # print data
 
-    Test.batch_test('MOCAL5267')
-    # Test.single_test("MOCAL5280_Deadwood_Monthly_UKI_OwnershipDetails")
-    # Test.single_test("MOCAL5267_Deadwood_Monthly_NRA_EarningReports_Restate")
+    Test.batch_test('PBNDP_')
+    # Test.single_test("MOCAL5280_Delta_UKI_OwnershipDetails")
+    # Test.single_test("R20180531_Monthly_NRA_FinancialStatements_AOR")

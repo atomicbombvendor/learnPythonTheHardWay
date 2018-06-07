@@ -8,8 +8,8 @@
 
 from threading import Thread
 
-import refactorqa.atlasintegertest.webservice.OffEvWebService as off
-import refactorqa.atlasintegertest.webservice.OnEvWebService as on
+import OffEvWebService as off
+import OnEvWebService as on
 
 
 def offEvT():

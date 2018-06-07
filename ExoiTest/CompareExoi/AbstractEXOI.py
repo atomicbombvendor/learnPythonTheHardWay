@@ -80,3 +80,17 @@ class AbstractEXOI:
     
     @abstractmethod
     def construct_url(self, param): pass
+
+    # 比较节点读取出来的值和文件中的值
+    # 文件中读取的值可能是浮点型的数据，这时不能用字符串进行大小的比较。
+    @staticmethod
+    def compare_value(targetNodeValue, file_value):
+        try:
+            targetNV = float(targetNodeValue)
+            fv = float(file_value)
+            if targetNV == fv:
+                return True
+            else:
+                return False
+        except:
+            return targetNodeValue == file_value

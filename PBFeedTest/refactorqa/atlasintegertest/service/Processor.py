@@ -2,8 +2,8 @@ import shutil
 import sys
 from time import sleep
 
-import refactorqa.atlasintegertest.webservice.WebService as web
-from refactorqa.atlasintegertest.Constant import *
+from ..webservice import WebService as web
+from ..Constant import *
 
 
 def compare(cmd):

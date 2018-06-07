@@ -1,18 +1,18 @@
 import subprocess
 from threading import Thread
 
-from refactorqa.atlasintegertest.Constant import *
+from ..Constant import *
 
 env = 'stg'
 
 
 def offEvT():
-    subprocess.call('java -jar -Xms4g -Xmx4g -Xmn2g -Dspring.config.location={} -Dspring.profiles.active={} {}'.format(
+    subprocess.call('java -jar -Xms500m -Xmx500m -Xmn200m -Dspring.config.location={} -Dspring.profiles.active={} {}'.format(
         offEvConfigPath, env, offEvPackage).split(" "))
 
 
 def onEvT():
-    subprocess.call('java -jar -Xms4g -Xmx4g -Xmn2g -Dspring.config.location={} -Dspring.profiles.active={} {}'.format(
+    subprocess.call('java -jar -Xms500m -Xmx500m -Xmn200m -Dspring.config.location={} -Dspring.profiles.active={} {}'.format(
         onEvConfigPath, env, onEvPackage).split(" "))
 
 

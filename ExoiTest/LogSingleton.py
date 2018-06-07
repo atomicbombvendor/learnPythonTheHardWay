@@ -1,11 +1,13 @@
 # coding=utf-8
 import logging
 from logging.handlers import RotatingFileHandler
+# 在win下会卡住。
+# from cloghandler import ConcurrentRotatingFileHandler as CLogHandler
 import threading
 import configparser
 import time
 
-
+# 在多进程下分割文件就会有问题，所以不能设置文件分割。设置为只写入一个文件。
 class LogSingleton(object):
     def __init__(self):
         self.log_config = "/resource/logconfig.conf"
@@ -49,7 +51,7 @@ class LogSingleton(object):
 
         if self.logfile_log_on == 1:  # 如果开启文件日志
             rt_file_handler = RotatingFileHandler(self.log_filename, maxBytes=self.max_bytes_each,
-                                                  backupCount=self.backup_count)
+                                          backupCount=self.backup_count)
             rt_file_handler.setFormatter(formatter)
             self.logger.addHandler(rt_file_handler)
             self.logger.setLevel(self.log_level_in_logfile)

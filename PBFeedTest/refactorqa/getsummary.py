@@ -1,4 +1,6 @@
-from refactorqa.atlasintegertest.Constant import *
+import os
+
+from atlasintegertest.Constant import *
 
 
 def getInfo(r, file):

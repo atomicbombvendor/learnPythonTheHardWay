@@ -1,10 +1,10 @@
 """
 provide some utils for comparision
 """
-import refactorqa.atlasintegertest.utils.Unzipfile as unzip
-from common import Compare2files as cmp
-from refactorqa.atlasintegertest.Constant import *
-import refactorqa.atlasintegertest.service.Summary as Summary
+from ..utils import Unzipfile as unzip
+from ....Common import Compare2files as cmp
+from ..Constant import *
+import Summary as Summary
 
 tempOn = ''
 tempOff = ''
