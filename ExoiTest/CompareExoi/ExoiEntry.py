@@ -7,10 +7,6 @@ from multiprocessing import cpu_count, Pool
 from ExoiTest import myglobal
 from ExoiTest.CompareExoi.EXOITypeFactory import EXOITypeFactory
 
-# import sys
-# reload(sys)
-# sys.setdefaultencoding('utf-8')
-# log_exoi2 = myglobal.get_logger()
 
 class TestExoi:
 
@@ -111,7 +107,7 @@ def get_file_types(section_inputs):
 # 这是单线程的版本, 多进程的版本,在multi_process
 def batch_test(section_input):
     conf = ConfigParser.ConfigParser()
-    conf.read('MOCAL_File_Config.ini')
+    conf.read('../ConfigFile/CompareExoi_File_Config.ini')
     file_sections = conf.sections()
     for section in file_sections:
         if section_input in section:
@@ -125,7 +121,7 @@ def single_test(section_input):
     fileType = get_file_types(section_input)
     test = TestExoi(fileType)
     conf = ConfigParser.ConfigParser()
-    conf.read('MOCAL_File_Config.ini')
+    conf.read('../ConfigFile/CompareExoi_File_Config.ini')
     source_file = conf.get(section_input, 'source_file')
     target_file = conf.get(section_input, 'target_file')
     myglobal.get_logger().info("Verify File ***********" + section_input)
@@ -136,7 +132,7 @@ def single_test(section_input):
 # 因为是多个参数,没有使用Map
 def multi_process(target_section):
     conf = ConfigParser.ConfigParser()
-    conf.read('MOCAL_File_Config.ini')
+    conf.read('../ConfigFile/CompareExoi_File_Config.ini')
     file_sections = conf.sections()
     pool = Pool(processes=cpu_count())  # 根据CPU的核心创建进程数
     for section_input in file_sections:

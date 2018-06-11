@@ -7,9 +7,6 @@ import zipfile
 import ConfigParser
 import os
 
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 def getLogger(section_name):
     log_filename = "D:/QA/Log/CompareGEDFZip_%s.log" % (section_name)
@@ -32,27 +29,25 @@ def getLogger(section_name):
     logger.addHandler(stream_handler)
     return logger
 
-class Test:
 
-    def __init__(self, sectionName):
+class CompareGEDFZipFile:
 
-        self.logger = getLogger(sectionName)
+    def __init__(self, log_sectionName):
+
+        self.logger = getLogger(log_sectionName)
         self.conf = ConfigParser.ConfigParser()
-        self.conf.read('MOCAL_File_Config.ini')
-
-        # self.source_master = self.conf.get(sectionName, 'source_master')
-        # self.source_new_branch = self.conf.get(sectionName, 'source_new_branch')
-        # self.result = self.conf.get(sectionName, 'result') + "\\" + sectionName
-        # dataId_index_t = self.conf.get(sectionName, 'dataId_index')  # 用来确定DataId所在的位置, 默认为1
-        # self.dataId_index = int(dataId_index_t) if dataId_index_t else 1
+        self.conf.read('../ConfigFile/CompareZip_File_Config.ini')
 
     def init_param(self, section_name):
         self.section_name = section_name
         self.source_master = self.conf.get(section_name, 'source_master')
         self.source_new_branch = self.conf.get(section_name, 'source_new_branch')
         self.result = self.conf.get(section_name, 'result') + "\\" + section_name
-        dataId_index_t = self.conf.get(section_name, 'dataId_index')  # 用来确定DataId所在的位置, 默认为1
-        self.dataId_index = int(dataId_index_t) if dataId_index_t else 1
+        try:
+            dataId_index_t = self.conf.get(section_name, 'dataId_index')  # 用来确定DataId所在的位置, 默认为1
+            self.dataId_index = int(dataId_index_t)
+        except ConfigParser.NoOptionError, e:
+            self.dataId_index = 1
 
     # 读取压缩文件，返回压缩文件内的文件 gz
     def read_gz_file(self, file):
@@ -78,7 +73,7 @@ class Test:
         for filename in zfile.namelist():
             match = re.search(pattern, filename)
             if match:
-                data += match.group()+"\r\n"
+                data += match.group() + "\r\n"
         return data
 
     # 把data放入set中
@@ -116,10 +111,10 @@ class Test:
             os.makedirs(path)  # 创建级联目录
         with codecs.open(old_result_file, 'w', 'utf-8') as fnl:
             for line in list(old):
-                fnl.write(str(line)+"\r\n")
+                fnl.write((str(line) + "\r\n").decode(encoding='utf-8'))
         with codecs.open(new_result_file, 'w', 'utf-8') as fnd:
             for line in list(new):
-                fnd.write(str(line)+"\r\n")
+                fnd.write((str(line) + "\r\n").decode(encoding='utf-8'))
 
     # 开始测试流程，主方法入口
     def test(self):
@@ -136,15 +131,15 @@ class Test:
         # diff_old是只在old中存在的； diff_new 是只在新文件中存在的
         diff_old, diff_new = self.compareFiles(set_old, set_new)
         self.write_file(diff_old, diff_new, self.result, result_old, result_new)
-        self.logger.info("文件比对结束\n")
+        self.logger.info(r"Compare File Done\n")
 
     # 读取配置文件中的和某个关键字有关的Section, 然后比较所有的文件
     @staticmethod
     def batch_test(section_num_name):
         conf = ConfigParser.ConfigParser()
-        conf.read('MOCAL_File_Config.ini')
+        conf.read('../ConfigFile/CompareZip_File_Config.ini')
         file_sections = conf.sections()
-        test = Test(section_num_name)
+        test = CompareGEDFZipFile(section_num_name)
         for section in file_sections:
             if section_num_name in section:
                 # self.logger.info("Start Compare File >>> " + section)
@@ -156,7 +151,7 @@ class Test:
     def single_test(section_name):
         file_section = section_name
         # self.logger.info("Compare File >>> " + file_section)
-        test = Test(file_section)
+        test = CompareGEDFZipFile(file_section)
         test.init_param(section_name)
         test.test()
 
@@ -175,6 +170,6 @@ if __name__ == '__main__':
     # data = Test.read_id_from_zip(file)
     # print data
 
-    Test.batch_test('PBNDP_')
+    CompareGEDFZipFile.batch_test('PBNDP_')
     # Test.single_test("MOCAL5280_Delta_UKI_OwnershipDetails")
     # Test.single_test("R20180531_Monthly_NRA_FinancialStatements_AOR")

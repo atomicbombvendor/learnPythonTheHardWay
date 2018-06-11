@@ -121,7 +121,7 @@ def generate_branch_bat(branch_flag, section_p):
     section = section_p
     global branch_name
     config = ConfigParser.ConfigParser()
-    config.read("config.ini")
+    config.read("../ConfingFile/GenerateBat_config.ini")
 
     if 1 == branch_flag:
         branch_name = "master"
