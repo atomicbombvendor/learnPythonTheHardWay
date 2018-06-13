@@ -1,0 +1,25 @@
+{
+  "feed": {
+    "exportEncode": "UTF-8",
+    "exportFormat": "dat",
+    "reportType": "FinalFirstKnown",
+    "universeType": "CompanyId",
+    "feedName": "DltGEFinancialStatements",
+    "id": "GEDF_FinancialStatementsFinalFirstKnown",
+    "dataPoints": "",
+    "universe": "",
+    "userName": "PB"
+  },
+  "cron": "0 0 8 ? * MON-FRI",
+  "deliveryType": "0",
+  "pathFormat": "GEDF2.0|DailyDelta|Region|Fundamental",
+  "fileName": "DailyDelta_FinancialStatementsFinalFirstKnown_YYYYMMDD",
+  "fileFormat": "zip",
+  "combineUniverses": 0,
+  "ftpFolder": "Equity2/Test",
+  "ftpPassword": "OnDemandMasterNew1234",
+  "ftpServerName": "ftp.morningstar.com",
+  "ftpUserName": "OnDemandMaster",
+  "processStatus": 0,
+  "scheduleId": "GEDF_DailyDelta_FinancialStatementsFinalFirstKnown"
+}

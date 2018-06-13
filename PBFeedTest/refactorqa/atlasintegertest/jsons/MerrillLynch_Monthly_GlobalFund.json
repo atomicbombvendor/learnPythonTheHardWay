@@ -1,0 +1,25 @@
+{
+	"feed" : {
+		"exportEncode" : "UTF-8",
+		"exportFormat" : "txt",
+		"reportType" : "fund",
+		"universeType" : "PerformanceId",
+		"feedName" : "MLFundFeed",
+		"id" : "MerrillLynch_Monthly_GobalFund",
+		"dataPoints" : "",
+		"universe" : "",
+		"userName" : "Merrill"
+	},
+	"cron" : "",
+	"deliveryType" : "0",
+	"pathFormat" : "MerrillLynchFeeds",
+	"fileName" : "PLP320XA.MSGBLFND",
+	"fileFormat" : "zip",
+	"combineUniverses" : 1,
+	"ftpFolder" : "/home/sftptest/",
+	"ftpPassword" : "sftptest",
+	"ftpServerName" : "dtsdevinfra85",
+	"ftpUserName" : "sftptest",
+	"processStatus" : 0,
+	"scheduleId" : "MerrillLynch_Monthly_GlobalFund"
+}

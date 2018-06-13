@@ -1,0 +1,25 @@
+{
+  "feed" : {
+    "exportEncode" : "UTF-8",
+    "exportFormat" : "txt",
+    "reportType" : "Restate",
+    "universeType" : "CompanyId",
+    "feedName" : "DlPTFinancialRestate",
+    "id" : "PT_FinancialStatementRestate",
+    "dataPoints" : "",
+    "universe" : "",
+    "userName" : "PT"
+  },
+  "cron" : "",
+  "deliveryType" : "0",
+  "pathFormat" : "PT2.0",
+  "fileName" : "Region_Delta_GTRFinancialStatementAOR_YYYY-MM-dd",
+  "fileFormat" : "zip",
+  "combineUniverses" : 0,
+  "ftpFolder" : "Equity2/Test",
+  "ftpPassword" : "OnDemandMasterNew1234",
+  "ftpServerName" : "ftp.morningstar.com",
+  "ftpUserName" : "OnDemandMaster",
+  "processStatus" : 0,
+  "scheduleId" : "PT_Delta_FinancialStatementRestate"
+}

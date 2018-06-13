@@ -1,0 +1,620 @@
+[INFO] Deadwood\UKI\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1015, 1014, 1006, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\UKI\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] Deadwood\UKI\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[ERROR] Deadwood\UKI\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\NRA\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1004, 1015, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1006, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\NRA\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\NRA\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[ERROR] Deadwood\NRA\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] ASP\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] ASP\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 10, 13, 27, 15, 21, 22, 16, 26, 9, 3, 2, 5, 4, 6, 11, 12, 25
+[INFO] ASP\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 11, 13, 27, 15, 21, 22, 16, 26, 3, 2, 5, 4, 6, 9, 12, 25, 10
+[ERROR] ASP\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\ASP\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\ASP\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 11, 13, 27, 15, 21, 22, 16, 26, 3, 2, 5, 4, 6, 9, 12, 25, 10
+[INFO] Deadwood\ASP\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 10, 13, 27, 15, 21, 22, 16, 26, 9, 3, 2, 5, 4, 6, 11, 12, 25
+[ERROR] Deadwood\ASP\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] NRA\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1004, 1015, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1006, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] NRA\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] NRA\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[ERROR] NRA\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\AFR\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\AFR\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 6, 16, 26, 3, 2, 5, 4, 24, 9, 12
+[INFO] Deadwood\AFR\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 10, 13, 12, 15, 21, 22, 16, 6, 26, 27, 3, 2, 5, 4, 11, 9, 25
+[ERROR] Deadwood\AFR\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] IPM\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1026, 1029, 1002, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] IPM\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[INFO] IPM\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[ERROR] IPM\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\EUR\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\EUR\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\EUR\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[ERROR] Deadwood\EUR\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] LTA\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] LTA\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] LTA\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[ERROR] LTA\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\LTA\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\LTA\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] Deadwood\LTA\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[ERROR] Deadwood\LTA\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] AFR\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V2 DataId Correct
+
+[INFO] AFR\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 10, 13, 27, 15, 21, 22, 25, 6, 16, 26, 3, 2, 5, 4, 11, 9, 12
+[INFO] AFR\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 10, 13, 12, 15, 21, 22, 16, 6, 26, 27, 3, 2, 5, 4, 11, 9, 25
+[ERROR] AFR\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] UKI\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1015, 1014, 1006, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] UKI\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] UKI\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[ERROR] UKI\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\IPM\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1026, 1029, 1011, 1014, 1018, 1012, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\IPM\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[INFO] Deadwood\IPM\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[ERROR] Deadwood\IPM\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[ERROR] ANZ\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip is not exits
+[ERROR] ANZ\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip is not exits
+[ERROR] ANZ\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip is not exits
+[ERROR] ANZ\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] EUR\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] EUR\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] EUR\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[ERROR] EUR\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\UKI\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1014, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\UKI\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] Deadwood\UKI\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[ERROR] Deadwood\UKI\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\NRA\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1004, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1015, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\NRA\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\NRA\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[ERROR] Deadwood\NRA\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] ASP\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] ASP\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 10, 13, 27, 15, 21, 22, 16, 26, 9, 3, 2, 5, 4, 6, 11, 12, 25
+[INFO] ASP\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 10, 13, 27, 15, 21, 22, 16, 26, 9, 3, 2, 5, 4, 6, 11, 12, 25
+[ERROR] ASP\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\ASP\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\ASP\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 11, 13, 27, 15, 21, 22, 16, 26, 3, 2, 5, 4, 6, 9, 12, 25, 10
+[INFO] Deadwood\ASP\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 10, 13, 27, 15, 21, 22, 16, 26, 9, 3, 2, 5, 4, 6, 11, 12, 25
+[ERROR] Deadwood\ASP\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] NRA\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1004, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1015, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] NRA\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] NRA\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[ERROR] NRA\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\AFR\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\AFR\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 10, 13, 12, 15, 21, 22, 16, 6, 26, 27, 3, 2, 5, 4, 11, 9, 25
+[INFO] Deadwood\AFR\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 12, 15, 21, 22, 16, 6, 26, 27, 3, 2, 5, 4, 24, 9, 25
+[ERROR] Deadwood\AFR\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] IPM\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1026, 1029, 1011, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] IPM\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 25, 13, 27, 15, 21, 22, 16, 6, 26, 3, 12, 5, 4, 24, 9, 2, 10
+[INFO] IPM\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[ERROR] IPM\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\EUR\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\EUR\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\EUR\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[ERROR] Deadwood\EUR\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] LTA\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] LTA\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] LTA\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[ERROR] LTA\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\LTA\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\LTA\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] Deadwood\LTA\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[ERROR] Deadwood\LTA\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] AFR\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V3 DataId Correct
+
+[INFO] AFR\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 12, 15, 21, 22, 16, 6, 26, 27, 3, 2, 5, 4, 24, 9, 25
+[INFO] AFR\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 6, 16, 26, 3, 2, 5, 4, 24, 9, 12
+[ERROR] AFR\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] UKI\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1014, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] UKI\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] UKI\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[ERROR] UKI\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\IPM\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1026, 1029, 1011, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\IPM\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[INFO] Deadwood\IPM\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[ERROR] Deadwood\IPM\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[ERROR] ANZ\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip is not exits
+[ERROR] ANZ\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip is not exits
+[ERROR] ANZ\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip is not exits
+[ERROR] ANZ\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] EUR\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] EUR\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] EUR\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[ERROR] EUR\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] Deadwood\UKI\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1015, 1014, 1006, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\UKI\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] Deadwood\UKI\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] Deadwood\UKI\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1015, 1014, 1006, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\NRA\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1004, 1015, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1006, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\NRA\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\NRA\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\NRA\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1004, 1015, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1006, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] ASP\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] ASP\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 10, 13, 27, 15, 21, 22, 16, 26, 9, 3, 2, 5, 4, 6, 11, 12, 25
+[INFO] ASP\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 10, 13, 27, 15, 21, 22, 16, 26, 9, 3, 2, 5, 4, 6, 11, 12, 25
+[INFO] ASP\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\ASP\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\ASP\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 11, 13, 27, 15, 21, 22, 16, 26, 3, 2, 5, 4, 6, 9, 12, 25, 10
+[INFO] Deadwood\ASP\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 11, 13, 27, 15, 21, 22, 16, 26, 3, 2, 5, 4, 6, 9, 12, 25, 10
+[INFO] Deadwood\ASP\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] NRA\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1004, 1015, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1006, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] NRA\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] NRA\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] NRA\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1004, 1015, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1006, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\AFR\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\AFR\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 6, 16, 26, 3, 2, 5, 4, 24, 9, 12
+[INFO] Deadwood\AFR\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 10, 13, 12, 15, 21, 22, 16, 6, 26, 27, 3, 2, 5, 4, 11, 9, 25
+[INFO] Deadwood\AFR\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V2 DataId Correct
+
+[INFO] IPM\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1026, 1029, 1002, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] IPM\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[INFO] IPM\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 25, 13, 27, 15, 21, 22, 16, 6, 26, 3, 12, 5, 4, 24, 9, 2, 10
+[INFO] IPM\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1026, 1029, 1011, 1014, 1018, 1012, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\EUR\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\EUR\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\EUR\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\EUR\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] LTA\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] LTA\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] LTA\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] LTA\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\LTA\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\LTA\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] Deadwood\LTA\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] Deadwood\LTA\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] AFR\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V2 DataId Correct
+
+[INFO] AFR\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 10, 13, 27, 15, 21, 22, 25, 6, 16, 26, 3, 2, 5, 4, 11, 9, 12
+[INFO] AFR\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 6, 16, 26, 3, 2, 5, 4, 24, 9, 12
+[INFO] AFR\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V2 DataId Correct
+
+[INFO] UKI\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1015, 1014, 1006, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] UKI\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] UKI\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] UKI\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1015, 1014, 1006, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\IPM\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1026, 1029, 1011, 1014, 1018, 1012, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\IPM\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[INFO] Deadwood\IPM\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[INFO] Deadwood\IPM\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1026, 1029, 1011, 1014, 1018, 1012, 1009, 1015, 1007, 1006, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V2 DataId Correct
+
+[ERROR] Deadwood\ANZ\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[ERROR] ANZ\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip is not exits
+[ERROR] ANZ\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip is not exits
+[ERROR] ANZ\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip is not exits
+[ERROR] ANZ\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] EUR\Reference_v2\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] EUR\Reference_v2\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] EUR\Reference_v2\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] EUR\Reference_v2\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1006, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V2 DataId Correct
+
+[INFO] Deadwood\UKI\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1014, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\UKI\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] Deadwood\UKI\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] Deadwood\UKI\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1014, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\NRA\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1004, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1015, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\NRA\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\NRA\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\NRA\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1004, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1015, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] ASP\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] ASP\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 10, 13, 27, 15, 21, 22, 16, 26, 9, 3, 2, 5, 4, 6, 11, 12, 25
+[INFO] ASP\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 10, 13, 27, 15, 21, 22, 16, 26, 9, 3, 2, 5, 4, 6, 11, 12, 25
+[INFO] ASP\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\ASP\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\ASP\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 11, 13, 27, 15, 21, 22, 16, 26, 3, 2, 5, 4, 6, 9, 12, 25, 10
+[INFO] Deadwood\ASP\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 11, 13, 27, 15, 21, 22, 16, 26, 3, 2, 5, 4, 6, 9, 12, 25, 10
+[INFO] Deadwood\ASP\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] NRA\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1004, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1015, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] NRA\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] NRA\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] NRA\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1004, 1029, 1011, 1014, 1018, 1012, 1009, 1016, 1007, 1015, 1005, 1017, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\AFR\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\AFR\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 10, 13, 12, 15, 21, 22, 16, 6, 26, 27, 3, 2, 5, 4, 11, 9, 25
+[INFO] Deadwood\AFR\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 10, 13, 12, 15, 21, 22, 16, 6, 26, 27, 3, 2, 5, 4, 11, 9, 25
+[INFO] Deadwood\AFR\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V3 DataId Correct
+
+[INFO] IPM\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1026, 1029, 1011, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] IPM\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 25, 13, 27, 15, 21, 22, 16, 6, 26, 3, 12, 5, 4, 24, 9, 2, 10
+[INFO] IPM\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 25, 13, 27, 15, 21, 22, 16, 6, 26, 3, 12, 5, 4, 24, 9, 2, 10
+[INFO] IPM\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1026, 1029, 1011, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\EUR\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\EUR\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\EUR\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] Deadwood\EUR\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] LTA\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] LTA\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] LTA\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] LTA\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\LTA\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\LTA\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] Deadwood\LTA\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 19, 6, 26, 20, 3, 2, 5, 4, 24, 9, 16, 12
+[INFO] Deadwood\LTA\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1029, 1002, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1011, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] AFR\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V3 DataId Correct
+
+[INFO] AFR\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 13, 12, 15, 21, 22, 16, 6, 26, 27, 3, 2, 5, 4, 24, 9, 25
+[INFO] AFR\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 13, 27, 15, 21, 22, 25, 6, 16, 26, 3, 2, 5, 4, 24, 9, 12
+[INFO] AFR\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1027, 1026, 1029, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001
+[INFO] V3 DataId Correct
+
+[INFO] UKI\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1014, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] UKI\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] UKI\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 25, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 10
+[INFO] UKI\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1007, 1018, 1012, 1009, 1014, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\IPM\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1026, 1029, 1011, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[INFO] Deadwood\IPM\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[INFO] Deadwood\IPM\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+24, 25, 13, 27, 15, 21, 22, 16, 26, 9, 3, 12, 5, 4, 6, 11, 2, 10
+[INFO] Deadwood\IPM\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1026, 1029, 1011, 1014, 1018, 1012, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1001, 1013
+[INFO] V3 DataId Correct
+
+[ERROR] Deadwood\ANZ\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip is not exits
+[ERROR] Deadwood\ANZ\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[ERROR] ANZ\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip is not exits
+[ERROR] ANZ\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip is not exits
+[ERROR] ANZ\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip is not exits
+[ERROR] ANZ\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip is not exits
+[INFO] EUR\Reference_v3\SecurityReference\Daily\Daily_SecurityReference_2018-05-03.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+
+[INFO] EUR\Reference_v3\CompanyReference\Daily\Daily_CompanyReference_2018-05-03.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] EUR\Reference_v3\CompanyReference\Monthly\Monthly_CompanyReference_2018-4.zip data id:
+11, 10, 26, 27, 15, 21, 22, 16, 19, 6, 13, 3, 2, 5, 4, 24, 9, 20, 12, 25
+[INFO] EUR\Reference_v3\SecurityReference\Monthly\Monthly_SecurityReference_2018-4.zip data id:
+1025, 1027, 1026, 1023, 1029, 1011, 1014, 1018, 1001, 1009, 1007, 1015, 1005, 1004, 1010, 1002, 1012, 1013
+[INFO] V3 DataId Correct
+

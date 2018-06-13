@@ -1,0 +1,20 @@
+@startuml
+start
+:start onEv and offEv web apis;
+:prepare test suit;
+:start dev jar;
+:start onEv jar;
+while (test suit has case) is (true)
+    :put the case into onEv api;
+    while (onEv not finished) is (true)
+        :hold on;
+    endwhile (yes)
+    :put the case into offEv api;
+    while (offEv not finished) is (true)
+        :holdon;
+    endwhile
+    :kick off QA (main thread);
+    :clean;
+endwhile (false)
+stop
+@enduml
