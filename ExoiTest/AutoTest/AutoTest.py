@@ -76,6 +76,7 @@ def write_CompareExoi_ini():
     zip_diff_content = generate_zip_diff_content(zip_diff)
     for content in zip_diff_content:
         write_content(CompareExoi_Config, content)
+    logger.info("Write Compare Result File Path into " + CompareExoi_Config)
 
 
 # 根据指定的 file_name 找出所有的文件，返回dict
@@ -102,6 +103,7 @@ def find_targetZipFile(root_path, file_name, monthly_fileDate, daily_delta_fileD
                 file_type = file_name
                 key = "%s_" % big_type if big_type else ''
                 key += '%s_%s_%s' % (schedule, region, file_type)
+                logger.info("Find Zip File: " + path.replace(root_path, ""))
                 result[key] = path.replace(root_path, "")
                 '''
                 (?P<bigtype>Deadwood|DOW30|FTSE100)\\\\(?P<region>[A-Z]{3})\\\\.*?\\\\(?P<fileType>[A-Z]+)\\\\(?P<schedule>Monthly|Daily|Delta)\\\\(?P<file>.*?)\.zip
@@ -109,7 +111,7 @@ def find_targetZipFile(root_path, file_name, monthly_fileDate, daily_delta_fileD
     return result
 
 
-# 得到比较压缩包得到的不同文件的路径
+# 得到路径:比较压缩包得到的不同文件的
 def find_zip_diff():
     global CompareExoi_Config
     config_value = read_config()
@@ -166,7 +168,7 @@ def generate_zip_diff_content(zip_diff_dict):
 def write_content(target_file, content):
     section_c = re.search("\[(?P<section>[A-Za-z_0-9]+?)\]", content, re.S).group("section")
     m_parser = ConfigParser.ConfigParser()
-    m_parser.read(CompareZip_File_Config)
+    m_parser.read(target_file)
     if not m_parser.has_section(section_c):
         with codecs.open(target_file, "a+", "utf-8") as f:
             f.write(content)
@@ -190,10 +192,10 @@ def modify_log_file_name(file_name):
 # 自动化测试入口
 def auto_test():
     section_title = section_p.split("_")[0] + "_"
-    # generate_testCase(section_p)
+    modify_log_file_name(section_title)
 
-    # write_CompareGEDFZipFile_ini()
-    # CompareGEDFZipFile.batch_test(section_title)
+    write_CompareGEDFZipFile_ini()
+    CompareGEDFZipFile.batch_test(section_title)
     write_CompareExoi_ini()
     multi_process(section_title)
 

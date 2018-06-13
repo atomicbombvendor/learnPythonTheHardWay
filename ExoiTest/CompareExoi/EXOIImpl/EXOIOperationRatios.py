@@ -9,7 +9,10 @@ class EXOIOperationRatios(AbstractEXOI):
     def __init__(self):
         AbstractEXOI.__init__(self)
         self.value_mapping = {
-            12044: 'NetIncomePerFullTimeEmployee'
+            12044: 'NetIncomePerFullTimeEmployee',
+            12045: 'SolvencyRatio',
+            12046: 'ExpenseRatio',
+            12047: 'LossRatio'
         }
 
         self.init_url = 'http://geexoidevap8002.morningstar.com/' \
@@ -26,7 +29,8 @@ class EXOIOperationRatios(AbstractEXOI):
         path = "/OperationRatios[@companyId='"+values.get('companyId')\
                + "']/OperationRatio[@asOf='"+values.get('asOf')+"' and @reportType='"\
                + values.get('reportType')+"' and @fiscalYearEnd='"+values.get('fiscalYearEnd')\
-               + "']/Profitability[@numberOfMonth='"+values.get('numberOfMonth')+"']/NetIncomePerFullTimeEmployee"
+               + "']/Profitability[@numberOfMonth='"+values.get('numberOfMonth')+"']/"\
+               + values['targetNode']
         target_node = tree2.xpath(path)
         if len(target_node) == 1 and target_node[0].text == values.get('NetIncomePerFullTimeEmployee'):
             flag = True
@@ -45,6 +49,8 @@ class EXOIOperationRatios(AbstractEXOI):
         value_set = line_value.split('|')  # value_set最后的两个要被解析成节点和值的对应
         values['companyId'] = value_set[0]
         values['NetIncomePerFullTimeEmployee'] = value_set[2]
+        values['targetNode'] = self.value_mapping.get(int(value_set[1]))
+        values[self.value_mapping.get(int(value_set[1]))] = self.get_value(value_set)
         values['asOf'] = value_set[3]
 
         numberOfMonth = value_set[4]
@@ -90,3 +96,7 @@ class EXOIOperationRatios(AbstractEXOI):
         ReportType = a_lower.get('ReportType'.lower())
         intact_url = self.init_url % (package, content, IdType, Id, ReportType, Dates)
         return intact_url
+
+    def get_value(self, value_set):
+        dataId = int(value_set[1])
+        return value_set[2]

@@ -7,10 +7,11 @@ import threading
 import configparser
 import time
 
+
 # 在多进程下分割文件就会有问题，所以不能设置文件分割。设置为只写入一个文件。
 class LogSingleton(object):
     def __init__(self):
-        self.log_config = "/resource/logconfig.conf"
+        self.log_config = "../resource/logconfig.conf"
 
     def __new__(cls):
         mutex = threading.Lock()

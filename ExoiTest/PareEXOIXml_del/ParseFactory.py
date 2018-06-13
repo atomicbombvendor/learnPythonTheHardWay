@@ -1,5 +1,5 @@
 # coding=utf-8
-from ExoiTest.PareEXOIXml.Parse.EXOIParseFinancialStatement import *
+from ExoiTest.PareEXOIXml_del.Parse.EXOIParseFinancialStatement import *
 
 
 class ParseFactory:

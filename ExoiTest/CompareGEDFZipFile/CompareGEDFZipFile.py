@@ -131,7 +131,7 @@ class CompareGEDFZipFile:
         # diff_old是只在old中存在的； diff_new 是只在新文件中存在的
         diff_old, diff_new = self.compareFiles(set_old, set_new)
         self.write_file(diff_old, diff_new, self.result, result_old, result_new)
-        self.logger.info(r"Compare File Done\n")
+        self.logger.info("Compare File Done\r\n")
 
     # 读取配置文件中的和某个关键字有关的Section, 然后比较所有的文件
     @staticmethod

@@ -273,6 +273,8 @@ class EXOIFinancialStatements(AbstractEXOI):
             20432: 'ChangeinTheGrossProvisionforUnearnedPremiumsReinsurersShare',
             20433: 'ClaimsandChangeinInsuranceLiabilities',
             20434: 'ReinsuranceRecoveriesofInsuranceLiabilities',
+            20445: 'TotalRevenueAsReported',
+            20446: 'OperatingExpenseAsReported',
             20001: '@periodEndingDate',
             20002: '@fileDate',
             20003: '@accessionNumber',
@@ -661,7 +663,9 @@ class EXOIFinancialStatements(AbstractEXOI):
             23548: 'DebtDueInYear2',
             23549: 'DebtDueInYear5',
             23550: 'DebtDueBeyond',
-            23551: 'TotalDebtInMaturitySchedule'
+            23551: 'TotalDebtInMaturitySchedule',
+            23556: 'TotalLiabilitiesAsReported',
+            23557: 'TotalEquityAsReported'
         }
 
         self.CashFlow_mapping = {
@@ -912,7 +916,8 @@ class EXOIFinancialStatements(AbstractEXOI):
             26296: '@cfFileDate',
             26297: 'NetIncomeFromDiscontinuedOperations',
             26298: 'CashGeneratedfromOperatingActivities',
-            26299: 'FundFromOperation'
+            26299: 'FundFromOperation',
+            26305: 'ChangeinCashSupplementalAsReported'
         }
 
         self.Misc_mapping = {

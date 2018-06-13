@@ -4,7 +4,12 @@ import os
 import re
 import ConfigParser
 
+from lxml import etree
+
+from ExoiTest import myglobal
+
 section = ""
+logger = myglobal.get_logger()
 
 
 # 从root中得到所有的文件
@@ -21,7 +26,6 @@ def updateBatContent(content, filename, config, branch_root, branch_ZipFile):
     file_type = config.get(section, "FileType")
     id_list = config.get(section, "IdList")
     targetFileDate = config.get(section, "TargetFileDate")
-
     content = replace_exe_path(content, branch_root)
 
     if "Deadwood" in filename:
@@ -30,7 +34,8 @@ def updateBatContent(content, filename, config, branch_root, branch_ZipFile):
     elif "DOW30" in filename or "FTSE100" in filename:
         content = replace_file_type(content, file_type)
     elif "Delta" in filename:
-        pass
+        update_message_share_folder(branch_root, config.get(section, "Message_ShareFolder"))
+        update_running_job_host(branch_root, config.get(section, "RunningDeltaJobsHost"))
     else:
         content = replace_file_type(content, file_type)
         content = add_idList(content, id_list)
@@ -58,7 +63,7 @@ def replace_exe_path(content, root):
 
 
 # 不区分 DOW30 Deadwood FTSE100 和正常的Region 以及Delta
-# replace不会修改字符串的值
+# replace不会修改原字符串的值，会返回修改后的字符串
 def replace_file_type(content, FileType):
     ft = "/FileType=(.+?)/"  # 要匹配的值find_target
     s_old = re.search(ft, content, re.S).group(0)  # 修改前的值
@@ -87,11 +92,47 @@ def replace_output_file(content, root, outputs):
 
 
 def add_idList(content, idList):
-    # ft = "/IDList="
-    # if ft not in content:
-    #     content += ft + idList
-    # return content
+    ft = " /IDList=%s "
+    if ft not in content:
+        content += ft % idList
     return content
+
+
+# only for delta config file
+# xpath: configuration\appSettings\add[@key='Message_ShareFolder']
+def update_message_share_folder(root_path, message_share_folder):
+    xml_file = "%s\\GeDataFeed_Delta\\bin\EquityDataFeed.exe.config" % root_path
+    xml_output_file = "%s\\GeDataFeed_Delta\\bin\EquityDataFeed.exe.config" % root_path
+    tree = etree.parse(xml_file)
+    path = "/configuration/appSettings/add[@key='Message_ShareFolder']"
+    target_node = tree.xpath(path)
+    for node in target_node:
+        if 'Message_ShareFolder' in node.attrib['key']:
+            node.attrib['value'] = message_share_folder
+
+    tree.write(xml_output_file, encoding='utf-8', xml_declaration=True)
+
+
+def write_xml(tree, out_path):
+    '''将xml文件写出
+       tree: xml树
+       out_path: 写出路径'''
+    tree.write(out_path, encoding="utf-8", xml_declaration=True)
+
+
+# only for delta config file
+# xpath: configuration\appSettings\add[@key='RunningDeltaJobsHost']
+def update_running_job_host(root_path, running_job_host):
+    xml_file = "%s\\GeDataFeed_Delta\\bin\EquityDataFeed.exe.config" % root_path
+    xml_output_file = "%s\\GeDataFeed_Delta\\bin\EquityDataFeed.exe.config" % root_path
+    tree = etree.parse(xml_file)
+    path = "/configuration/appSettings/add[@key='RunningDeltaJobsHost']"
+    target_node = tree.xpath(path)
+    for node in target_node:
+        if 'RunningDeltaJobsHost' in node.attrib['key']:
+            node.attrib['value'] = running_job_host
+
+    tree.write(xml_output_file, encoding='utf-8', xml_declaration=True)
 
 
 def update_targetFileDate(content, targetFileDate):
@@ -121,14 +162,14 @@ def generate_branch_bat(branch_flag, section_p):
     section = section_p
     global branch_name
     config = ConfigParser.ConfigParser()
-    config.read("../ConfingFile/GenerateBat_config.ini")
+    config.read("../ConfigFile/GenerateBat_config.ini")
 
     if 1 == branch_flag:
         branch_name = "master"
     elif 2 == branch_flag:
         branch_name = "new_branch"
     files = getAllFiles(config)
-    bat_folder = config.get(section, "bat_folder")
+    bat_folder = config.get(section, "Bat_Folder")
     branch = config.get(section, branch_name)
     branch_ZipFile = config.get(section, branch_name + "_ZipFile")
 
@@ -138,7 +179,7 @@ def generate_branch_bat(branch_flag, section_p):
             processed_content = updateBatContent(F.read(), file_name, config, branch, branch_ZipFile)
             target_bat = branch + "\\" + bat_folder + "\\" + file_name
             write_file(target_bat, processed_content)
-    print("Bat Path>>>" + branch + "\\" + bat_folder)
+    logger.info("Generate Bat Path>>>%s\\%s, Please Run Bat!" % (branch, bat_folder))
 
 
 if __name__ == "__main__":

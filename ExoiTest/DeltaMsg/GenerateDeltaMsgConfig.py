@@ -30,7 +30,7 @@ def Generate_file(source, target):
     with codecs.open(target, 'a', 'utf-8') as t_f:# 清空文件
         t_f.write("</MessageSet>")
 
-    print "生成Message文件完成"
+    print r"生成Message文件完成"
 
 
 # 从文件中读取所有的CompanyId（或者ShareClassId),然后去处重复的。
@@ -87,5 +87,5 @@ values = []
 # distinct_companyId('CompanyId.txt', 'new_companyId.txt')
 # 读取msg.txt msg_shareClassId.txt new_companyId.txt文件的内容，生成GEDF msg文件
 # Generate_file(source_Monthly, config_Monthly)
-Generate_file('msgtemplate2.txt', 'msg_result.txt')
+Generate_file('msgtemplate.txt', 'msg_result.txt')
 # Generate_file(source_DeadwoodMonthly, config_DeadwoodMonthly)

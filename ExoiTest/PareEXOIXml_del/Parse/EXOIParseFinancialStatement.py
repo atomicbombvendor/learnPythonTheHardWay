@@ -4,7 +4,7 @@ import pickle
 import os
 from lxml import etree
 
-from ExoiTest.PareEXOIXml.AbstractEXOI import AbstractEXOI
+from ExoiTest.PareEXOIXml_del.AbstractEXOI import AbstractEXOI
 
 
 class EXOIParseFinancialStatement(AbstractEXOI):
