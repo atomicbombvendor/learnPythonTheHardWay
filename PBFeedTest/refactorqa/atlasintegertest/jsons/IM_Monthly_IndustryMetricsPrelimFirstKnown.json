@@ -1,0 +1,18 @@
+{
+	"feed" : {
+		"exportFormat" : "dat",
+		"reportType" : "PrelimFirstKnown",
+		"universeType" : "CompanyId",
+		"feedName" : "MIMFinancialStatements"
+	},
+	"cron" : "",
+	"pathFormat" : "GEDF2.0|Monthly|Region|Fundamental",
+	"fileName" : "Monthly_IndustryMetricsPrelimFirstKnown_YYYYMM",
+	"fileFormat" : "zip",
+	"combineUniverses" : 0,
+	"ftpFolder" : "",
+	"ftpPassword" : "",
+	"ftpServerName" : "",
+	"ftpUserName" : "",
+	"scheduleId" : "IM_Monthly_IndustryMetricsPrelimFirstKnown"
+}

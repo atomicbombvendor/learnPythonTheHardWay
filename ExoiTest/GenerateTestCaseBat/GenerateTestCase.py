@@ -25,12 +25,13 @@ def getAllFiles(config):
 def updateBatContent(content, filename, config, branch_root, branch_ZipFile):
     file_type = config.get(section, "FileType")
     id_list = config.get(section, "IdList")
+    id_type = config.get(section, "IDType")
     targetFileDate = config.get(section, "TargetFileDate")
     content = replace_exe_path(content, branch_root)
 
     if "Deadwood" in filename:
         content = replace_file_type(content, file_type)
-        content = add_idList(content, id_list)
+        content = add_idList(content, id_list, id_type)
     elif "DOW30" in filename or "FTSE100" in filename:
         content = replace_file_type(content, file_type)
     elif "Delta" in filename:
@@ -38,7 +39,7 @@ def updateBatContent(content, filename, config, branch_root, branch_ZipFile):
         update_running_job_host(branch_root, config.get(section, "RunningDeltaJobsHost"))
     else:
         content = replace_file_type(content, file_type)
-        content = add_idList(content, id_list)
+        content = add_idList(content, id_list, id_type)
 
     content = replace_output_file(content, branch_root, branch_ZipFile)
     content = replace_zip_file(content, branch_root, branch_ZipFile)
@@ -91,10 +92,10 @@ def replace_output_file(content, root, outputs):
     return content
 
 
-def add_idList(content, idList):
-    ft = " /IDList=%s "
+def add_idList(content, idList, id_type):
+    ft = " /IDList=%s /IDType=%s"
     if ft not in content:
-        content += ft % idList
+        content += ft % (idList, id_type)
     return content
 
 
@@ -183,6 +184,6 @@ def generate_branch_bat(branch_flag, section_p):
 
 
 if __name__ == "__main__":
-    section_p = "5177_Testcase"
+    section_p = "MOCAL5450_TestCase"
     generate_branch_bat(1, section_p)
     generate_branch_bat(2, section_p)

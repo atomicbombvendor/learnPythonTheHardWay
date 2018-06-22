@@ -1,5 +1,5 @@
 # coding=utf-8
-
+from ExoiTest.CompareExoi.EXOIImpl.EXOIMergerAndAcquisition import EXOIMergerAndAcquisition
 from ExoiTest.CompareExoi.EXOIImpl.EXOIEarningGrowths import EXOIEarningGrowths
 from ExoiTest.CompareExoi.EXOIImpl.EXOIEarningReportGTR import EXOIEarningReportGTR
 from ExoiTest.CompareExoi.EXOIImpl.EXOIEarningReports import EXOIEarningReports
@@ -30,7 +30,8 @@ class EXOITypeFactory:
             'FinancialStatements': EXOIFinancialStatements,
             'RealTime': EXOIRealTime,
             'InsiderHolding': EXOIInsiderHolding,
-            'ExchangeRate': CurrencyExchangeRate
+            'ExchangeRate': CurrencyExchangeRate,
+            'MergerAndAcquisition': EXOIMergerAndAcquisition
         }
         if class_name[content]:
             return class_name[content]()

@@ -13,6 +13,6 @@ def read_id_from_zip(file):
     return data
 
 if __name__ == "__main__":
-    file = "D:\QA\GEDF\GEDataFeed-master\GEDF\MOCAL5139\DOW30\NRA\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsAOR_2018-5.zip"
+    file = "D:\QA\GEDF\GEDataFeed-master\GEDF\MOCAL5319\DOW30\NRA\Fundamental\FinancialStatements\Monthly\Monthly_FinancialStatementsAOR_2018-5.zip"
     result = read_id_from_zip(file)
     print result
