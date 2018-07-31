@@ -6,6 +6,7 @@ import ConfigParser
 def writeFile(file_t, data):
     f = codecs.open(file_t, 'a', 'utf-8')  # w会清空原来的内容 a为追加
     f.write(str(data))
+    f.write("\r\n")
     f.close()
 
 
@@ -21,9 +22,11 @@ def processContent(file_t, content, template):
     final_content = final_content.replace("@content@", content)
     return final_content
 
+
 def truncateFile(file_t):
     with codecs.open(file_t, "w", "utf-8") as f:
         f.truncate()
+
 
 def generateChangeInfo():
     conf = ConfigParser.ConfigParser()

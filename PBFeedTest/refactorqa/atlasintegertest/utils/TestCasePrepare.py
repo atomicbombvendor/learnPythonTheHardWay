@@ -63,7 +63,7 @@ def _getSuit4():
 
 # GEDF_Monthly_FinancialStatement
 def _getSuit5():
-    l = ["GEDF_Monthly_FinancialStatement"]
+    l = ["GEDF_Monthly_FinancialStatementsFinalFirstKnown"]
     r = []
     for s in allJson:
         for n in l:
@@ -127,6 +127,37 @@ def _getSuit10():
     return r
 
 
+# GEDF_Monthly_IM
+def _getSuit11():
+    l = ["IM_Monthly_IndustryMetrics"]
+    r = []
+    for s in allJson:
+        for n in l:
+            if s.find(n) != -1:
+                r.append(s)
+    return r
+
+
+def _getSuit12():
+    l = ["IM_Monthly_IndustryMetricsShareLevel"]
+    r = []
+    for s in allJson:
+        for n in l:
+            if s.find(n) != -1:
+                r.append(s)
+    return r
+
+
+def _getSuit13():
+    l = ["GEDF1_Monthly_AverageExchangeRate"]
+    r = []
+    for s in allJson:
+        for n in l:
+            if s.find(n) != -1:
+                r.append(s)
+    return r
+
+
 def _default():
     l = ["GEDF_Monthly_TSO"]
     r = []
@@ -148,7 +179,10 @@ def setSuit(number=0):
                7: _getSuit7(),
                8: _getSuit8(),
                9: _getSuit9(),
-               10: _getSuit10()
+               10: _getSuit10(),
+               11: _getSuit11(),
+               12: _getSuit12(),
+               13: _getSuit13()
                }
     global suit
     suit = options[number]

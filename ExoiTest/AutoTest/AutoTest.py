@@ -85,19 +85,18 @@ def find_targetZipFile(root_path, file_name, monthly_fileDate, daily_delta_fileD
 
     for root, dirs, files in os.walk(root_path, topdown=False):
         for f in files:
-            if file_name in f and (monthly_fileDate in f or daily_delta_fileDate in f) and 'ctrl' not in f:
+            if file_name in f and (monthly_fileDate in f or daily_delta_fileDate in f) and 'zip' in f:
                 path = os.path.join(root, f)
 
                 # 正则表达式分组用(?P<name>正则表达式)#name是一个合法的标识符
                 pattern = r"(\\(?P<bigtype>Deadwood|DOW30|FTSE100)|(?P<bigtype2>))\\(?P<region>[a-zA-Z_\s]+?)\\(" \
-                          r"?P<package>[a-zA-Z]+?)\\(?P<fileType>.+?)\\(?P<schedule>Monthly|Daily|Delta)\\(" \
+                          r"?P<package>[a-zA-Z_0-9]+?)\\(?P<fileType>.+?)\\(?P<schedule>Monthly|Daily|Delta)\\(" \
                           r"?P<file>.*?)\.zip"
                 res = re.search(pattern, path.replace(root_path, ""))
                 try:
                     big_type = res.group('bigtype')
                 except AttributeError, e:
                     big_type = None
-
                 region = res.group('region')
                 schedule = res.group('schedule')
                 file_type = file_name

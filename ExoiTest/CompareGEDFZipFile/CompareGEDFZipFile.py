@@ -1,5 +1,6 @@
 # coding=utf-8
 import codecs
+import datetime
 import gzip
 import logging
 import re
@@ -9,7 +10,7 @@ import os
 
 
 def getLogger(section_name):
-    log_filename = "D:/QA/Log/CompareGEDFZip_%s.log" % (section_name)
+    log_filename = "D:/QA/Log/EXOI_%s_CompareGEDFZip_%s.log" % (section_name, datetime.datetime.now().strftime('%Y-%m-%d'))
     logger = logging.getLogger(__name__)
     # filter = logging.Filter(__name__)
     logger.setLevel(logging.DEBUG)
@@ -58,11 +59,22 @@ class CompareGEDFZipFile:
         else:
             self.logger.error('the path [{}] is not exist!'.format(file))
 
-    def testZip(self, file):
+    '''
+    读取压缩包文件，返回读取的内容
+    '''
+    def readZipContent(self, file):
         zfile = zipfile.ZipFile(file, 'r')
         data = ''
+        count = 0.0
+        file_counts = len(zfile.namelist())
+        percenet = 0
         for filename in zfile.namelist():
+            count += 1.0
             data += zfile.read(filename)
+            current_percenet = (count / file_counts) * 100
+            if current_percenet - percenet >= 10:
+                percenet = current_percenet
+                print("have processed %d%%" % percenet)
         return data
 
     @staticmethod
@@ -121,15 +133,20 @@ class CompareGEDFZipFile:
         self.logger.info("Start Compare File >>> " + self.section_name)
         result_old = self.result + '\old_diff.dat'
         result_new = self.result + '\\new_diff.dat'
-        file_data_old = self.testZip(self.source_master)
-        file_data_new = self.testZip(self.source_new_branch)
+        self.logger.info("Read Zip File Content")
+        file_data_old = self.readZipContent(self.source_master)
+        file_data_new = self.readZipContent(self.source_new_branch)
 
+        self.logger.info("Parse Zip File Content")
         set_old = self.get_set(file_data_old)
         set_new = self.get_set(file_data_new)
 
         # set_old是标准文件，set_new是新产生的文件
         # diff_old是只在old中存在的； diff_new 是只在新文件中存在的
+        self.logger.info("Compare Zip File Content")
         diff_old, diff_new = self.compareFiles(set_old, set_new)
+        if not diff_old and not diff_new:
+            self.logger.info("All zip files have same content.")
         self.write_file(diff_old, diff_new, self.result, result_old, result_new)
         self.logger.info("Compare File Done\r\n")
 
@@ -170,6 +187,6 @@ if __name__ == '__main__':
     # data = Test.read_id_from_zip(file)
     # print data
 
-    CompareGEDFZipFile.batch_test('PBNDP_')
-    # Test.single_test("MOCAL5280_Delta_UKI_OwnershipDetails")
-    # Test.single_test("R20180531_Monthly_NRA_FinancialStatements_AOR")
+    # CompareGEDFZipFile.batch_test('MOCAL5139_')
+    # CompareGEDFZipFile.single_test("MOCAL5280_Delta_UKI_OwnershipDetails")
+    CompareGEDFZipFile.single_test("MOCAL5319_Delta_NRA_FinancialStatementsRestate")

@@ -13,8 +13,10 @@ from PBFeedTest.refactorqa.atlasintegertest.command.CmpSummaryCmd import CmpSumm
 
 if __name__ == '__main__':
     web.start()
-    caseList = cases.getSuit(4) + cases.getSuit(5) + cases.getSuit(6)
+    # select file number to generate Feed.
+    caseList = cases.getSuit(13)
     print(caseList)
     cmd = [CmpSummaryCmd(), CmpContentCmd()]
-    jarRunner.run('dev')
+    # select environment
+    jarRunner.run('stg')
     ps.process(caseList, cmd)

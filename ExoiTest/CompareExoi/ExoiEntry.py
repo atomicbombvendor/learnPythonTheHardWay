@@ -90,7 +90,9 @@ def get_file_types(section_inputs):
         'FinancialStatements',
         'RealTime',
         'InsiderHolding',
-        'ExchangeRate'
+        'ExchangeRate',
+        'MergerAndAcquisition',
+        'Advisor'
     }
 
     file_type = None
@@ -100,7 +102,7 @@ def get_file_types(section_inputs):
     if file_type:
         return file_type
     else:
-        print("Can't find special file type for " + section_inputs)
+        print("Can't mapping special file" + section_inputs + " to class type")
 
 
 # 读取配置文件中的和某个关键字有关的Section, 然后比较所有的文件
@@ -150,7 +152,7 @@ def modify_log_file_name(file_name):
     with codecs.open(log_file, "r", "utf-8") as f:
         for line in f:
             if "log_file" in line:
-                content += "log_file = d:/QA/Log/exoi_%s_@time@.txt\r\n" % (file_name)
+                content += "log_file = d:/QA/Log/EXOI_%s_CheckWithEXOI_@time@.log\r\n" % (file_name)
             else:
                 content += line
 
@@ -167,7 +169,7 @@ if __name__ == '__main__':
     target_section_para = 'MOCAL5286'
     modify_log_file_name(target_section_para)  # 指定Logger文件存放的位置
     # batch_test(target_section_para)
-    multi_process(target_section_para)
-    # single_test("MOCAL5280_DOW30_NRA_InsiderHolding")
+    # multi_process(target_section_para)
+    single_test("MOCAL5450_Deadwood_Monthly_NRA_MergerAndAcquisition")
     # single_test("R20180531_Monthly_NRA_InsiderHolding")
     # single_test(target_section_para)

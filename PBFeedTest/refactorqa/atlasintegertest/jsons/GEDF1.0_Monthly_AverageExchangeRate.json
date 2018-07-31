@@ -10,16 +10,16 @@
     "universe": "",
     "userName": "PB"
   },
-  "cron": "0 0 20 ? * 6#1",
+  "cron": "0 50 16 27 * ?",
   "deliveryType": "0",
-  "pathFormat": "GeDataFeed|ExchangeRate",
-  "fileName": "Monthly_AverageCurrencyExchangeRate_YYYY-M",
+  "pathFormat": "GeDataFeed|Dev",
+  "fileName": "Monthly_AverageCurrencyExchangeRate_STG_YYYY-M",
   "fileFormat": "",
   "combineUniverses": 1,
-  "ftpFolder": "Monthly/Test",
-  "ftpPassword": "OnDemandMasterNew1234",
-  "ftpServerName": "ftp.morningstar.com",
-  "ftpUserName": "OnDemandMaster",
+  "ftpFolder": "",
+  "ftpPassword": "",
+  "ftpServerName": "",
+  "ftpUserName": "",
   "processStatus": 0,
-  "scheduleId": "GEDF1.0_Monthly_AverageExchangeRate"
+  "scheduleId": "GEDF1_Monthly_AverageExchangeRate"
 }
