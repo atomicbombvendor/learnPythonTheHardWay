@@ -66,6 +66,9 @@ def replace_exe_path(content, root):
 # 不区分 DOW30 Deadwood FTSE100 和正常的Region 以及Delta
 # replace不会修改原字符串的值，会返回修改后的字符串
 def replace_file_type(content, FileType):
+    if not FileType:
+        return content
+
     ft = "/FileType=(.+?)/"  # 要匹配的值find_target
     s_old = re.search(ft, content, re.S).group(0)  # 修改前的值
     s_new = ft.replace("(.+?)", FileType + " ")  # 要修改后的值
@@ -93,6 +96,8 @@ def replace_output_file(content, root, outputs):
 
 
 def add_idList(content, idList, id_type):
+    if not idList:
+        return content
     ft = " /IDList=%s /IDType=%s"
     if ft not in content:
         content += ft % (idList, id_type)

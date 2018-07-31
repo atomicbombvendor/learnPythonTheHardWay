@@ -91,7 +91,8 @@ def get_file_types(section_inputs):
         'RealTime',
         'InsiderHolding',
         'ExchangeRate',
-        'MergerAndAcquisition'
+        'MergerAndAcquisition',
+        'Advisor'
     }
 
     file_type = None
@@ -101,7 +102,7 @@ def get_file_types(section_inputs):
     if file_type:
         return file_type
     else:
-        print("Can't find special file type for " + section_inputs)
+        print("Can't mapping special file" + section_inputs + " to class type")
 
 
 # 读取配置文件中的和某个关键字有关的Section, 然后比较所有的文件

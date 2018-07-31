@@ -90,7 +90,7 @@ def find_targetZipFile(root_path, file_name, monthly_fileDate, daily_delta_fileD
 
                 # 正则表达式分组用(?P<name>正则表达式)#name是一个合法的标识符
                 pattern = r"(\\(?P<bigtype>Deadwood|DOW30|FTSE100)|(?P<bigtype2>))\\(?P<region>[a-zA-Z_\s]+?)\\(" \
-                          r"?P<package>[a-zA-Z]+?)\\(?P<fileType>.+?)\\(?P<schedule>Monthly|Daily|Delta)\\(" \
+                          r"?P<package>[a-zA-Z_0-9]+?)\\(?P<fileType>.+?)\\(?P<schedule>Monthly|Daily|Delta)\\(" \
                           r"?P<file>.*?)\.zip"
                 res = re.search(pattern, path.replace(root_path, ""))
                 try:

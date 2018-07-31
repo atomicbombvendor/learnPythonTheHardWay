@@ -7,12 +7,12 @@ env = 'stg'
 
 
 def offEvT():
-    subprocess.call('java -jar -Xms500m -Xmx500m -Xmn200m -Dspring.config.location={} -Dspring.profiles.active={} {}'.format(
+    subprocess.call('java -jar -Xms2000m -Xmx2000m -Xmn2000m -Dspring.config.location={} -Dspring.profiles.active={} {}'.format(
         offEvConfigPath, env, offEvPackage).split(" "))
 
 
 def onEvT():
-    subprocess.call('java -jar -Xms500m -Xmx500m -Xmn200m -Dspring.config.location={} -Dspring.profiles.active={} {}'.format(
+    subprocess.call('java -jar -Xms2000m -Xmx2000m -Xmn2000m -Dspring.config.location={} -Dspring.profiles.active={} {}'.format(
         onEvConfigPath, env, onEvPackage).split(" "))
 
 

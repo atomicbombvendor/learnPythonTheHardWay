@@ -59,7 +59,10 @@ class CompareGEDFZipFile:
         else:
             self.logger.error('the path [{}] is not exist!'.format(file))
 
-    def testZip(self, file):
+    '''
+    读取压缩包文件，返回读取的内容
+    '''
+    def readZipContent(self, file):
         zfile = zipfile.ZipFile(file, 'r')
         data = ''
         count = 0.0
@@ -131,8 +134,8 @@ class CompareGEDFZipFile:
         result_old = self.result + '\old_diff.dat'
         result_new = self.result + '\\new_diff.dat'
         self.logger.info("Read Zip File Content")
-        file_data_old = self.testZip(self.source_master)
-        file_data_new = self.testZip(self.source_new_branch)
+        file_data_old = self.readZipContent(self.source_master)
+        file_data_new = self.readZipContent(self.source_new_branch)
 
         self.logger.info("Parse Zip File Content")
         set_old = self.get_set(file_data_old)
@@ -142,6 +145,8 @@ class CompareGEDFZipFile:
         # diff_old是只在old中存在的； diff_new 是只在新文件中存在的
         self.logger.info("Compare Zip File Content")
         diff_old, diff_new = self.compareFiles(set_old, set_new)
+        if not diff_old and not diff_new:
+            self.logger.info("All zip files have same content.")
         self.write_file(diff_old, diff_new, self.result, result_old, result_new)
         self.logger.info("Compare File Done\r\n")
 

@@ -10,14 +10,15 @@ from ExoiTest.CompareExoi.EXOIImpl.EXOIOperationRatios import EXOIOperationRatio
 from ExoiTest.CompareExoi.EXOIImpl.EXOITypeUKMajor import EXOITypeUKMajor
 from ExoiTest.CompareExoi.EXOIImpl.EXOIValuationRatios import EXOIValuationRatios
 from ExoiTest.CompareExoi.EXOIImpl.EXOIRealTime import EXOIRealTime
+from ExoiTest.CompareExoi.EXOIImpl.EXOIAdvisors import EXOIAdvisor
 from ExoiTest.CompareExoi.ExchangeRate.CurrencyExchangeRate import CurrencyExchangeRate
 from ExoiTest.LogSingleton import LogSingleton
-
 
 class EXOITypeFactory:
 
     def get_Exoi_Type(self, content):
         log_exoi = LogSingleton().get_logger()
+
         class_name = {
             # 返回类名
             'UKMajorShareholderTransactions': EXOITypeUKMajor,
@@ -31,7 +32,8 @@ class EXOITypeFactory:
             'RealTime': EXOIRealTime,
             'InsiderHolding': EXOIInsiderHolding,
             'ExchangeRate': CurrencyExchangeRate,
-            'MergerAndAcquisition': EXOIMergerAndAcquisition
+            'MergerAndAcquisition': EXOIMergerAndAcquisition,
+            'Advisor': EXOIAdvisor
         }
         if class_name[content]:
             return class_name[content]()
