@@ -16,6 +16,6 @@ def read_id_from_zip(file):
 
 
 if __name__ == "__main__":
-    file = "D:\QA\GEDF\MOCAL5717_AdvisorsV2V3\GEDF\Deadwood\UKI\Reference_v2\Advisor\Monthly\Monthly_Advisor_2018-6.zip"
+    file = "D:\QA\GEDF\R20180809_5728\GEDF\Outputs\Deadwood\NRA\ReferenceNYS\SecurityReference\Monthly\Monthly_SecurityReference_2018-7.zip"
     result = read_id_from_zip(file)
     print ",".join(result)
