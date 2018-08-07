@@ -3,6 +3,7 @@
 from ExoiTest.CompareExoi.AbstractEXOI import AbstractEXOI
 from lxml import etree
 
+
 class EXOIAdvisor(AbstractEXOI):
 
     def __init__(self):
