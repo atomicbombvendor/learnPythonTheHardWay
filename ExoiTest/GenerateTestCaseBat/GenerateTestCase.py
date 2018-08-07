@@ -37,6 +37,7 @@ def updateBatContent(content, filename, config, branch_root, branch_ZipFile):
     elif "Delta" in filename:
         update_message_share_folder(branch_root, config.get(section, "Message_ShareFolder"))
         update_running_job_host(branch_root, config.get(section, "RunningDeltaJobsHost"))
+        update_log_file_folder(branch_root)
     else:
         content = replace_file_type(content, file_type)
         content = add_idList(content, id_list, id_type)
@@ -115,6 +116,21 @@ def update_message_share_folder(root_path, message_share_folder):
     for node in target_node:
         if 'Message_ShareFolder' in node.attrib['key']:
             node.attrib['value'] = message_share_folder
+
+    tree.write(xml_output_file, encoding='utf-8', xml_declaration=True)
+
+
+def update_log_file_folder(root_path):
+    xml_file = "%s\\GeDataFeed_Delta\\bin\EquityDataFeed.exe.config" % root_path
+    xml_output_file = "%s\\GeDataFeed_Delta\\bin\EquityDataFeed.exe.config" % root_path
+    tree = etree.parse(xml_file)
+    path = "/configuration/log4net/appender/file[@type='log4net.Util.PatternString']"
+    target_node = tree.xpath(path)
+    for node in target_node:
+        if 'log4net.Util.PatternString' in node.attrib['type']:
+            original_value = node.attrib['value'].replace("D:\GEDataFeed\LogFiles",
+                                                          root_path + "\LogFiles")
+            node.attrib['value'] = original_value
 
     tree.write(xml_output_file, encoding='utf-8', xml_declaration=True)
 

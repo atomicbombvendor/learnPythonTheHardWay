@@ -1,4 +1,5 @@
 # coding=utf-8
+from ExoiTest.CompareExoi.EXOIImpl.EXOISecurityReference import EXOISecurityReference
 from ExoiTest.CompareExoi.EXOIImpl.EXOIMergerAndAcquisition import EXOIMergerAndAcquisition
 from ExoiTest.CompareExoi.EXOIImpl.EXOIEarningGrowths import EXOIEarningGrowths
 from ExoiTest.CompareExoi.EXOIImpl.EXOIEarningReportGTR import EXOIEarningReportGTR
@@ -13,6 +14,7 @@ from ExoiTest.CompareExoi.EXOIImpl.EXOIRealTime import EXOIRealTime
 from ExoiTest.CompareExoi.EXOIImpl.EXOIAdvisors import EXOIAdvisor
 from ExoiTest.CompareExoi.ExchangeRate.CurrencyExchangeRate import CurrencyExchangeRate
 from ExoiTest.LogSingleton import LogSingleton
+
 
 class EXOITypeFactory:
 
@@ -33,7 +35,8 @@ class EXOITypeFactory:
             'InsiderHolding': EXOIInsiderHolding,
             'ExchangeRate': CurrencyExchangeRate,
             'MergerAndAcquisition': EXOIMergerAndAcquisition,
-            'Advisor': EXOIAdvisor
+            'Advisor': EXOIAdvisor,
+            'SecurityReference': EXOISecurityReference
         }
         if class_name[content]:
             return class_name[content]()

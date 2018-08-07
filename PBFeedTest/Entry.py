@@ -14,7 +14,7 @@ from PBFeedTest.refactorqa.atlasintegertest.command.CmpSummaryCmd import CmpSumm
 if __name__ == '__main__':
     web.start()
     # select file number to generate Feed.
-    caseList = cases.getSuit(13)
+    caseList = cases.getSuit(5)
     print(caseList)
     cmd = [CmpSummaryCmd(), CmpContentCmd()]
     # select environment

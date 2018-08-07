@@ -92,7 +92,8 @@ def get_file_types(section_inputs):
         'InsiderHolding',
         'ExchangeRate',
         'MergerAndAcquisition',
-        'Advisor'
+        'Advisor',
+        'SecurityReference'
     }
 
     file_type = None
@@ -166,10 +167,10 @@ def modify_log_file_name(file_name):
 # 2. 如果是新的文件类型,需要保证EXOITypeFactory的工厂中有该文件类型;
 # 3. 如果是新添加的点,需要保证对应的Impl类中有新添加的点;
 if __name__ == '__main__':
-    target_section_para = 'MOCAL5286'
+    target_section_para = 'R20180809_Deadwood_Daily_NRA_Reference_SecurityReference'
     modify_log_file_name(target_section_para)  # 指定Logger文件存放的位置
     # batch_test(target_section_para)
     # multi_process(target_section_para)
-    single_test("MOCAL5450_Deadwood_Monthly_NRA_MergerAndAcquisition")
+    single_test("R20180809_Deadwood_Daily_NRA_Reference_SecurityReference")
     # single_test("R20180531_Monthly_NRA_InsiderHolding")
     # single_test(target_section_para)

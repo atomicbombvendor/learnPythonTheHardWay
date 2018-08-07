@@ -1,17 +1,16 @@
 # coding=utf-8
 
-from ExoiTest.CompareExoi.AbstractEXOI import AbstractEXOI
 from lxml import etree
+from ExoiTest.CompareExoi.AbstractEXOI import AbstractEXOI
 
 
-class EXOIAdvisor(AbstractEXOI):
+class EXOISecurityReference(AbstractEXOI):
 
     def __init__(self):
         AbstractEXOI.__init__(self)
         self.value_mapping = {
-            100: 'AdvisorPhone',
-            101: 'AdvisorFax',
-            102: 'AsOfDate'
+            1020: 'DelistingDate',
+            1021: 'DelistingReason'
         }
 
         self.init_url = 'http://geexoidevap8002.morningstar.com/' \
@@ -27,14 +26,12 @@ class EXOIAdvisor(AbstractEXOI):
         tree2 = etree.XML(self.content.encode('utf-8'))
 
         # 这里要区分点的类型是IncomeStatement，CashFlow, BalanceSheet.
-        path = "/CompanyInfo[@companyId='"+values.get('CompanyId')+"']/CompanyAdvisors/Advisor" \
-        + "[AdvisorType='"+values.get('advisorType')\
-               +"' and AdvisorLegalName='"+values.get('advisorLegalName')\
-               +"' and LanguageCode='"+values.get('languageCode')+"' and "
-        + values.get('targetNode') + "=" + values.get(values[values['targetNode']]) + "]"
+        path = "/ShareClassInfo[@companyId='" + values.get('companyId') + "' and @shareClassId='" + values.get(
+            'shareClassId') + "']/" + values['targetNode']
 
         target_node = tree2.xpath(path)
-        if len(target_node) == 1 and AbstractEXOI.compare_value(target_node[0].text, values.get(values.get('targetNode'))):
+        if len(target_node) == 1 and AbstractEXOI.compare_value(target_node[0].text,
+                                                                values.get(values.get('targetNode'))):
             flag = True
 
         return flag
@@ -45,23 +42,21 @@ class EXOIAdvisor(AbstractEXOI):
             'companyId': ''}
         value_set = line_value.split('|')  # value_set最后的两个要被解析成节点和值的对应
         values['companyId'] = value_set[0]
-        values['targetNode'] = self.value_mapping.get(int(value_set[1]))
+        values['targetNode'] = self.value_mapping.get(int(value_set[2]))
         values[values['targetNode']] = self.get_value(value_set)
-        values['advisorType'] = value_set[3]
-        values['advisorLegalName'] = value_set[4]
-        values['languageCode'] = value_set[5]
+        values['shareClassId'] = value_set[1]
 
         return values
 
     # 解析line，找出拼接URL需要的参数
     def parse_line(self, line_value):
         param = {'Package': 'EquityData',
-                 'Content': 'CompanyInfo',
-                 'IdType': 'EquityCompanyId',
+                 'Content': 'ShareClassInfo',
+                 'IdType': 'EquityShareClassId',
                  'Id': ''}
 
         values = line_value.split("|")
-        Id = values[0]
+        Id = values[1]
         param['Id'] = Id
 
         return param
@@ -79,8 +74,8 @@ class EXOIAdvisor(AbstractEXOI):
 
     # 44008需要有特殊的操作
     def get_value(self, value_set):
-        dataId = int(value_set[1])
+        dataId = int(value_set[2])
         if 44008 == dataId:
             return str(float(value_set[2]) * 100.00)
         else:
-            return value_set[2]
+            return value_set[3]
