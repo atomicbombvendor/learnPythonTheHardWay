@@ -187,6 +187,6 @@ if __name__ == '__main__':
     # data = Test.read_id_from_zip(file)
     # print data
 
-    CompareGEDFZipFile.batch_test('R20180809_5728_')
+    CompareGEDFZipFile.batch_test('MOCAL5284_Delta_NRA_Fundamental_FinancialStatements')
     # CompareGEDFZipFile.single_test("MOCAL5280_Delta_UKI_OwnershipDetails")
     # CompareGEDFZipFile.single_test("MOCAL5319_Delta_NRA_FinancialStatementsRestate")
