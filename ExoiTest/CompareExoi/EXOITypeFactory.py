@@ -1,4 +1,6 @@
 # coding=utf-8
+from ExoiTest.CompareExoi.EXOIImpl.EXOIPayRatio import EXOIPayRatio
+from ExoiTest.CompareExoi.EXOIImpl.EXOISEDOL import EXOISEDOL
 from ExoiTest.CompareExoi.EXOIImpl.EXOISecurityReference import EXOISecurityReference
 from ExoiTest.CompareExoi.EXOIImpl.EXOIMergerAndAcquisition import EXOIMergerAndAcquisition
 from ExoiTest.CompareExoi.EXOIImpl.EXOIEarningGrowths import EXOIEarningGrowths
@@ -36,7 +38,9 @@ class EXOITypeFactory:
             'ExchangeRate': CurrencyExchangeRate,
             'MergerAndAcquisition': EXOIMergerAndAcquisition,
             'Advisor': EXOIAdvisor,
-            'SecurityReference': EXOISecurityReference
+            'SecurityReference': EXOISecurityReference,
+            'PayRatio': EXOIPayRatio,
+            'SEDOL': EXOISEDOL
         }
         if class_name[content]:
             return class_name[content]()

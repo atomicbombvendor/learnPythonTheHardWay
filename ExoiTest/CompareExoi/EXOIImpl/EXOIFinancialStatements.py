@@ -284,7 +284,25 @@ class EXOIFinancialStatements(AbstractEXOI):
             20442: 'ResearchAndDevelopmentExpensesSupplemental',
             20443: 'DepreciationSupplemental',
             20444: 'AmortizationSupplemental',
-            28006: '@PeriodType'
+            28006: '@PeriodType',
+
+            20447: 'ReportedNormalizedIncome',
+            20448: 'ReportedNormalizedEBITDA',
+            20449: 'ReportedNormalizedEBIT',
+            20450: 'ReportedNormalizedOperatingProfit',
+            20451: 'ReportedEffectiveTaxRate',
+            20452: 'DisposalofBusinessesSupplemental',
+            20453: 'DiscontinuedOperationsSupplemental',
+            20454: 'AssetDisposalsSupplemental',
+            20455: 'ImpairmentWriteOffWriteDownofCapitalAssetsSupplemental',
+            20456: 'GoodwillImpairmentWriteOffSupplemental',
+            20457: 'ImpairmentWriteOffWriteDownofOtherAssetsSupplemental',
+            20458: 'GainLossonExtinguishmentofDebtSupplemental',
+            20459: 'DebtRestructuringSupplemental',
+            20460: 'LitigationIncomeExpenseSupplemental',
+            20461: 'MergerandAcquisitionIncomeExpenseSupplemental',
+            20462: 'RestructuringandReorganizationExpenseSupplemental',
+            20463: 'OtherIrregularIncomeExpensesSupplemental'
         }
 
         self.BalanceSheet_mapping = {
@@ -665,7 +683,7 @@ class EXOIFinancialStatements(AbstractEXOI):
             23550: 'DebtDueBeyond',
             23551: 'TotalDebtInMaturitySchedule',
             23556: 'TotalLiabilitiesAsReported',
-            23557: 'TotalEquityAsReported'
+            23557: 'TotalEquityAsReported',
         }
 
         self.CashFlow_mapping = {

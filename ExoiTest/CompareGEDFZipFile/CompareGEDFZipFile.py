@@ -63,6 +63,11 @@ class CompareGEDFZipFile:
     读取压缩包文件，返回读取的内容
     '''
     def readZipContent(self, file):
+
+        if not os.path.exists(file):
+            logging.info("the file %s is not exists ".format())
+            return None
+
         zfile = zipfile.ZipFile(file, 'r')
         data = ''
         count = 0.0
@@ -91,6 +96,8 @@ class CompareGEDFZipFile:
     # 把data放入set中
     def get_set(self, data):
         result = set()
+        if not data:
+            return result
         # if getattr(data, '__iter__', None):
         lines = data.split('\r\n')
         for line in lines:
@@ -187,6 +194,6 @@ if __name__ == '__main__':
     # data = Test.read_id_from_zip(file)
     # print data
 
-    CompareGEDFZipFile.batch_test('R20180809_5728_')
+    CompareGEDFZipFile.batch_test('MOCAL5284_Delta_NRA_Fundamental_FinancialStatements')
     # CompareGEDFZipFile.single_test("MOCAL5280_Delta_UKI_OwnershipDetails")
     # CompareGEDFZipFile.single_test("MOCAL5319_Delta_NRA_FinancialStatementsRestate")
