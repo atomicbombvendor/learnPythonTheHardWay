@@ -53,6 +53,8 @@ class TestExoi:
         file_object = codecs.open(source_path, 'r')
         try:
             for line in file_object:
+                if line.strip("\n").strip() == '':
+                    continue
                 flag = self.start_check_line(line.strip("\n"))
                 if not flag:
                     all_node_exists = False
@@ -93,7 +95,8 @@ def get_file_types(section_inputs):
         'ExchangeRate',
         'MergerAndAcquisition',
         'Advisor',
-        'SecurityReference'
+        'SecurityReference',
+        'PayRatio'
     }
 
     file_type = None
@@ -167,10 +170,10 @@ def modify_log_file_name(file_name):
 # 2. 如果是新的文件类型,需要保证EXOITypeFactory的工厂中有该文件类型;
 # 3. 如果是新添加的点,需要保证对应的Impl类中有新添加的点;
 if __name__ == '__main__':
-    target_section_para = 'MOCAL5284_Delta_NRA_Fundamental_FinancialStatements'
+    target_section_para = 'MOCAL5753_Monthly_UKI_ExecutiveInsight_PayRatioHistory'
     modify_log_file_name(target_section_para)  # 指定Logger文件存放的位置
-    batch_test("MOCAL5284_Delta_NRA_Fundamental_FinancialStatements")
+    # batch_test("MOCAL5284_Delta_NRA_Fundamental_FinancialStatements")
     # multi_process(target_section_para)
-    # single_test("MOCAL5284_Delta_NRA_Fundamental_FinancialStatements")
+    single_test("MOCAL5753_Monthly_UKI_ExecutiveInsight_PayRatioHistory")
     # single_test("R20180531_Monthly_NRA_InsiderHolding")
     # single_test(target_section_para)

@@ -34,3 +34,16 @@ print cron + ">>>" + str(is_On_time(cron, check_date_time))
 cron = "0 2 1 * *"
 check_date_time = datetime(2018, 8, 1, 2, 1, 0)
 print cron + ">>>" + str(is_On_time(cron, check_date_time))
+
+
+path = '/data/GEDF2.0/DailyDelta/CAN'
+regions = []
+
+def getregion():
+    post_fix = path.replace('/data/GEDF2.0/DailyDelta/', '')
+    if len(post_fix) == 3:
+        regions.append(post_fix)
+
+
+getregion()
+print regions

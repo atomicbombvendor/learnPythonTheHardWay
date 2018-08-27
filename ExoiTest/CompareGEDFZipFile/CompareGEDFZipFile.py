@@ -63,6 +63,11 @@ class CompareGEDFZipFile:
     读取压缩包文件，返回读取的内容
     '''
     def readZipContent(self, file):
+
+        if not os.path.exists(file):
+            logging.info("the file %s is not exists ".format())
+            return None
+
         zfile = zipfile.ZipFile(file, 'r')
         data = ''
         count = 0.0
@@ -91,6 +96,8 @@ class CompareGEDFZipFile:
     # 把data放入set中
     def get_set(self, data):
         result = set()
+        if not data:
+            return result
         # if getattr(data, '__iter__', None):
         lines = data.split('\r\n')
         for line in lines:
