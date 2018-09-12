@@ -29,8 +29,10 @@ def card_sort_num(pokes):  # 返回元素和出现的次数
     return sorted_poke_type_num
 
 
-#  shun_zi() 顺子检查函数
-#  参数：a1----待查找的列表元组元素，格式为a1=[('7', 2), ('6', 3), ('5', 2), ('4', 1), ('3', 1)]
+#  shun_zi() 顺子检查函数; 先出最长的顺子
+#  参数 pokes是倒序排列
+#  参数：pokes----待查找的列表元组元素，格式为pokes=[('7', 2), ('6', 3), ('5', 2), ('4', 1), ('3', 1)]
+#  pokes[2][0] = 5 打印牌， pokes[2][1] = 2 打印牌的数量
 #  return----找到符合的顺子返回（顺子个数,去掉符合顺子的牌的元组列表）
 def shun_zi(pokes):  # pokes 被查找顺子的对象，
     type_num = len(pokes)  # 给出字典的长度
@@ -50,7 +52,7 @@ def shun_zi(pokes):  # pokes 被查找顺子的对象，
                 shun_zi_start_index = i
             if shun_zi_num >= 4:
                 B[shun_zi_start_index] = B.get(shun_zi_start_index, 0)  # 用来初始化dict, 第二个参数是默认值，当Key不存在的时候
-                B[shun_zi_start_index] = shun_zi_num + 1  # 存储B(顺子首索引 : 顺子个数)--字典
+                B[shun_zi_start_index] = shun_zi_num + 1  # 存储B(顺子首索引 : 顺子个数)--字典 比如 B = {'2', 5}
         else:
             shun_zi_start_index = 0
             shun_zi_num = 0
@@ -59,8 +61,9 @@ def shun_zi(pokes):  # pokes 被查找顺子的对象，
         A[int(pokes[i][0])] = A.get(int(pokes[i][0]), pokes[i][1])
 
     for key, value in B.items():  # 对B进行迭代，对A中的顺子进行处理
+        # type_num 是牌的长度
         for i in range(type_num):
-            if i >= key and i <= (key + value - 1):  # 对某区域内的顺子进行处理
+            if key <= i <= (key + value - 1):  # 对某区域内的顺子进行处理
                 A[int(pokes[i][0])] -= 1  # 顺子的数量 -1
                 if A[int(pokes[i][0])] == 0:  # 如果顺子牌号对应的数量为零，将此牌进行删除
                     del A[int(pokes[i][0])]
@@ -73,10 +76,10 @@ def shun_zi(pokes):  # pokes 被查找顺子的对象，
 # 参数：    yu_pai--找完顺子后的牌的元组列表
 # return：  剩余牌按规则出完，需要的最小次数
 def pai_duizi(yu_pai):  # 四代二（优先带俩个不同的牌），三代一，一一
-    num_1 = 0  # 单牌的个数
-    num_2 = 0  # 双牌的个数
-    num_3 = 0  # 三张同牌的个数
-    num_4 = 0  # 四张同牌的个数
+    num_1 = 0  # 单牌的个数 P1
+    num_2 = 0  # 双牌的个数 P2
+    num_3 = 0  # 三张同牌的个数 P3
+    num_4 = 0  # 四张同牌的个数 P4
 
     for i in yu_pai:  # 统计 yu_pai 中的各种牌 组合的数量
         if i[1] == 1:
@@ -88,32 +91,46 @@ def pai_duizi(yu_pai):  # 四代二（优先带俩个不同的牌），三代一
         if i[1] == 4:
             num_4 += 1
     #  按 规则 进行出牌的情况，并计算出完需要的最少次数
+
+    # 优先保证P3能够带一，从单张中选出分配给P3的牌，剩下的就是未分配的单张
     if num_1 - num_3 >= 0:
         num_1 = num_1 - num_3
+        # 从单张中选出分配给P4的牌，剩下的就是未分配的单张
         if num_1 >= num_4 * 2:
             num_1 = num_1 - num_4 * 2
+            # 返回分配后的情况 P1 + P2 + P3 + P4
             return num_1 + num_2 + num_3 + num_4
         else:
+            # 单张不够分配给P4时
+            # 剩下的单张，应该是1吧
             num_1 = num_1 - (num_1 // 2) * 2
+            # 未能分配到2张单张牌的P4
             num_44 = num_4 - (num_1 // 2)
+            # 用P2来做P4的带牌
             if num_2 - num_44 >= 0:
                 num_2 = num_2 - num_4
                 return num_1 + num_2 + num_3 + num_4
             else:
+                # 没有P2能够做P4的带牌，返回P1, P3, P4(包含没有带牌的情况)
                 return num_1 + num_3 + num_4
     else:
+        # 单张不够分配给P3,默认所有的P1给P3了。
+        # P4只能从P2中找带牌
         if num_2 - num_4 >= 0:
             num_2 = num_2 - num_4
             return num_2 + num_3 + num_4
         else:
+            # P2也不能全部满足P4带牌
             return num_3 + num_4
 
 
 # chu_pai() 函数
 # 参数：a1--排序好的牌的牌号和数列的元组列表
+# 出牌最快的规则：先出顺子，没有顺子时，在挑对子和多张牌的情况
+# 每次先统计顺子的个数，统计下来作为A，然后，统计对子的个数，统计下来作为B，A+B就是出牌最快的情况下的出牌个数
 # return：返回按规则出完牌，所需的最少次数
-def chu_pai(a1):
-    p_num, yu_pa = shun_zi(a1)
+def chu_pai(pokes):
+    p_num, yu_pa = shun_zi(pokes)
     if p_num > 0:  # 第1次查找顺子，顺子数量 >0
         p_num1, yu_pa1 = shun_zi(yu_pa)
         if p_num1 > 0:  # 第2次查找顺子，顺子数量 >0
@@ -143,7 +160,8 @@ def chu_pai(a1):
 # 56789567891234523456
 
 # classList = input()                  #  可以手动输入
-classList = '789TJQK789TJQK789TJQ'
+# classList = '789TJQK789TJQK789TJQ'
+classList = 'AA233456779TJQKK'
 
 a1 = card_sort_num(classList)  # a1 根据key值进行排序（降），a0根据value进行排序（降）
 print(a1)
