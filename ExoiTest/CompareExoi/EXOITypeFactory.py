@@ -15,12 +15,18 @@ from ExoiTest.CompareExoi.EXOIImpl.EXOIValuationRatios import EXOIValuationRatio
 from ExoiTest.CompareExoi.EXOIImpl.EXOIRealTime import EXOIRealTime
 from ExoiTest.CompareExoi.EXOIImpl.EXOIAdvisors import EXOIAdvisor
 from ExoiTest.CompareExoi.ExchangeRate.CurrencyExchangeRate import CurrencyExchangeRate
+from ExoiTest.CompareExoi.Ownership.OwnershipMonthlySummary import OwnershipMonthlySummary
+from ExoiTest.CompareExoi.Ownership.OwnershipSummary import OwnershipSummary
 from ExoiTest.LogSingleton import LogSingleton
 
 
 class EXOITypeFactory:
 
-    def get_Exoi_Type(self, content):
+    def __init__(self):
+        pass
+
+    @staticmethod
+    def get_Exoi_Type(content):
         log_exoi = LogSingleton().get_logger()
 
         class_name = {
@@ -40,9 +46,11 @@ class EXOITypeFactory:
             'Advisor': EXOIAdvisor,
             'SecurityReference': EXOISecurityReference,
             'PayRatio': EXOIPayRatio,
-            'SEDOL': EXOISEDOL
+            'SEDOL': EXOISEDOL,
+            'OwnershipSummary': OwnershipSummary,
+            'OwnershipMonthlySummary': OwnershipMonthlySummary
         }
         if class_name[content]:
             return class_name[content]()
         else:
-            log_exoi.info("没有类名为"+content+" 请检查输入！")
+            log_exoi.info("没有类名为" + content + " 请检查输入！")

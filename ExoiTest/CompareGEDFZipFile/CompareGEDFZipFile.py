@@ -79,7 +79,7 @@ class CompareGEDFZipFile:
             current_percenet = (count / file_counts) * 100
             if current_percenet - percenet >= 10:
                 percenet = current_percenet
-                print("have processed %d%%" % percenet)
+                # print("have processed %d%%" % percenet)
         return data
 
     @staticmethod

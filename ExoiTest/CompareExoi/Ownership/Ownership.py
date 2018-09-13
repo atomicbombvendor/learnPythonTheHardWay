@@ -1,46 +1,53 @@
 # coding=utf-8
-import cookielib
 import gzip
 import urllib2
-from abc import abstractmethod
 from io import BytesIO
 
-from ExoiLogin import LoginExoi
-from ExoiTest.LogSingleton import LogSingleton
+from ExoiTest.CompareExoi.AbstractEXOI import AbstractEXOI
+from ExoiTest.CompareExoi.IssueIdMap import IssueId
 
 
-class AbstractEXOI:
+class Ownership(AbstractEXOI):
+
+    def construct_url(self, param):
+        issue_id = "E0USA00834"
+        issue_id_part = "%s/institution/summary"
+        return (self.init_url + issue_id_part % issue_id).encode("utf-8")
+
+    def parse_line(self, line_value):
+        pass
+
+    def check_value(self, line_value):
+        pass
 
     def __init__(self):
-        self.log_exoi = LogSingleton().get_logger()
-        self.Login_Cookie = LoginExoi().get_cookie()
-        self.cook_file_name = 'cookie_exoi.txt'
-        self.content_url = 'http://geexoidevap8002.morningstar.com/' \
-                           'DataOutput.aspx?package=%s&Content=%s&IdType=%s' \
-                           '&Id=%s&ReportType=%s&Dates=%s'
+        AbstractEXOI.__init__(self)
+        self.issueId = IssueId()
+        self.init_url = 'https://api-stg.morningstar.com/dataapi/v2/ownership/v2/'
+
         self.content = ''
+
         self.headers = {
             'Accept': 'text/html,application/xhtml+xm…plication/xml;q=0.9,*/*;q=0.8',
-            'Accept-Encoding': 'identity;q=1.0,compress;q=0.8,gzip;q=0.5, deflate;q=0.3,*;q=0',
+            'Accept-Encoding': 'application/gzip',
             'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
             'Cache-Control': 'no-cache',
             'Connection': 'keep-alive',
-            'Host': 'geexoidevap8002.morningstar.com',
             'Pragma': 'no - cache',
             'Upgrade-Insecure-Requests': '1',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; …) Gecko/20100101 Firefox/58.0'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; …) Gecko/20100101 Firefox/58.0',
+            'ApiKey': 'pXc8z2UFct5ARW3ZxYlS58UG7VgeO5W9',
+            'X-API-UserId': 'B337B227-0DF4-4D08-B548-BDE8F381C9E0',
+            'X-API-ProductId': 'EqutiyAPI'
         }
 
     # 根据参数获取xml内容，并设置到self.content中
     def get_content(self, param):
         try:
             intact_url = self.construct_url(param)
-            cookie = cookielib.LWPCookieJar()
-            cookie.load(self.cook_file_name, ignore_discard=False, ignore_expires=False)
+
             request = urllib2.Request(intact_url, None, self.headers)
-            # 需要Header
-            opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
-            response = opener.open(request)
+            response = urllib2.urlopen(request)
             content = response.read()  # content是压缩过的数据
             try:
                 buff = BytesIO(content)  # 把content转为文件对象, Gzip解压
@@ -65,39 +72,9 @@ class AbstractEXOI:
                         self.log_exoi.info(u"获取页面请求失败, url->\n%s" % intact_url)
                     self.content = resource
         except urllib2.HTTPError, e:
-            self.log_exoi.error(u'The server couldn\'t fulfill the request')
+            self.log_exoi.error(u'The server could n\'t fulfill the request')
             self.log_exoi.error(u'Error code: ' + e.reason)
         except urllib2.URLError, e:
             self.log_exoi.error(u'We failed to reach a server.')
             self.log_exoi.error(u'Reason: ' + e.reason)
 
-    @abstractmethod
-    def check_value(self, line_value):
-        pass
-
-    # 解析line，找出拼接URL需要的参数
-    @abstractmethod
-    def parse_line(self, line_value):
-        pass
-
-    @abstractmethod
-    def construct_url(self, param):
-        pass
-
-    # 比较节点读取出来的值和文件中的值
-    # 文件中读取的值可能是浮点型的数据，这时不能用字符串进行大小的比较。
-    @staticmethod
-    def compare_value(targetNodeValue, file_value):
-        try:
-            targetNV = float(targetNodeValue)
-            fv = float(file_value)
-            # 精度 0.0001
-            if abs(targetNV - fv) < 0.0001:
-                return True
-            else:
-                return False
-        except TypeError:
-            return targetNodeValue == file_value
-        except Exception:
-            print "未知异常"
-            return False

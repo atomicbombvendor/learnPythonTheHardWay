@@ -43,7 +43,7 @@ def _analysis_words(words):
             if token:  # 如果i在RhymeDct中找不到，表示没有这个韵脚
                 r.append(token)
                 break
-            i = i[1:]  # 当前的拼音找不到韵脚，就排除第一个，用剩下的字符查找韵脚
+            i = i[1:]  # 当前的拼音找不到韵脚，就排除第一个，用剩下的字符继续查找韵脚
     if len(r) == len(words):
         return '-'.join(r)
 

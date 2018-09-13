@@ -13,7 +13,7 @@ class TestExoi:
     # 每次处理一个文件是，type和参数都是一样的（需要把Date的范围扩到最大）
     def __init__(self, file_type_):
         self.log_exoi = myglobal.get_logger()
-        self.exoi_type = EXOITypeFactory().get_Exoi_Type(file_type_)
+        self.exoi_type = EXOITypeFactory.get_Exoi_Type(file_type_)
         self.not_match = []
         self.do_match = []
 
@@ -97,7 +97,9 @@ def get_file_types(section_inputs):
         'Advisor',
         'SecurityReference',
         'PayRatio',
-        'SEDOL'
+        'SEDOL',
+        'OwnerShipSummary',
+        'OwnershipMonthlySummary'
     }
 
     file_type = None
@@ -171,10 +173,10 @@ def modify_log_file_name(file_name):
 # 2. 如果是新的文件类型,需要保证EXOITypeFactory的工厂中有该文件类型;
 # 3. 如果是新添加的点,需要保证对应的Impl类中有新添加的点;
 if __name__ == '__main__':
-    target_section_para = 'MOCAL5548_FTSE100_Monthly_UKI_SEDOL_SEDOL'
+    target_section_para = 'R20180930_Monthly_NRA_Ownership_OwnershipMonthlySummary'
     modify_log_file_name(target_section_para)  # 指定Logger文件存放的位置
     # batch_test("MOCAL5284_Delta_NRA_Fundamental_FinancialStatements")
     # multi_process(target_section_para)
-    single_test("MOCAL5548_FTSE100_Monthly_UKI_SEDOL_SEDOL")
+    single_test("R20180930_Monthly_NRA_Ownership_OwnershipMonthlySummary")
     # single_test("R20180531_Monthly_NRA_InsiderHolding")
     # single_test(target_section_para)
