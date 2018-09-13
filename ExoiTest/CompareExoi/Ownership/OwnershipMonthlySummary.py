@@ -56,7 +56,7 @@ class OwnershipMonthlySummary(Ownership):
 
         self.log_exoi.info(
             "%s %s api:%s|file:%s" % (
-                str(values['dataId']), data_name, str(data_value_real), str(data_value_expect)))
+                str(values['dataId']), data_name, str(data_value_real[0]), str(data_value_expect)))
 
         return flag
 
