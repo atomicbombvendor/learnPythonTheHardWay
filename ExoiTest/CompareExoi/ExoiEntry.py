@@ -98,7 +98,7 @@ def get_file_types(section_inputs):
         'SecurityReference',
         'PayRatio',
         'SEDOL',
-        'OwnerShipSummary',
+        'OwnershipSummary',
         'OwnershipMonthlySummary'
     }
 

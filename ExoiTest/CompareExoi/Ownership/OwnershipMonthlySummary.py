@@ -1,5 +1,6 @@
 # coding=utf-8
 import json
+import jsonpath
 
 from ExoiTest.CompareExoi.AbstractEXOI import AbstractEXOI
 from ExoiTest.CompareExoi.Ownership.Ownership import Ownership
@@ -38,15 +39,20 @@ class OwnershipMonthlySummary(Ownership):
     def check_value(self, line_value):
         flag = False
         values = self.parse_line(line_value)
+        asOfDate = values['asOfDate']
         ownership_object = json.loads(self.content)
         data_name = self.value_mapping[values['dataId']]
         # from dat file
         data_value_expect = self.get_value(value_set=values)
         # from ownership
-        data_value_real = ownership_object['ownershipData']['summaries'][0][data_name]
-
-        if AbstractEXOI.compare_value(data_value_expect, data_value_real):
-            flag = True
+        # data_value_real = ownership_object['ownershipData']['summaries'][0][data_name]
+        path = "$.ownershipData.summaries[?(@.asOfDate=='%s')][%s]" % (asOfDate, data_name)
+        data_value_real = jsonpath.jsonpath(ownership_object, path)
+        if data_value_real:
+            if AbstractEXOI.compare_value(data_value_expect, data_value_real[0]):
+                flag = True
+        else:
+            flag = False
 
         self.log_exoi.info(
             "%s %s api:%s|file:%s" % (
