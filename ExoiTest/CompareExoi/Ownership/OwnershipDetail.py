@@ -75,9 +75,9 @@ class OwnershipDetail(Ownership):
             try:
                 self.log_exoi.info(
                     "%s %s api:%s|file:%s" % (
-                        str(values['dataId']), data_name, str(data_value_real.encode), str(data_value_expect)))
+                        str(values['dataId']), data_name, str(data_value_real), str(data_value_expect)))
             except Exception, e:
-                if "'int' object has no attribute 'encode'" in e.message:
+                if "object has no attribute 'encode'" in e.message:
                     self.log_exoi.info(
                         "%s %s api:%s|file:%s" % (
                             str(values['dataId']), data_name, data_value_real, str(data_value_expect)))
