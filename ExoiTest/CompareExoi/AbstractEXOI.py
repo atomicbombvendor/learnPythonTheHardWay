@@ -28,7 +28,7 @@ class AbstractEXOI:
             'Host': 'geexoidevap8002.morningstar.com',
             'Pragma': 'no - cache',
             'Upgrade-Insecure-Requests': '1',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; …) Gecko/20100101 Firefox/58.0'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
         }
 
     # 根据参数获取xml内容，并设置到self.content中
@@ -56,14 +56,14 @@ class AbstractEXOI:
                     self.log_exoi.info(u"获取页面请求失败, url->\n%s" % intact_url)
                 self.content = resource
             except IOError, e:
-                    if e.message.find('gzipped') > 0:
-                        resource = content.decode('utf-8')  # 不是gzip的压缩方式
-                        status = response.getcode()
-                        if status == 200:
-                            self.log_exoi.info(u"获取页面请求成功, url->\n%s" % intact_url)
-                        else:
-                            self.log_exoi.info(u"获取页面请求失败, url->\n%s" % intact_url)
-                        self.content = resource
+                if e.message.find('gzipped') > 0:
+                    resource = content.decode('utf-8')  # 不是gzip的压缩方式
+                    status = response.getcode()
+                    if status == 200:
+                        self.log_exoi.info(u"获取页面请求成功, url->\n%s" % intact_url)
+                    else:
+                        self.log_exoi.info(u"获取页面请求失败, url->\n%s" % intact_url)
+                    self.content = resource
         except urllib2.HTTPError, e:
             self.log_exoi.error(u'The server couldn\'t fulfill the request')
             self.log_exoi.error(u'Error code: ' + e.reason)
@@ -72,14 +72,17 @@ class AbstractEXOI:
             self.log_exoi.error(u'Reason: ' + e.reason)
 
     @abstractmethod
-    def check_value(self, line_value): pass
+    def check_value(self, line_value):
+        pass
 
     # 解析line，找出拼接URL需要的参数
     @abstractmethod
-    def parse_line(self, line_value): pass
-    
+    def parse_line(self, line_value):
+        pass
+
     @abstractmethod
-    def construct_url(self, param): pass
+    def construct_url(self, param):
+        pass
 
     # 比较节点读取出来的值和文件中的值
     # 文件中读取的值可能是浮点型的数据，这时不能用字符串进行大小的比较。
@@ -88,9 +91,15 @@ class AbstractEXOI:
         try:
             targetNV = float(targetNodeValue)
             fv = float(file_value)
-            if targetNV == fv:
+            # 精度 0.0001
+            if abs(targetNV - fv) < 0.0001:
                 return True
             else:
                 return False
-        except:
-            return targetNodeValue == file_value
+        except ValueError:
+            try:
+                return targetNodeValue == file_value.encode('utf-8')
+            except Exception:
+                print "Error " + targetNodeValue + " || " + file_value
+        except Exception:
+            return targetNodeValue == file_value.encode('utf-8')

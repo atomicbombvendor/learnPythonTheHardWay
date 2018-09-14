@@ -197,7 +197,8 @@ def auto_test():
     write_CompareGEDFZipFile_ini()
     CompareGEDFZipFile.batch_test(section_title)
     write_CompareExoi_ini()
-    multi_process(section_title)
+    # compare exoi
+    # multi_process(section_title)
 
 
 if __name__ == "__main__":

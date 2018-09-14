@@ -1,7 +1,9 @@
 # coding=utf-8
+from datetime import date, datetime
 
 from ExoiTest.CompareExoi.AbstractEXOI import AbstractEXOI
 from lxml import etree
+import time
 
 
 class EXOISEDOL(AbstractEXOI):
@@ -11,13 +13,14 @@ class EXOISEDOL(AbstractEXOI):
         self.value_mapping = {
             1002: 'ExchangeId'
         }
-
         self.init_url = 'http://geexoidevap8002.morningstar.com/' \
                         'DataOutput.aspx?package=%s&Content=%s&IdType=%s' \
                         '&Id=%s'
 
     # 检查传入的记录的值可以可以在xml中找到
     def check_value(self, line_value):
+        str(datetime.now().hour) + str(datetime.now().minute)
+
         flag = False
         values = self.parse_line_value(line_value)
 
