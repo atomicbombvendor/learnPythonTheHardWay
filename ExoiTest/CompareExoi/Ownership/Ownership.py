@@ -1,5 +1,6 @@
 # coding=utf-8
 import gzip
+import httplib
 import urllib2
 from io import BytesIO
 
@@ -46,7 +47,7 @@ class Ownership(AbstractEXOI):
         intact_url = self.construct_url(param)
         try:
             request = urllib2.Request(intact_url, None, self.headers)
-            response = urllib2.urlopen(request)
+            response = urllib2.urlopen(request, timeout=10)
             content = response.read()  # content是压缩过的数据
             try:
                 buff = BytesIO(content)  # 把content转为文件对象, Gzip解压
@@ -78,4 +79,7 @@ class Ownership(AbstractEXOI):
             self.log_exoi.error(u'We failed to reach a server\n' + intact_url)
             self.log_exoi.error(u'Reason: ' + e.reason)
             self.content = ''
-
+        except httplib.BadStatusLine, e:
+            self.log_exoi.error(u'We failed to reach a server\n' + intact_url)
+            self.log_exoi.error(u'Reason: ' + e.message)
+            self.content = ''

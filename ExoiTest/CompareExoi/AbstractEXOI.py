@@ -28,7 +28,7 @@ class AbstractEXOI:
             'Host': 'geexoidevap8002.morningstar.com',
             'Pragma': 'no - cache',
             'Upgrade-Insecure-Requests': '1',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; …) Gecko/20100101 Firefox/58.0'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
         }
 
     # 根据参数获取xml内容，并设置到self.content中
@@ -97,6 +97,9 @@ class AbstractEXOI:
             else:
                 return False
         except ValueError:
-            return targetNodeValue == file_value
+            try:
+                return targetNodeValue == file_value.encode('utf-8')
+            except Exception:
+                print "Error " + targetNodeValue + " || " + file_value
         except Exception:
-            return targetNodeValue == file_value
+            return targetNodeValue == file_value.encode('utf-8')

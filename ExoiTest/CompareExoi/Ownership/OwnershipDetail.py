@@ -51,7 +51,7 @@ class OwnershipDetail(Ownership):
     def check_value(self, line_value):
         flag = False
 
-        if self.content or self.content == '':
+        if not self.content or self.content == '':
             return flag
 
         values = self.parse_line(line_value)
@@ -67,13 +67,24 @@ class OwnershipDetail(Ownership):
             data_value_expect = self.get_value(value_set=values)
             # from ownership
             path = "$.ownershipData.owners[?(@.asOfDate=='%s' and @.ownerId=='%s')][%s]" % (asOfDate, ownerId, data_name)
-            data_value_real = jsonpath.jsonpath(ownership_object, path)
+            data_value_real = jsonpath.jsonpath(ownership_object, path)[0]
 
-            if AbstractEXOI.compare_value(data_value_expect, data_value_real[0]):
+            if AbstractEXOI.compare_value(data_value_expect, data_value_real):
                 flag = True
-            self.log_exoi.info(
-                "%s %s api:%s|file:%s" % (
-                    str(values['dataId']), data_name, str(data_value_real[0]), str(data_value_expect)))
+
+            try:
+                self.log_exoi.info(
+                    "%s %s api:%s|file:%s" % (
+                        str(values['dataId']), data_name, str(data_value_real.encode), str(data_value_expect)))
+            except Exception, e:
+                if "'int' object has no attribute 'encode'" in e.message:
+                    self.log_exoi.info(
+                        "%s %s api:%s|file:%s" % (
+                            str(values['dataId']), data_name, data_value_real, str(data_value_expect)))
+                else:
+                    self.log_exoi.info(
+                        "%s %s api:%s|file:%s" % (
+                            str(values['dataId']), data_name, data_value_real.encode('utf-8'), str(data_value_expect)))
 
         return flag
 

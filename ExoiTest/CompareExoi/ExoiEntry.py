@@ -1,11 +1,15 @@
 # coding=utf-8
 import ConfigParser
 import codecs
+import sys
 from datetime import datetime
 from multiprocessing import cpu_count, Pool
 
 from ExoiTest import myglobal
 from ExoiTest.CompareExoi.EXOITypeFactory import EXOITypeFactory
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 
 class TestExoi:
