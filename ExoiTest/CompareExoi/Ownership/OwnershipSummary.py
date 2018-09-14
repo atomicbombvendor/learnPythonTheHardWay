@@ -42,6 +42,10 @@ class OwnershipSummary(Ownership):
 
     def check_value(self, line_value):
         flag = False
+
+        if self.content or self.content == '':
+            return flag
+
         values = self.parse_line(line_value)
         asOfDate = values['asOfDate']
         ownership_object = json.loads(self.content)

@@ -35,7 +35,7 @@ class Ownership(AbstractEXOI):
             'Connection': 'keep-alive',
             'Pragma': 'no - cache',
             'Upgrade-Insecure-Requests': '1',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; …) Gecko/20100101 Firefox/58.0',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
             'ApiKey': 'pXc8z2UFct5ARW3ZxYlS58UG7VgeO5W9',
             'X-API-UserId': 'B337B227-0DF4-4D08-B548-BDE8F381C9E0',
             'X-API-ProductId': 'EqutiyAPI'
@@ -43,9 +43,8 @@ class Ownership(AbstractEXOI):
 
     # 根据参数获取xml内容，并设置到self.content中
     def get_content(self, param):
+        intact_url = self.construct_url(param)
         try:
-            intact_url = self.construct_url(param)
-
             request = urllib2.Request(intact_url, None, self.headers)
             response = urllib2.urlopen(request)
             content = response.read()  # content是压缩过的数据
@@ -72,9 +71,11 @@ class Ownership(AbstractEXOI):
                         self.log_exoi.info(u"获取页面请求失败, url->\n%s" % intact_url)
                     self.content = resource
         except urllib2.HTTPError, e:
-            self.log_exoi.error(u'The server could n\'t fulfill the request')
+            self.log_exoi.error(u'The server could n\'t fulfill the request\n' + intact_url)
             self.log_exoi.error(u'Error code: ' + e.reason)
+            self.content = ''
         except urllib2.URLError, e:
-            self.log_exoi.error(u'We failed to reach a server.')
+            self.log_exoi.error(u'We failed to reach a server\n' + intact_url)
             self.log_exoi.error(u'Reason: ' + e.reason)
+            self.content = ''
 

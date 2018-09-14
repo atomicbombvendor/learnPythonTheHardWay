@@ -15,6 +15,7 @@ from ExoiTest.CompareExoi.EXOIImpl.EXOIValuationRatios import EXOIValuationRatio
 from ExoiTest.CompareExoi.EXOIImpl.EXOIRealTime import EXOIRealTime
 from ExoiTest.CompareExoi.EXOIImpl.EXOIAdvisors import EXOIAdvisor
 from ExoiTest.CompareExoi.ExchangeRate.CurrencyExchangeRate import CurrencyExchangeRate
+from ExoiTest.CompareExoi.Ownership.OwnershipDetail import OwnershipDetail
 from ExoiTest.CompareExoi.Ownership.OwnershipMonthlySummary import OwnershipMonthlySummary
 from ExoiTest.CompareExoi.Ownership.OwnershipSummary import OwnershipSummary
 from ExoiTest.LogSingleton import LogSingleton
@@ -48,7 +49,8 @@ class EXOITypeFactory:
             'PayRatio': EXOIPayRatio,
             'SEDOL': EXOISEDOL,
             'OwnershipSummary': OwnershipSummary,
-            'OwnershipMonthlySummary': OwnershipMonthlySummary
+            'OwnershipMonthlySummary': OwnershipMonthlySummary,
+            'OwnershipDetail': OwnershipDetail
         }
         if class_name[content]:
             return class_name[content]()

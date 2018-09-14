@@ -96,8 +96,7 @@ class AbstractEXOI:
                 return True
             else:
                 return False
-        except TypeError:
+        except ValueError:
             return targetNodeValue == file_value
         except Exception:
-            print "未知异常"
-            return False
+            return targetNodeValue == file_value
