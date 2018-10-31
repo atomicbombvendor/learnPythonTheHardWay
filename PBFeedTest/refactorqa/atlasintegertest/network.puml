@@ -1,9 +1,0 @@
-@startuml
-jar -> api: get
-api --> jar: nothing
-jar -> api: get
-api --> jar: json
-jar -> jar: process
-jar -> api: get
-api --> jar: nothing
-@enduml

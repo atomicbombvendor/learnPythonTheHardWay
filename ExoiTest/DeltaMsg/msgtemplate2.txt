@@ -1,3 +1,0 @@
-[@shareClassId@]
-source_file = D:\QA\GEDF\R20180531_5267_5280\Result\@shareClassId@\new_diff.dat
-target_file = D:\QA\GEDF\R20180531_5267_5280\Result\@shareClassId@\a.dat

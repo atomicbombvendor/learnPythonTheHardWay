@@ -1,2 +1,0 @@
-def Exoi():
-    return None
